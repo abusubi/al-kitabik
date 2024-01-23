@@ -267,7 +267,7 @@ function outputVerseData() {
 
 // ITERATE THROUGH SURAHS LIST AND OUTPUT AS A CHAPTER DROPDOWN
 function outputSurahData() {
-    fetch(`https://offlinequran.com:443/api/chapters`)
+    fetch(`https://offlinequran.com:3001/api/chapters`)
         .then(response => response.json())
         .then(data => {
             // Ensure that 'data' property exists and is an array before proceeding
