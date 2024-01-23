@@ -1,0 +1,458 @@
+[
+    {
+        "suranumber": 1,
+        "suraname": "al-Fātihah"
+    },
+    {
+        "suranumber": 2,
+        "suraname": "al-Baqarah"
+    },
+    {
+        "suranumber": 3,
+        "suraname": "Āl-ʿImrān"
+    },
+    {
+        "suranumber": 4,
+        "suraname": "an-Nisāʾ"
+    },
+    {
+        "suranumber": 5,
+        "suraname": "al-Māʾidah"
+    },
+    {
+        "suranumber": 6,
+        "suraname": "al-Anʿām"
+    },
+    {
+        "suranumber": 7,
+        "suraname": "al-Aʿrāf"
+    },
+    {
+        "suranumber": 8,
+        "suraname": "al-Anfāl"
+    },
+    {
+        "suranumber": 9,
+        "suraname": "at-Taubah"
+    },
+    {
+        "suranumber": 10,
+        "suraname": "Yūnus"
+    },
+    {
+        "suranumber": 11,
+        "suraname": "Hūd"
+    },
+    {
+        "suranumber": 12,
+        "suraname": "Yūsuf"
+    },
+    {
+        "suranumber": 13,
+        "suraname": "ar-Raʿd"
+    },
+    {
+        "suranumber": 14,
+        "suraname": "Ibrāhīm"
+    },
+    {
+        "suranumber": 15,
+        "suraname": "al-Ḥijr"
+    },
+    {
+        "suranumber": 16,
+        "suraname": "an-Naḥl"
+    },
+    {
+        "suranumber": 17,
+        "suraname": "al-Isrāʾ"
+    },
+    {
+        "suranumber": 18,
+        "suraname": "al-Kahf"
+    },
+    {
+        "suranumber": 19,
+        "suraname": "Maryam"
+    },
+    {
+        "suranumber": 20,
+        "suraname": "Ṭā-Hā"
+    },
+    {
+        "suranumber": 21,
+        "suraname": "al-Anbiyāʾ"
+    },
+    {
+        "suranumber": 22,
+        "suraname": "al-Ḥajj"
+    },
+    {
+        "suranumber": 23,
+        "suraname": "al-Muʾminūn"
+    },
+    {
+        "suranumber": 24,
+        "suraname": "an-Nūr"
+    },
+    {
+        "suranumber": 25,
+        "suraname": "al-Furqān"
+    },
+    {
+        "suranumber": 26,
+        "suraname": "ash-Shuʿarā"
+    },
+    {
+        "suranumber": 27,
+        "suraname": "an-Naml"
+    },
+    {
+        "suranumber": 28,
+        "suraname": "al-Qaṣaṣ"
+    },
+    {
+        "suranumber": 29,
+        "suraname": "al-ʿAnkabūt"
+    },
+    {
+        "suranumber": 30,
+        "suraname": "ar-Rūm"
+    },
+    {
+        "suranumber": 31,
+        "suraname": "Luqmān"
+    },
+    {
+        "suranumber": 32,
+        "suraname": "as-Sajdah"
+    },
+    {
+        "suranumber": 33,
+        "suraname": "al-Aḥzāb"
+    },
+    {
+        "suranumber": 34,
+        "suraname": "Sabaʾ"
+    },
+    {
+        "suranumber": 35,
+        "suraname": "Fāṭir"
+    },
+    {
+        "suranumber": 36,
+        "suraname": "Yā-Sīn"
+    },
+    {
+        "suranumber": 37,
+        "suraname": "as-Ṣāffāt"
+    },
+    {
+        "suranumber": 38,
+        "suraname": "Ṣād"
+    },
+    {
+        "suranumber": 39,
+        "suraname": "az-Zumar"
+    },
+    {
+        "suranumber": 40,
+        "suraname": "Ghāfir"
+    },
+    {
+        "suranumber": 41,
+        "suraname": "Fuṣṣilat"
+    },
+    {
+        "suranumber": 42,
+        "suraname": "ash-Shūrā"
+    },
+    {
+        "suranumber": 43,
+        "suraname": "az-Zukhruf"
+    },
+    {
+        "suranumber": 44,
+        "suraname": "ad-Dukhān"
+    },
+    {
+        "suranumber": 45,
+        "suraname": "al-Jāthiyah"
+    },
+    {
+        "suranumber": 46,
+        "suraname": "al-Aḥqāf"
+    },
+    {
+        "suranumber": 47,
+        "suraname": "Muḥammad"
+    },
+    {
+        "suranumber": 48,
+        "suraname": "al-Fatḥ"
+    },
+    {
+        "suranumber": 49,
+        "suraname": "al-Ḥujurāt"
+    },
+    {
+        "suranumber": 50,
+        "suraname": "Qāf"
+    },
+    {
+        "suranumber": 51,
+        "suraname": "adh-Dhāriyāt"
+    },
+    {
+        "suranumber": 52,
+        "suraname": "at-Ṭūr"
+    },
+    {
+        "suranumber": 53,
+        "suraname": "an-Najm"
+    },
+    {
+        "suranumber": 54,
+        "suraname": "al-Qamar"
+    },
+    {
+        "suranumber": 55,
+        "suraname": "ar-Raḥmān"
+    },
+    {
+        "suranumber": 56,
+        "suraname": "al-Wāqiʿah"
+    },
+    {
+        "suranumber": 57,
+        "suraname": "al-Ḥadīd"
+    },
+    {
+        "suranumber": 58,
+        "suraname": "al-Mujādilah"
+    },
+    {
+        "suranumber": 59,
+        "suraname": "al-Ḥashr"
+    },
+    {
+        "suranumber": 60,
+        "suraname": "al-Mumtaḥanah"
+    },
+    {
+        "suranumber": 61,
+        "suraname": "as-Ṣaff"
+    },
+    {
+        "suranumber": 62,
+        "suraname": "al-Jumuʿah"
+    },
+    {
+        "suranumber": 63,
+        "suraname": "al-Munāfiqūn"
+    },
+    {
+        "suranumber": 64,
+        "suraname": "at-Taghābun"
+    },
+    {
+        "suranumber": 65,
+        "suraname": "at-Ṭalāq"
+    },
+    {
+        "suranumber": 66,
+        "suraname": "at-Taḥrīm"
+    },
+    {
+        "suranumber": 67,
+        "suraname": "al-Mulk"
+    },
+    {
+        "suranumber": 68,
+        "suraname": "al-Qalam"
+    },
+    {
+        "suranumber": 69,
+        "suraname": "al-Ḥāqqah"
+    },
+    {
+        "suranumber": 70,
+        "suraname": "al-Maʿārij"
+    },
+    {
+        "suranumber": 71,
+        "suraname": "Nūḥ"
+    },
+    {
+        "suranumber": 72,
+        "suraname": "al-Jinn"
+    },
+    {
+        "suranumber": 73,
+        "suraname": "al-Muzzammil"
+    },
+    {
+        "suranumber": 74,
+        "suraname": "al-Muddaththir"
+    },
+    {
+        "suranumber": 75,
+        "suraname": "al-Qiyāmah"
+    },
+    {
+        "suranumber": 76,
+        "suraname": "al-Insān"
+    },
+    {
+        "suranumber": 77,
+        "suraname": "al-Mursalāt"
+    },
+    {
+        "suranumber": 78,
+        "suraname": "an-Nabaʾ"
+    },
+    {
+        "suranumber": 79,
+        "suraname": "an-Nāziʿāt"
+    },
+    {
+        "suranumber": 80,
+        "suraname": "ʿAbasa"
+    },
+    {
+        "suranumber": 81,
+        "suraname": "at-Takwīr"
+    },
+    {
+        "suranumber": 82,
+        "suraname": "al-Infiṭār"
+    },
+    {
+        "suranumber": 83,
+        "suraname": "al-Muṭaffifīn"
+    },
+    {
+        "suranumber": 84,
+        "suraname": "al-Inshiqāq"
+    },
+    {
+        "suranumber": 85,
+        "suraname": "al-Burūj"
+    },
+    {
+        "suranumber": 86,
+        "suraname": "at-Ṭāriq"
+    },
+    {
+        "suranumber": 87,
+        "suraname": "al-Aʿlā"
+    },
+    {
+        "suranumber": 88,
+        "suraname": "al-Ghāshiyah"
+    },
+    {
+        "suranumber": 89,
+        "suraname": "al-Fajr"
+    },
+    {
+        "suranumber": 90,
+        "suraname": "al-Balad"
+    },
+    {
+        "suranumber": 91,
+        "suraname": "ash-Shams"
+    },
+    {
+        "suranumber": 92,
+        "suraname": "al-Layl"
+    },
+    {
+        "suranumber": 93,
+        "suraname": "ad-Ḍuḥā"
+    },
+    {
+        "suranumber": 94,
+        "suraname": "ash-Sharḥ"
+    },
+    {
+        "suranumber": 95,
+        "suraname": "at-Tīn"
+    },
+    {
+        "suranumber": 96,
+        "suraname": "al-ʿAlaq"
+    },
+    {
+        "suranumber": 97,
+        "suraname": "al-Qadr"
+    },
+    {
+        "suranumber": 98,
+        "suraname": "al-Bayyinah"
+    },
+    {
+        "suranumber": 99,
+        "suraname": "az-Zalzalah"
+    },
+    {
+        "suranumber": 100,
+        "suraname": "al-ʿĀdiyāt"
+    },
+    {
+        "suranumber": 101,
+        "suraname": "al-Qāriʿah"
+    },
+    {
+        "suranumber": 102,
+        "suraname": "at-Takāthur"
+    },
+    {
+        "suranumber": 103,
+        "suraname": "al-ʿAsr"
+    },
+    {
+        "suranumber": 104,
+        "suraname": "al-Humazah"
+    },
+    {
+        "suranumber": 105,
+        "suraname": "al-Fīl"
+    },
+    {
+        "suranumber": 106,
+        "suraname": "Quraysh"
+    },
+    {
+        "suranumber": 107,
+        "suraname": "al-Māʿūn"
+    },
+    {
+        "suranumber": 108,
+        "suraname": "al-Kawthar"
+    },
+    {
+        "suranumber": 109,
+        "suraname": "al-Kāfirūn"
+    },
+    {
+        "suranumber": 110,
+        "suraname": "an-Naṣr"
+    },
+    {
+        "suranumber": 111,
+        "suraname": "al-Masad"
+    },
+    {
+        "suranumber": 112,
+        "suraname": "al-Ikhlāṣ"
+    },
+    {
+        "suranumber": 113,
+        "suraname": "al-Falaq"
+    },
+    {
+        "suranumber": 114,
+        "suraname": "an-Nās"
+    }
+]

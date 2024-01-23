@@ -1,27 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
-    
-    // Set IDs for Surah and Verse Selector
-    //surahNumber();
 
     // Create Surah and Verse Dropdowns
-    chaptersData();
+    chaptersData(); // COLLECT VERSE JSON AND FILL HTML SURAH DROPDOWN
     outputVerseData();
     verseNumber();
 
     // Output to HTML Row: Current Verse
     outputAyah();
 
-    // GET Response Outputs
-    // consoleVerseRootGET();
-    // consoleSurahGET();
-    // consoleChapterGET();
-
     // Event Listeners: Verse (Ayah) Selection, Surah Selection
     document.getElementById('id_selectAyah').addEventListener('change', function() {
         // surahNumber(); // Update surahID--- not necessary to update for verses.
         verseNumber(); // Update verseID
         outputAyah(); // Update Current Ayah
-        // adjustSelectWidth(selectElement);
         trueRootSet(); // find true root and set cardRow
     });
     document.getElementById('id_selectSurah').addEventListener('change', function() {
@@ -73,34 +64,36 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// function surahDropdownInitialize {
-//     document.getElementById('id_selectSurah').value = "1"; // sets to First Chapter
-// }
+// 01. ACCESS CHAPTERS.JSON AND OUTPUT AS A SURAH DROPDOWN
 
-// setTimeout(surahDropdownInitialize, 1000); // Delay of 2 seconds
+// Assuming chapters.json is at a URL - replace 'URL_TO_CHAPTERS_JSON' with the actual URL
+const chaptersUrl = '/data/chapters.json';
 
-// // GRAB AND SET SURAH NUMBER
-// function surahNumber() {
-//     // Select the element containing the text
-//     const element = document.querySelector('.dropdownSurahText');
+// Fetch the chapters data
+function chaptersData() {
+    fetch(chaptersUrl)
+    .then(response => response.json())
+    .then(data => {
+        // Process the chapters data to create select options
+        const selectMenu = document.getElementById('id_selectSurah'); // Replace with your select element's ID
+        data.forEach(chapter => {
+            const option = document.createElement('option');
+            option.value = chapter.suranumber;
+            option.text = `${chapter.suranumber}. ${chapter.suraname}`;
+            selectMenu.appendChild(option);
+        });
+    })
+    .catch(error => {
+        console.error('Error fetching the chapters data:', error);
+    });
+    console.log("chaptersGot")
+}
 
-//     // Extract the text content from the element
-//     const text = element.textContent;
 
-//     // Use a regular expression to find the number
-//     const match = text.match(/Chapter (\d+)/);
+// 02. DECLARE SURAHID VARIABLE
+var surahID = 1; // Declare verseID at the top level so it's accessible in other functions
 
-//     // Check if a match was found and extract the number
-//     surahID = match ? parseInt(match[1]) : null;
-
-//     // Log the chapter number
-//     console.log('Current Surah: ' + surahID);
-// }
-
-
-// GRAB AND SET SURAH NUMBER
-let surahID; // Declare verseID at the top level so it's accessible in other functions
-
+// GRAB AND SET SURAHID for SCRIPT DEPENDENCIES
 function surahNumber() {
     // Select the dropdown element
     const select = document.getElementById('id_selectSurah');
@@ -111,8 +104,8 @@ function surahNumber() {
         const selectedOptionValue = select.options[select.selectedIndex].value;
 
         // Parse the selected option's value to an integer and assign it to verseID
-        surahID = parseInt(selectedOptionValue);
-        // surahID = surahID_draft - 1;
+        surahID_draft = parseInt(selectedOptionValue);
+        surahID = surahID_draft - 1;
 
         // Log the verse number
         console.log('Current Surah: ' + surahID);
@@ -121,73 +114,8 @@ function surahNumber() {
     }
 }
 
-// Output of Chapter GET
-function consoleChapterGET() {
-    fetch(`https://offlinequran.com:3001/api/chapters`)
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);// Log the data to inspect its structure
-            // Ensure that 'data' property exists and is an array before proceeding
-            if (data && Array.isArray(data.data)) {
-                // To iterate over the items in the 'data' array
-                data.data.forEach(item => {
-                    console.log(item);
-                    // Here you can access each field of the item
-                    console.log('Index:', item.index);
-                    console.log('Sura:', item.sura);
-                    console.log('Aya:', item.aya);
-                    console.log('Text:', item.text);
-                });
-            }
-        })
-        .catch(error => console.error('Error:', error));
-}
 
-// Output of Chapter-Surah GET
-function consoleSurahGET() {
-    fetch(`https://offlinequran.com:3001/api/chapter/${surahID}`)
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);// Log the data to inspect its structure
-            // Ensure that 'data' property exists and is an array before proceeding
-            if (data && Array.isArray(data.data)) {
-                // To iterate over the items in the 'data' array
-                data.data.forEach(item => {
-                    console.log(item);
-                    // Here you can access each field of the item
-                    console.log('Index:', item.index);
-                    console.log('Sura:', item.sura);
-                    console.log('Aya:', item.aya);
-                    console.log('Text:', item.text);
-                });
-            }
-        })
-        .catch(error => console.error('Error:', error));
-}
-
-// // Output of Verse-Root GET
-// function consoleVerseRootGET() {
-//     fetch(`https://offlinequran.com:3001/api/verse/${truerootID}/sentences`)
-//         .then(response => response.json())
-//         .then(data => {
-//             console.log(data);// Log the data to inspect its structure
-//             // Ensure that 'data' property exists and is an array before proceeding
-//             if (data && Array.isArray(data.data)) {
-//                 // To iterate over the items in the 'data' array
-//                 data.data.forEach(item => {
-//                     console.log(item);
-//                     // Here you can access each field of the item
-//                     console.log('Index:', item.index);
-//                     console.log('Sura:', item.sura);
-//                     console.log('Aya:', item.aya);
-//                     console.log('Text:', item.text);
-//                 });
-//             }
-//         })
-//         .catch(error => console.error('Error:', error));
-// }
-
-// ITERATE THROUGH AYAS LIST AND OUTPUT AS AN AYAH DROPDOWN
+// ITERATE THROUGH AYAS LIST, BASED ON SURAHID, AND OUTPUT AS AN AYAH DROPDOWN
 function outputVerseData() {
     fetch(`https://offlinequran.com:3001/api/chapter/${surahID}`)
         .then(response => response.json())
@@ -218,30 +146,6 @@ function outputVerseData() {
 }
 
 
-// ITERATE THROUGH SURAHS LIST AND OUTPUT AS A CHAPTER DROPDOWN
-
-// Assuming chapters.json is at a URL - replace 'URL_TO_CHAPTERS_JSON' with the actual URL
-const chaptersUrl = '/data/chapters.json';
-
-// Fetch the chapters data
-function chaptersData() {
-    fetch(chaptersUrl)
-    .then(response => response.json())
-    .then(data => {
-        // Process the chapters data to create select options
-        const selectMenu = document.getElementById('id_selectSurah'); // Replace with your select element's ID
-        data.forEach(chapter => {
-            const option = document.createElement('option');
-            option.value = chapter.suranumber;
-            option.text = `${chapter.suranumber}. ${chapter.suraname}`;
-            selectMenu.appendChild(option);
-        });
-    })
-    .catch(error => {
-        console.error('Error fetching the chapters data:', error);
-    });
-    console.log("chaptersGot")
-}
 
 
 
@@ -300,45 +204,6 @@ document.addEventListener('DOMContentLoaded', function() {
     selectElement.addEventListener('change', () => adjustSelectWidth(selectElement));
 });
 }
-
-// }
-// chapters.forEach(chapter => {
-//     let option = document.createElement('option');
-//     option.value = chapter.suranumber;
-//     option.text = `Chapter ${chapter.suranumber}: ${chapter.suraname}`;
-//     selectMenu.appendChild(option);
-// });
-
-// function outputSurahData() {
-//     fetch("/data/chapters.json")
-//         .then(response => response.json())
-//         .then(data => {
-//             // Ensure that 'data' property exists and is an array before proceeding
-//             if (data && Array.isArray(data.data)) {
-//                 // Get the select element
-//                 let select = document.getElementById('id_selectSurah');
-
-//                 // Clear the existing options
-//                 select.innerHTML = '';
-
-//                 // To iterate over the items in the 'data' array
-//                 data.data.forEach(item => {
-//                     // Create a new option element
-//                     let option = document.createElement('option');
-
-//                     // Set the text and value of the option
-//                     option.textContent = item.sura_number + ". " + item.suraname; 
-//                     option.value = item.suranumber;
-
-//                     // Append the option to the select element
-//                     select.appendChild(option);
-//                 });
-//             }
-//         })
-//         .catch(error => console.error('Error:', error));
-// }
-
-
 
 // OUTPUT AYAH IN HTML
 function outputAyah() {
@@ -574,27 +439,7 @@ function runClickClassGetter() {
     console.log("Confirmation: classGot")
 }
 
-// runClickClassGetter();
-
 window.onload = function() {
     setTimeout(runClickClassGetter, 1000); // Delay of 2 seconds
 }
 
-// document.body.addEventListener('click', function(event) {
-//     if (event.target.matches('.btnVisOff.word')) {
-//         // Get all elements with the class 'clickWord'
-//         let clickWords = document.querySelectorAll('.clickWord');
-
-//         // Toggle the classes of the elements and their child span elements
-//         clickWords.forEach(clickWord => {
-//             clickWord.classList.toggle('clickWord');
-//             clickWord.classList.toggle('clickWordHidden');
-
-//             let span = clickWord.querySelector('.spanWord');
-//             if (span) {
-//                 span.classList.toggle('spanWord');
-//                 span.classList.toggle('spanHidden');
-//             }
-//         });
-//     }
-// });
