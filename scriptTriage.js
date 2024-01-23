@@ -104,8 +104,8 @@ function surahNumber() {
         const selectedOptionValue = select.options[select.selectedIndex].value;
 
         // Parse the selected option's value to an integer and assign it to verseID
-        surahID_draft = parseInt(selectedOptionValue);
-        surahID = surahID_draft - 1;
+        surahID = parseInt(selectedOptionValue);
+        // surahID = surahID_draft;
 
         // Log the verse number
         console.log('Current Surah: ' + surahID);
