@@ -528,7 +528,7 @@ function runClickClassGetter() {
         });
     });
 
-    console.log("classGot")
+    console.log("Confirmation: classGot")
 }
 
 // runClickClassGetter();
