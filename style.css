@@ -557,7 +557,7 @@ btn:hover {
     --dot-space: 4px; */
     background: radial-gradient(circle, #748383 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #748383 5%, transparent 6%), radial-gradient(circle at right bottom, rgb(100, 100, 100) 5%, transparent 6%), radial-gradient(circle at left top, rgb(100, 100, 100) 5%, transparent 6%), radial-gradient(circle at right top, rgb(100, 100, 100) 5%, transparent 6%);
     background-size: .35em .35em;
-    background-color:  #ffffff; /* Added this line */
+    background-color:  #fffefa; /* Added this line */
 }
 
 /* card interaction */
