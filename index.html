@@ -9,6 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    /* Global Word Vis */
+        $( function() {
+        $( "#btnGlobalWordOff" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickWord" ).switchClass( "clickWord", "clickWordHidden", 0);
+            /* global Word Span toggle */
+            $( ".spanWord" ).switchClass( "spanWord", "spanWordHidden", 0);
+        });
+        animate: false;
+        } 
+        );
+        $( function() {
+        $( "#btnGlobalWordOn" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickWordHidden" ).switchClass( "clickWordHidden", "clickWord", 0);
+            /* global Word Span toggle */
+            $( ".spanWordHidden" ).switchClass( "spanWordHidden", "spanWord", 0);
+        });
+        animate: false;
+        } // Close the missing parentheses and add a semicolon
+        );
+        
+     /* Global Root Vis */
+     $( function() {
+        $( "#btnGlobalRootOff" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickRoot" ).switchClass( "clickRoot", "clickRootHidden", 0);
+            /* global Word Span toggle */
+            $( ".spanRoot" ).switchClass( "spanRoot", "spanRootHidden", 0);
+        });
+        animate: false;
+        } 
+        );
+        $( function() {
+        $( "#btnGlobalRootOn" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickRootHidden" ).switchClass( "clickRootHidden", "clickRoot", 0);
+            /* global Word Span toggle */
+            $( ".spanRootHidden" ).switchClass( "spanRootHidden", "spanRoot", 0);
+        });
+        animate: false;
+        } // Close the missing parentheses and add a semicolon
+        );
+
+        /* Global Meaning Vis –––– Note: ADD IN ROOT AND MEANING CLASSES IN CSS */
+        $( function() {
+        $( "#btnGlobalMeaningOff" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickMeaning" ).switchClass( "clickMeaning", "clickMeaningHidden", 0);
+            /* global Word Span toggle */
+            $( ".spanMeaning" ).switchClass( "spanMeaning", "spanMeaningHidden", 0);
+        });
+        animate: false;
+        } 
+        );
+        $( function() {
+        $( "#btnGlobalMeaningOn" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickMeaningHidden" ).switchClass( "clickMeaningHidden", "clickMeaning", 0);
+            /* global Word Span toggle */
+            $( ".spanMeaningHidden" ).switchClass( "spanMeaningHidden", "spanMeaning", 0);
+        });
+        animate: false;
+        } // Close the missing parentheses and add a semicolon
+        );
+
+    </script>
+    <!-- <script type="module" src="rootIndexCollector.js"></script> -->
 </head>
 <body>
 	<div class="containerAll">
@@ -33,10 +105,16 @@
                 </section> <!--done-->
                 <nav class="dropdownSurahContainer">
                     <btn class="btnDropdownSurah">
-                        <span class="dropdownSurahText">Select Chapter</span>
-                        <div class="iconDropdownContainer white"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+                        <!-- <span class="dropdownSurahText">Chapter 1 • Al-Fatiha</span> -->
+                        <div class="customSelect">
+                            <select class="dropdownSurahText" id="id_selectSurah" name="surah">
+                                <option value="1" >1. al-Fatiha</option>
+                            </select>      
+                        </div>
+                        <!-- <div class="iconDropdownContainer white"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
                             <path d="M5.79289 6.29289L1.20711 1.70711C0.577142 1.07714 1.02331 0 1.91421 0H11.0858C11.9767 0 12.4229 1.07714 11.7929 1.70711L7.20711 6.29289C6.81658 6.68342 6.18342 6.68342 5.79289 6.29289Z" fill="white"/>
-                        </svg></div>
+                        </svg>
+                        </div> -->
                     </btn> <!--done-->
                 </nav> <!--done-->
                 <nav class="rowVerseNav">
@@ -44,12 +122,17 @@
                         <div class="iconVersePrev"></div>
                     </btn>
                     <btn class="btnDropdownVerse">
-                        <span class="dropdownVerseText">Select Verse</span>
-                        <div class="iconDropdownContainer black">
+                        <!-- <span class="dropdownVerseText">Verse 1</span> -->
+                        <div class="customSelect">
+                            <select class="dropdownVerseText" id="id_selectAyah" name="ayah">
+                                <option value="1" selected>Verse 1</option>
+                            </select>                
+                        </div>  
+                        <!-- <div class="iconDropdownContainer black">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
                                 <path d="M5.29289 6.29289L0.707107 1.70711C0.077142 1.07714 0.523309 0 1.41421 0H10.5858C11.4767 0 11.9229 1.07714 11.2929 1.70711L6.70711 6.29289C6.31658 6.68342 5.68342 6.68342 5.29289 6.29289Z" fill="black"/>
                             </svg>
-                        </div>
+                        </div> -->
                     </btn>
                     <btn class="btnVerseNext">
                         <div class="iconVerseNext"></div>
@@ -58,8 +141,9 @@
             </nav> <!-- done -->
         </nav>
         <article class="rowAyah">
-                <span class="currentAyah">بِسْمِ اللَّهِ الرَّحْمَـٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ
-    </span>
+                <span class="currentAyah" id="id_currentAyah">
+                    <span class="currentAyah" id="id_ayahList"></span>
+                </span>
         </article> <!-- done -->
         <main class="containerCards">
             <section class="rowCardSettings">
@@ -67,10 +151,10 @@
                     <div class="cardSettingsTitleBlock">
                         <span class="cardSettingsTitle">Word</span></div>
                     <div class="cardSettingsBtnBlock">
-                        <btn class="btnVisOn word">
+                        <btn class="btnVisOn word" id="btnGlobalWordOn">
                             <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
                         </btn>
-                        <btn class="btnVisOff word">
+                        <btn class="btnVisOff word" id="btnGlobalWordOff">
                             <img src="/images/iconCardSettingsVisOff.svg" alt="Show None">
                         </btn>
                     </div>
@@ -78,10 +162,10 @@
                 <div class="cardSettingsFrame">
                     <div class="cardSettingsTitleBlock"><span class="cardSettingsTitle">Root</span></div>
                     <div class="cardSettingsBtnBlock">
-                        <btn class="btnVisOn root">
+                        <btn class="btnVisOn root" id="btnGlobalRootOn">
                             <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
                         </btn>
-                        <btn class="btnVisOff root">
+                        <btn class="btnVisOff root" id="btnGlobalRootOff">
                             <img src="/images/iconCardSettingsVisOff.svg" alt="Show None">
                         </btn>
                     </div>
@@ -89,47 +173,61 @@
                 <div class="cardSettingsFrame">
                     <div class="cardSettingsTitleBlock"><span class="cardSettingsTitle">Meaning</span></div>
                     <div class="cardSettingsBtnBlock">
-                        <btn class="btnVisOn meaning">
+                        <btn class="btnVisOn meaning" id="btnGlobalMeaningOn">
                             <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
                         </btn>
-                        <btn class="btnVisOff meaning">
+                        <btn class="btnVisOff meaning" id="btnGlobalMeaningOff">
                             <img src="/images/iconCardSettingsVisOff.svg" alt="Show None">
                         </btn>
                     </div>
                 </div>
             </section> <!-- done -->
 
-            <div class="rowCard">
-                <div class="singleCard">
+            <div class="rowCard" id="id_rowCard">
+                <div><div class="singleCard">
                     <div class="cardRowTop">
-                        <div class="clickWord"><span class="spanWord">لِلَّهِ</span></div>
-                        <div class="clickRoot"><span class="spanRoot">ا ل ه</span></div>
+                        <div class="clickWord"><span class="spanWord">بِسْمِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot">س م و</span></div>
                     </div>
                     <div class="cardRowBot">
-                            <div class="clickMeaning"><span class="spanMeaning">to serve, worship or adore; to protect, grant refuge, preserve save, rescue, liberate; object of worship ie God; (Alif-Lam-Lam-ha) God, the one true God applied as a proper name denoting the true god, comprising all the excellent divine names; a unity comprising all the essences of existing things.
-</span></div>
-                    </div>
-                </div>
-                <div class="singleCard">
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">to be high/lofty, raised, name, attribute. samawat - heights/heavens/rain, raining clouds. ismun - mark of identification by which one is recognised. It is a derivation of wsm (pl. asma). ism - stands for a distinguishing mark of a thing, sometimes said to signify its reality.</span>
+                        </div></div>
+                </div></div>
+                <div><div class="singleCard">
                     <div class="cardRowTop">
-                        <div class="clickWord"><span class="spanWord">رَبِّ</span></div>
-                        <div class="clickRoot"><span class="spanRoot">ر ب ب</span></div>
+                        <div class="clickWord"><span class="spanWord noSelect">اللَّهِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot noSelect">ا ل ه</span></div>
                     </div>
                     <div class="cardRowBot">
-                        <div class="clickMeaning"><span class="spanMeaning">to be a lord and master, collect, possess/owner, rule, increase, complete, bring up, preserve, chief, determiner, provider, sustainer, perfecter, rewarder, creator, maintainer, reposer of properties, developer, former of rules and laws of the growth, foster a thing in such a manner as to make it attain one condition after another until it reaches its goal of completion.</span></div>
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">to serve, worship or adore; to protect, grant refuge, preserve save, rescue, liberate; object of worship ie God; (Alif-Lam-Lam-ha) God, the one true God applied as a proper name denoting the true god, comprising all the excellent divine names; a unity comprising all the essences of existing things.</span>
+                        </div>
                     </div>
-                </div>
-                <div class="singleCard">
+                </div></div>
+                <div><div class="singleCard">
                     <div class="cardRowTop">
-                        <div class="clickWord"><span class="spanWord">رَبِّ</span></div>
-                        <div class="clickRoot"><span class="spanRoot">ر ب ب</span></div>
+                        <div class="clickWord"><span class="spanWord noSelect">الرَّحْمَنِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot noSelect">ر ح م</span></div>
                     </div>
                     <div class="cardRowBot">
-                        <div class="clickMeaning"><span class="spanMeaning">to be a lord and master, collect, possess/owner, rule, increase, complete, bring up, preserve, chief, determiner, provider, sustainer, perfecter, rewarder, creator, maintainer, reposer of properties, developer, former of rules and laws of the growth, foster a thing in such a manner as to make it attain one condition after another until it reaches its goal of completion.</span></div>
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">Rahima - He favored, benefited, pardoned, or forgave him. To love, have tenderness, mercy, pity, forgiveness, have all that is required for exercising beneficence.. Tarhamu - He had mercy, pity, or compassion on him; he pitied or compassionated him much.. Arham - Wombs (singular) womb, i.e. place of origin. The receptacle of the young in the belly.. Ruhmun - Relationship, i.e. nearness of kin, connection by birth; relationship connecting with an ancestor. A connection or tie of relationship.. Rahman - it is active participle noun in the measure of fa'lan which conveys the idea of fullness and extensiveness.. Rahim - it is in the measure of fa'il which denotes the idea of constant repetition and giving.</span>
+                        </div></div>
+                </div></div>
+                <div><div class="singleCard">
+                    <div class="cardRowTop">
+                        <div class="clickWord"><span class="spanWord noSelect">الرَّحِيمِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot noSelect">ر ح م</span></div>
                     </div>
-                </div>
-            </div> <!-- done -->
-            <nav class="rowVerseNavFooterContainer">
+                    <div class="cardRowBot">
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">Rahima - He favored, benefited, pardoned, or forgave him. To love, have tenderness, mercy, pity, forgiveness, have all that is required for exercising beneficence.. Tarhamu - He had mercy, pity, or compassion on him; he pitied or compassionated him much.. Arham - Wombs (singular) womb, i.e. place of origin. The receptacle of the young in the belly.. Ruhmun - Relationship, i.e. nearness of kin, connection by birth; relationship connecting with an ancestor. A connection or tie of relationship.. Rahman - it is active participle noun in the measure of fa'lan which conveys the idea of fullness and extensiveness.. Rahim - it is in the measure of fa'il which denotes the idea of constant repetition and giving.</span>
+                        </div></div>
+                </div></div>
+            </div>
+
+            <!-- <nav class="rowVerseNavFooterContainer">
                 <nav class="rowVerseNavFooter">
                     <btn class="btnVersePrev">
                         <div class="iconVersePrev"></div>
@@ -146,8 +244,8 @@
                         <div class="iconVerseNext"></div>
                     </btn>
                 </nav>
-            </nav> <!--done-->
-            <img class="alkitabikLogomarkFooter" src="/images/alkitabikLogo.png" alt="al-kitabik logomark">
+            </nav> -->
+            <img class="alkitabikLogomarkFooter noSelect" src="/images/alkitabikLogo.png" alt="al-kitabik logomark">
         </main> <!-- done -->
     </div>
 </body>
