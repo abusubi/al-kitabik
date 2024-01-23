@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    /* Global Word Vis */
+        $( function() {
+        $( "#btnGlobalWordOff" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickWord" ).switchClass( "clickWord", "clickWordHidden", 0);
+            /* global Word Span toggle */
+            $( ".spanWord" ).switchClass( "spanWord", "spanWordHidden", 0);
+        });
+        animate: false;
+        } 
+        );
+        $( function() {
+        $( "#btnGlobalWordOn" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickWordHidden" ).switchClass( "clickWordHidden", "clickWord", 0);
+            /* global Word Span toggle */
+            $( ".spanWordHidden" ).switchClass( "spanWordHidden", "spanWord", 0);
+        });
+        animate: false;
+        } // Close the missing parentheses and add a semicolon
+        );
+        
+     /* Global Root Vis */
+     $( function() {
+        $( "#btnGlobalRootOff" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickRoot" ).switchClass( "clickRoot", "clickRootHidden", 0);
+            /* global Word Span toggle */
+            $( ".spanRoot" ).switchClass( "spanRoot", "spanRootHidden", 0);
+        });
+        animate: false;
+        } 
+        );
+        $( function() {
+        $( "#btnGlobalRootOn" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickRootHidden" ).switchClass( "clickRootHidden", "clickRoot", 0);
+            /* global Word Span toggle */
+            $( ".spanRootHidden" ).switchClass( "spanRootHidden", "spanRoot", 0);
+        });
+        animate: false;
+        } // Close the missing parentheses and add a semicolon
+        );
+
+        /* Global Meaning Vis –––– Note: ADD IN ROOT AND MEANING CLASSES IN CSS */
+        $( function() {
+        $( "#btnGlobalMeaningOff" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickMeaning" ).switchClass( "clickMeaning", "clickMeaningHidden", 0);
+            /* global Word Span toggle */
+            $( ".spanMeaning" ).switchClass( "spanMeaning", "spanMeaningHidden", 0);
+        });
+        animate: false;
+        } 
+        );
+        $( function() {
+        $( "#btnGlobalMeaningOn" ).on( "click", function() {
+            /* global Word Container toggle */
+            $( ".clickMeaningHidden" ).switchClass( "clickMeaningHidden", "clickMeaning", 0);
+            /* global Word Span toggle */
+            $( ".spanMeaningHidden" ).switchClass( "spanMeaningHidden", "spanMeaning", 0);
+        });
+        animate: false;
+        } // Close the missing parentheses and add a semicolon
+        );
+
+    </script>
+    <!-- <script type="module" src="rootIndexCollector.js"></script> -->
+</head>
+<body>
+	<div class="containerAll">
+        <nav class="headerContainer">
+            <nav class="rowQuranNav">
+                <section class="rowNavHeader">
+                    <img class="alkitabikLogomark" src="/images/alkitabikLogo.png" alt="al-kitabik logomark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="170" height="24" viewBox="0 0 170 24" fill="none">
+                        <path d="M169.877 22.56C169.877 22.848 169.653 23.104 169.109 23.104H167.125C166.581 23.104 166.069 22.944 165.589 22.528C164.981 21.984 164.149 20.928 161.045 16.672C157.525 11.904 157.365 11.84 156.981 11.84C156.661 11.84 156.341 12.16 156.117 12.352L154.485 13.888C154.197 14.144 154.101 14.336 154.101 14.624C154.101 14.848 154.101 17.952 154.101 17.952C154.101 20.192 154.261 20.736 154.517 21.184C154.709 21.504 155.029 21.728 155.477 21.984C155.701 22.112 155.989 22.272 155.989 22.592C155.989 22.976 155.637 23.104 155.093 23.104H150.645C150.101 23.104 149.749 22.976 149.749 22.592C149.749 22.272 150.037 22.112 150.293 21.984C150.709 21.76 150.997 21.504 151.221 21.184C151.509 20.736 151.637 20.192 151.637 17.952V5.056C151.637 2.528 151.509 1.984 150.869 1.568C150.389 1.248 149.909 1.184 149.909 0.768002C149.941 0.384001 150.229 0.256001 150.709 0.256001H155.029C155.509 0.256001 155.829 0.384001 155.861 0.768002C155.861 1.184 155.381 1.248 154.901 1.568C154.229 1.984 154.101 2.528 154.101 5.056V12.256C154.101 12.32 154.133 12.384 154.197 12.384C154.261 12.384 154.293 12.352 154.421 12.224C156.565 10.24 160.501 6.464 162.005 4.992C163.381 3.68 164.117 2.88 164.117 2.24C164.117 1.312 163.125 1.376 163.125 0.800001C163.125 0.384001 163.509 0.256001 164.053 0.256001H168.981C169.493 0.256001 169.685 0.448002 169.685 0.768002C169.685 1.216 169.077 1.312 168.565 1.568C166.965 2.368 165.429 3.552 163.445 5.472C162.805 6.08 160.501 8.224 158.453 10.176C158.357 10.272 158.325 10.336 158.325 10.4C158.325 10.496 158.421 10.592 158.517 10.592C158.645 10.592 158.709 10.496 158.933 10.496C159.797 10.496 160.565 11.872 163.381 15.68C167.125 20.8 168.277 21.728 169.205 22.016C169.717 22.176 169.877 22.336 169.877 22.56Z" fill="black"/>
+                        <path d="M146.258 21.984C146.514 22.112 146.77 22.272 146.77 22.592C146.77 22.976 146.418 23.104 145.874 23.104H141.426C140.882 23.104 140.53 22.976 140.53 22.592C140.53 22.272 140.754 22.144 141.074 21.984C141.458 21.792 141.778 21.504 142.002 21.184C142.29 20.736 142.418 20.192 142.418 17.952V5.088C142.418 2.528 142.29 1.984 141.65 1.568C141.138 1.248 140.69 1.184 140.69 0.768002C140.69 0.384001 140.978 0.256001 141.49 0.256001H145.81C146.29 0.256001 146.642 0.384001 146.642 0.768002C146.642 1.184 146.162 1.248 145.682 1.568C145.01 1.984 144.882 2.528 144.882 5.088V17.952C144.882 20.192 145.042 20.736 145.298 21.184C145.522 21.504 145.778 21.728 146.258 21.984Z" fill="black"/>
+                        <path d="M138.176 16.544C138.176 19.296 136.352 23.104 128.352 23.104H122.112C121.6 23.104 121.28 22.976 121.28 22.56C121.28 22.272 121.504 22.176 121.792 21.984C122.144 21.76 122.464 21.472 122.624 21.184C122.912 20.704 123.04 20.16 123.04 17.92V5.056C123.04 2.624 123.04 2.048 122.272 1.6C121.792 1.344 121.312 1.248 121.312 0.800001C121.312 0.448002 121.6 0.256001 122.08 0.256001H128.32C131.168 0.256001 133.632 0.256001 135.52 1.728C136.768 2.688 137.28 4.032 137.28 5.312C137.28 8.512 134.624 10.24 132.384 10.592C132.224 10.624 132.128 10.656 132.128 10.784C132.128 10.88 132.224 10.944 132.352 10.944C135.648 11.232 138.176 13.312 138.176 16.544ZM135.456 16.512C135.456 12.864 132.8 11.616 128.48 11.616C127.52 11.616 126.08 11.648 125.92 11.648C125.632 11.648 125.504 11.84 125.504 12.064C125.504 12.064 125.504 12.288 125.504 17.856C125.504 20.576 125.568 20.992 125.824 21.344C126.112 21.728 126.624 21.76 127.648 21.76H128.576C131.328 21.76 135.456 21.152 135.456 16.512ZM125.504 9.792C125.504 10.144 125.728 10.304 126.08 10.304H128.064C131.584 10.304 134.592 9.248 134.592 5.632C134.592 1.76 130.944 1.536 128.288 1.536C127.872 1.536 126.528 1.568 126.144 1.568C125.664 1.568 125.504 1.76 125.504 2.24C125.504 2.24 125.504 2.784 125.504 9.792Z" fill="black"/>
+                        <path d="M105.663 13.952H113.471C113.663 13.952 113.727 13.856 113.727 13.76C113.727 13.728 113.727 13.696 113.663 13.536L109.919 3.84C109.855 3.68 109.855 3.648 109.791 3.648C109.727 3.648 109.695 3.68 109.631 3.84L105.471 13.568C105.439 13.632 105.407 13.696 105.407 13.76C105.407 13.888 105.503 13.952 105.663 13.952ZM120.671 22.08C120.927 22.208 121.119 22.336 121.119 22.624C121.119 22.912 120.863 23.104 120.287 23.104H115.743C115.231 23.104 115.039 22.88 115.039 22.624C115.039 22.336 115.263 22.208 115.519 22.08C115.967 21.856 116.351 21.6 116.351 21.024C116.351 20.608 116.159 19.904 115.583 18.464L114.431 15.552C114.367 15.36 114.239 15.264 113.919 15.264H105.023C104.799 15.264 104.703 15.36 104.639 15.52C103.647 17.824 102.975 19.488 102.975 20.544C102.975 21.312 103.231 21.728 103.999 22.08C104.287 22.208 104.415 22.336 104.415 22.592C104.415 22.944 104.127 23.104 103.615 23.104H99.4871C98.8791 23.104 98.623 22.976 98.623 22.656C98.623 22.272 98.9111 22.144 99.2631 21.92C99.8391 21.536 100.191 21.216 100.575 20.64C100.991 20.032 101.375 19.328 101.727 18.528C102.527 16.736 109.663 0.672001 109.823 0.256001C109.887 0.0960007 110.015 0 110.175 0H110.847C111.071 0 111.167 0.0640011 111.231 0.256001C111.359 0.640001 117.887 17.76 118.207 18.528C118.879 20.096 119.263 20.928 119.775 21.504C120.095 21.824 120.479 21.984 120.671 22.08Z" fill="black"/>
+                        <path d="M101.079 4.896C101.079 5.632 100.823 5.888 100.407 5.888C100.087 5.888 99.8308 5.792 99.5748 5.12C99.1268 4.032 98.9988 3.136 97.8788 2.368C96.8228 1.632 95.4148 1.632 93.7508 1.632H93.5588C93.3668 1.632 93.2708 1.728 93.2708 1.888C93.2708 1.888 93.2708 2.08 93.2708 17.856C93.2708 20.064 93.5268 20.8 93.7828 21.28C94.0068 21.664 94.4868 21.888 94.7108 22.016C95.0948 22.176 95.1908 22.4 95.1908 22.592C95.1908 22.976 94.8388 23.104 94.4548 23.104H89.6868C89.2708 23.104 88.9508 22.976 88.9508 22.592C88.9508 22.4 89.0788 22.176 89.4308 22.016C89.6228 21.888 90.1028 21.664 90.3588 21.28C90.6148 20.8 90.8388 20.064 90.8388 17.856C90.8388 2.08 90.8388 1.888 90.8388 1.888C90.8388 1.728 90.7428 1.632 90.5828 1.632H90.3588C88.6308 1.632 87.3828 1.632 86.2948 2.368C85.1748 3.136 85.0468 4.032 84.6308 5.12C84.3748 5.792 84.0868 5.888 83.7988 5.888C83.3188 5.888 83.0948 5.632 83.0948 4.896C83.1268 3.744 83.1908 1.824 83.2548 0.864C83.2868 0.224001 83.7988 0 84.3748 0C85.1748 0 86.5828 0.256001 89.6548 0.256001H94.5188C97.6228 0.256001 98.9988 0 99.8308 0C100.407 0 100.919 0.224001 100.951 0.864C101.015 1.824 101.047 3.744 101.079 4.896Z" fill="black"/>
+                        <path d="M80.3833 21.984C80.6393 22.112 80.8953 22.272 80.8953 22.592C80.8953 22.976 80.5433 23.104 79.9993 23.104H75.5513C75.0073 23.104 74.6553 22.976 74.6553 22.592C74.6553 22.272 74.8793 22.144 75.1993 21.984C75.5833 21.792 75.9033 21.504 76.1273 21.184C76.4153 20.736 76.5433 20.192 76.5433 17.952V5.088C76.5433 2.528 76.4153 1.984 75.7753 1.568C75.2633 1.248 74.8153 1.184 74.8153 0.768002C74.8153 0.384001 75.1033 0.256001 75.6153 0.256001H79.9353C80.4153 0.256001 80.7673 0.384001 80.7673 0.768002C80.7673 1.184 80.2873 1.248 79.8073 1.568C79.1353 1.984 79.0073 2.528 79.0073 5.088V17.952C79.0073 20.192 79.1673 20.736 79.4233 21.184C79.6473 21.504 79.9033 21.728 80.3833 21.984Z" fill="black"/>
+                        <path d="M71.9396 22.56C71.9396 22.848 71.7156 23.104 71.1716 23.104H69.1876C68.6436 23.104 68.1315 22.944 67.6516 22.528C67.0436 21.984 66.2115 20.928 63.1075 16.672C59.5875 11.904 59.4276 11.84 59.0436 11.84C58.7236 11.84 58.4036 12.16 58.1796 12.352L56.5475 13.888C56.2595 14.144 56.1636 14.336 56.1636 14.624C56.1636 14.848 56.1636 17.952 56.1636 17.952C56.1636 20.192 56.3235 20.736 56.5795 21.184C56.7715 21.504 57.0916 21.728 57.5396 21.984C57.7636 22.112 58.0516 22.272 58.0516 22.592C58.0516 22.976 57.6996 23.104 57.1556 23.104H52.7076C52.1636 23.104 51.8116 22.976 51.8116 22.592C51.8116 22.272 52.0995 22.112 52.3555 21.984C52.7715 21.76 53.0596 21.504 53.2836 21.184C53.5716 20.736 53.6996 20.192 53.6996 17.952V5.056C53.6996 2.528 53.5716 1.984 52.9316 1.568C52.4516 1.248 51.9716 1.184 51.9716 0.768002C52.0036 0.384001 52.2915 0.256001 52.7715 0.256001H57.0916C57.5716 0.256001 57.8916 0.384001 57.9236 0.768002C57.9236 1.184 57.4436 1.248 56.9636 1.568C56.2916 1.984 56.1636 2.528 56.1636 5.056V12.256C56.1636 12.32 56.1956 12.384 56.2596 12.384C56.3236 12.384 56.3556 12.352 56.4836 12.224C58.6276 10.24 62.5636 6.464 64.0676 4.992C65.4436 3.68 66.1796 2.88 66.1796 2.24C66.1796 1.312 65.1876 1.376 65.1876 0.800001C65.1876 0.384001 65.5715 0.256001 66.1155 0.256001H71.0436C71.5556 0.256001 71.7476 0.448002 71.7476 0.768002C71.7476 1.216 71.1396 1.312 70.6276 1.568C69.0276 2.368 67.4916 3.552 65.5076 5.472C64.8676 6.08 62.5636 8.224 60.5156 10.176C60.4196 10.272 60.3876 10.336 60.3876 10.4C60.3876 10.496 60.4835 10.592 60.5795 10.592C60.7075 10.592 60.7715 10.496 60.9955 10.496C61.8595 10.496 62.6275 11.872 65.4435 15.68C69.1875 20.8 70.3396 21.728 71.2676 22.016C71.7796 22.176 71.9396 22.336 71.9396 22.56Z" fill="black"/>
+                        <path d="M39.7563 19.152C40.1083 19.152 40.4603 19.312 40.4603 19.888C40.4603 20.24 40.3643 20.656 40.1723 21.296C39.5643 23.216 39.7243 23.36 37.9323 23.36C36.6843 23.36 35.6603 23.104 29.6523 23.104H22.6763C22.1323 23.104 21.7803 22.976 21.7803 22.592C21.7803 22.304 22.0043 22.208 22.3243 22.016C22.7403 21.76 23.0283 21.504 23.2523 21.184C23.5403 20.736 23.6683 20.192 23.6683 17.952V5.056C23.6683 2.496 23.5403 1.952 22.9003 1.536C22.4203 1.216 21.9403 1.152 21.9403 0.736C21.9723 0.384001 22.2603 0.256001 22.7403 0.256001H27.0603C27.5723 0.256001 27.8923 0.384001 27.8923 0.736C27.8923 1.152 27.4123 1.216 26.9323 1.536C26.2603 1.952 26.1323 2.496 26.1323 5.056V19.072C26.1323 20.512 26.1643 21.152 26.5803 21.44C26.9963 21.728 27.7963 21.7793 28.7243 21.824C29.6523 21.8687 37.0705 21.824 38.7003 20.016C38.7003 20.016 39.3403 19.152 39.7563 19.152Z" fill="black"/>
+                        <path d="M7.16309 13.952H14.9711C15.1631 13.952 15.2271 13.856 15.2271 13.76C15.2271 13.728 15.2271 13.696 15.1631 13.536L11.4191 3.84C11.3551 3.68 11.3551 3.648 11.2911 3.648C11.2271 3.648 11.195 3.68 11.131 3.84L6.97107 13.568C6.93907 13.632 6.90704 13.696 6.90704 13.76C6.90704 13.888 7.00309 13.952 7.16309 13.952ZM22.1711 22.08C22.4271 22.208 22.6191 22.336 22.6191 22.624C22.6191 22.912 22.363 23.104 21.787 23.104H17.243C16.731 23.104 16.5391 22.88 16.5391 22.624C16.5391 22.336 16.763 22.208 17.019 22.08C17.467 21.856 17.8511 21.6 17.8511 21.024C17.8511 20.608 17.6591 19.904 17.0831 18.464L15.931 15.552C15.867 15.36 15.7391 15.264 15.4191 15.264H6.52307C6.29907 15.264 6.20304 15.36 6.13904 15.52C5.14704 17.824 4.47504 19.488 4.47504 20.544C4.47504 21.312 4.73108 21.728 5.49908 22.08C5.78708 22.208 5.91504 22.336 5.91504 22.592C5.91504 22.944 5.62705 23.104 5.11505 23.104H0.987061C0.379061 23.104 0.123047 22.976 0.123047 22.656C0.123047 22.272 0.411062 22.144 0.763062 21.92C1.33906 21.536 1.69107 21.216 2.07507 20.64C2.49107 20.032 2.87505 19.328 3.22705 18.528C4.02705 16.736 11.1631 0.672001 11.3231 0.256001C11.3871 0.0960007 11.515 0 11.675 0H12.347C12.571 0 12.6671 0.0640011 12.7311 0.256001C12.8591 0.640001 19.387 17.76 19.707 18.528C20.379 20.096 20.7631 20.928 21.2751 21.504C21.5951 21.824 21.9791 21.984 22.1711 22.08Z" fill="black"/>
+                        <path d="M33.6797 9.3804C33.7644 9.211 33.9375 9.104 34.1269 9.104H46.5089C46.6982 9.104 46.8714 9.211 46.9561 9.3804L47.4561 10.3804C47.6223 10.7128 47.3805 11.104 47.0089 11.104H33.6269C33.2552 11.104 33.0135 10.7128 33.1797 10.3804L33.6797 9.3804Z" fill="black"/>
+                        <path d="M46.0943 8.55122L45.8262 9.08738C45.6316 9.47651 45.9924 9.91127 46.4108 9.79175L47.0679 9.604L46.5415 8.55122C46.4493 8.36696 46.1864 8.36695 46.0943 8.55122Z" fill="black"/>
+                        <path d="M119.818 22.104H122.818V23.104H119.818V22.104Z" fill="black"/>
+                    </svg>
+                </section> <!--done-->
+                <nav class="dropdownSurahContainer">
+                    <btn class="btnDropdownSurah">
+                        <!-- <span class="dropdownSurahText">Chapter 1 • Al-Fatiha</span> -->
+                        <div class="customSelect">
+                            <select class="dropdownSurahText" id="id_selectSurah" name="surah">
+                                <option value="1" >1. al-Fatiha</option>
+                            </select>      
+                        </div>
+                        <!-- <div class="iconDropdownContainer white"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+                            <path d="M5.79289 6.29289L1.20711 1.70711C0.577142 1.07714 1.02331 0 1.91421 0H11.0858C11.9767 0 12.4229 1.07714 11.7929 1.70711L7.20711 6.29289C6.81658 6.68342 6.18342 6.68342 5.79289 6.29289Z" fill="white"/>
+                        </svg>
+                        </div> -->
+                    </btn> <!--done-->
+                </nav> <!--done-->
+                <nav class="rowVerseNav">
+                    <btn class="btnVersePrev">
+                        <div class="iconVersePrev"></div>
+                    </btn>
+                    <btn class="btnDropdownVerse">
+                        <!-- <span class="dropdownVerseText">Verse 1</span> -->
+                        <div class="customSelect">
+                            <select class="dropdownVerseText" id="id_selectAyah" name="ayah">
+                                <option value="1" selected>Verse 1</option>
+                            </select>                
+                        </div>  
+                        <!-- <div class="iconDropdownContainer black">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                                <path d="M5.29289 6.29289L0.707107 1.70711C0.077142 1.07714 0.523309 0 1.41421 0H10.5858C11.4767 0 11.9229 1.07714 11.2929 1.70711L6.70711 6.29289C6.31658 6.68342 5.68342 6.68342 5.29289 6.29289Z" fill="black"/>
+                            </svg>
+                        </div> -->
+                    </btn>
+                    <btn class="btnVerseNext">
+                        <div class="iconVerseNext"></div>
+                    </btn>
+                </nav> <!--done-->
+            </nav> <!-- done -->
+        </nav>
+        <article class="rowAyah">
+                <span class="currentAyah" id="id_currentAyah">
+                    <span class="currentAyah" id="id_ayahList"></span>
+                </span>
+        </article> <!-- done -->
+        <main class="containerCards">
+            <section class="rowCardSettings">
+                <div class="cardSettingsFrame">
+                    <div class="cardSettingsTitleBlock">
+                        <span class="cardSettingsTitle">Word</span></div>
+                    <div class="cardSettingsBtnBlock">
+                        <btn class="btnVisOn word" id="btnGlobalWordOn">
+                            <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
+                        </btn>
+                        <btn class="btnVisOff word" id="btnGlobalWordOff">
+                            <img src="/images/iconCardSettingsVisOff.svg" alt="Show None">
+                        </btn>
+                    </div>
+                </div>
+                <div class="cardSettingsFrame">
+                    <div class="cardSettingsTitleBlock"><span class="cardSettingsTitle">Root</span></div>
+                    <div class="cardSettingsBtnBlock">
+                        <btn class="btnVisOn root" id="btnGlobalRootOn">
+                            <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
+                        </btn>
+                        <btn class="btnVisOff root" id="btnGlobalRootOff">
+                            <img src="/images/iconCardSettingsVisOff.svg" alt="Show None">
+                        </btn>
+                    </div>
+                </div>
+                <div class="cardSettingsFrame">
+                    <div class="cardSettingsTitleBlock"><span class="cardSettingsTitle">Meaning</span></div>
+                    <div class="cardSettingsBtnBlock">
+                        <btn class="btnVisOn meaning" id="btnGlobalMeaningOn">
+                            <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
+                        </btn>
+                        <btn class="btnVisOff meaning" id="btnGlobalMeaningOff">
+                            <img src="/images/iconCardSettingsVisOff.svg" alt="Show None">
+                        </btn>
+                    </div>
+                </div>
+            </section> <!-- done -->
+
+            <div class="rowCard" id="id_rowCard">
+                <div><div class="singleCard">
+                    <div class="cardRowTop">
+                        <div class="clickWord"><span class="spanWord">بِسْمِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot">س م و</span></div>
+                    </div>
+                    <div class="cardRowBot">
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">to be high/lofty, raised, name, attribute. samawat - heights/heavens/rain, raining clouds. ismun - mark of identification by which one is recognised. It is a derivation of wsm (pl. asma). ism - stands for a distinguishing mark of a thing, sometimes said to signify its reality.</span>
+                        </div></div>
+                </div></div>
+                <div><div class="singleCard">
+                    <div class="cardRowTop">
+                        <div class="clickWord"><span class="spanWord noSelect">اللَّهِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot noSelect">ا ل ه</span></div>
+                    </div>
+                    <div class="cardRowBot">
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">to serve, worship or adore; to protect, grant refuge, preserve save, rescue, liberate; object of worship ie God; (Alif-Lam-Lam-ha) God, the one true God applied as a proper name denoting the true god, comprising all the excellent divine names; a unity comprising all the essences of existing things.</span>
+                        </div>
+                    </div>
+                </div></div>
+                <div><div class="singleCard">
+                    <div class="cardRowTop">
+                        <div class="clickWord"><span class="spanWord noSelect">الرَّحْمَنِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot noSelect">ر ح م</span></div>
+                    </div>
+                    <div class="cardRowBot">
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">Rahima - He favored, benefited, pardoned, or forgave him. To love, have tenderness, mercy, pity, forgiveness, have all that is required for exercising beneficence.. Tarhamu - He had mercy, pity, or compassion on him; he pitied or compassionated him much.. Arham - Wombs (singular) womb, i.e. place of origin. The receptacle of the young in the belly.. Ruhmun - Relationship, i.e. nearness of kin, connection by birth; relationship connecting with an ancestor. A connection or tie of relationship.. Rahman - it is active participle noun in the measure of fa'lan which conveys the idea of fullness and extensiveness.. Rahim - it is in the measure of fa'il which denotes the idea of constant repetition and giving.</span>
+                        </div></div>
+                </div></div>
+                <div><div class="singleCard">
+                    <div class="cardRowTop">
+                        <div class="clickWord"><span class="spanWord noSelect">الرَّحِيمِ</span></div>
+                        <div class="clickRoot"><span class="spanRoot noSelect">ر ح م</span></div>
+                    </div>
+                    <div class="cardRowBot">
+                        <div class="clickMeaning">
+                            <span class="spanMeaning noSelect">Rahima - He favored, benefited, pardoned, or forgave him. To love, have tenderness, mercy, pity, forgiveness, have all that is required for exercising beneficence.. Tarhamu - He had mercy, pity, or compassion on him; he pitied or compassionated him much.. Arham - Wombs (singular) womb, i.e. place of origin. The receptacle of the young in the belly.. Ruhmun - Relationship, i.e. nearness of kin, connection by birth; relationship connecting with an ancestor. A connection or tie of relationship.. Rahman - it is active participle noun in the measure of fa'lan which conveys the idea of fullness and extensiveness.. Rahim - it is in the measure of fa'il which denotes the idea of constant repetition and giving.</span>
+                        </div></div>
+                </div></div>
+            </div>
+
+            <!-- <nav class="rowVerseNavFooterContainer">
+                <nav class="rowVerseNavFooter">
+                    <btn class="btnVersePrev">
+                        <div class="iconVersePrev"></div>
+                    </btn>
+                    <btn class="btnDropdownVerse">
+                        <span class="dropdownVerseText">Select Verse</span>
+                        <div class="iconDropdownContainer black">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                                <path d="M5.29289 6.29289L0.707107 1.70711C0.077142 1.07714 0.523309 0 1.41421 0H10.5858C11.4767 0 11.9229 1.07714 11.2929 1.70711L6.70711 6.29289C6.31658 6.68342 5.68342 6.68342 5.29289 6.29289Z" fill="black"/>
+                            </svg>
+                        </div>
+                    </btn>
+                    <btn class="btnVerseNext">
+                        <div class="iconVerseNext"></div>
+                    </btn>
+                </nav>
+            </nav> -->
+            <img class="alkitabikLogomarkFooter noSelect" src="/images/alkitabikLogo.png" alt="al-kitabik logomark">
+        </main> <!-- done -->
+    </div>
+</body>
+</html>
