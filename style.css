@@ -74,7 +74,7 @@
     flex: 1 0 0;
     color: #000;
     text-align: center;
-    font-family: "Adobe Arabic";
+    font-family: "Noto Naskh Arabic";
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
@@ -206,7 +206,7 @@
 
 .dropdownVerseText {
     color: #000;
-    font-family: Interstate;
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -249,7 +249,7 @@ select.dropdownVerseText {
 
 .dropdownSurahText {
     color: #ffffff;
-    font-family: 'Avenir Next';
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -305,7 +305,7 @@ select.dropdownVerseText {
 
 span.cardSettingsTitle {
     color: #FFF;
-    font-family: "Avenir Next";
+    font-family: "Inter";
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -408,7 +408,7 @@ span.cardSettingsTitle {
 .spanWord {
     z-index: 0;
     color: #000;
-    font-family: "Adobe Arabic";
+    font-family: "Noto Naskh Arabic";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -419,7 +419,7 @@ span.cardSettingsTitle {
 .spanWordHidden {
     z-index: -1;
     color: #000;
-    font-family: "Adobe Arabic";
+    font-family: "Noto Naskh Arabic";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -431,7 +431,7 @@ span.cardSettingsTitle {
 .spanRoot {
     z-index: 0;
     color: #000;
-    font-family: "Adobe Arabic";
+    font-family: "Noto Naskh Arabic";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -442,7 +442,7 @@ span.cardSettingsTitle {
 .spanRootHidden {
     z-index: -1;
     color: #000;
-    font-family: "Adobe Arabic";
+    font-family: "Noto Naskh Arabic";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -661,7 +661,7 @@ btn:hover {
         flex: 1 0 0;
         color: #000;
         text-align: center;
-        font-family: "Adobe Arabic";
+        font-family: "Noto Naskh Arabic";
         font-size: 34px;
         font-style: normal;
         font-weight: 400;
