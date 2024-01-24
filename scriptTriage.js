@@ -285,33 +285,29 @@ function trueRootSet() {
 
     // run verse-root GET
     function consoleVerseRootGET() {
-        fetch(`https://offlinequran.com:3001/api/verse/${truerootID}/sentences`)
+        fetch(`/data/verseRoots/${truerootID}.json`)
             .then(response => response.json())
             .then(data => {
-                console.log(data);// Log the data to inspect its structure
+                console.log(data); // Log the data to inspect its structure
+
                 // Ensure that 'data' property exists and is an array before proceeding
-                if (data && Array.isArray(data.data)) {
+                // if (data && Array.isArray(data.data)) {
+                    // Get the div element with the id 'id_rowCard'
+                    let rowCard = document.getElementById('id_rowCard');
+
+                    // Clear the previous div elements
+                    rowCard.innerHTML = '';
+
                     // To iterate over the items in the 'data' array
                     data.data.forEach(item => {
                         console.log(item);
-                       
-                        if (data && Array.isArray(data.data)) {
-                            // Get the div element with the id 'id_rowCard'
-                            let rowCard = document.getElementById('id_rowCard');
-                    
-                            // Clear the previous div elements
-                            rowCard.innerHTML = '';
-                    
-                            // To iterate over the items in the 'data' array
-                            data.data.forEach(item => {
-                                console.log(item);
-                    
-                                // Create a new div element
-                                let div = document.createElement('div');
-                    
-                                // Set the text of the div element
-                                div.innerHTML = `
-                                <div class="singleCard">
+
+                        // Create a new div element
+                        let div = document.createElement('div');
+
+                        // Set the text of the div element
+                        div.innerHTML = `
+                            <div class="singleCard">
                                 <div class="cardRowTop">
                                     <div class="clickWord"><span class="spanWord">${item.word}</span></div>
                                     <div class="clickRoot"><span class="spanRoot">${item.rootword}</span></div>
@@ -321,28 +317,21 @@ function trueRootSet() {
                                         <span class="spanMeaning">${item.meanings}</span>
                                     </div>
                                 </div>
-                                </div>
-                            
-                             
-                                `;
-                    //    Word: ${item.word},
-                    //Root Word: ${item.rootword},
-                    //Meaning: ${item.meanings}
-                                // Append the div element to the 'id_rowCard' div
-                                rowCard.appendChild(div);
-                            });
-                        }
-                        })
-                    
-                }
+                            </div>
+                        `;
+
+                        // Append the div element to the 'id_rowCard' div
+                        rowCard.appendChild(div);
+                    });
+                // }
             })
             .catch(error => console.error('Error:', error));
     }
+
     consoleVerseRootGET();
     console.log("innerHTML_update");
     setTimeout(runClickClassGetter, 1500); // Delay of 1 seconds
 }
-
 // Click-Visibility Interaction
 
 function runClickClassGetter() {

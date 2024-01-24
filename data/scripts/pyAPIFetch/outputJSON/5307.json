@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":5307,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5307,
+        "wordid":2286,
+        "word":"\u0643\u064e\u064a\u0652\u0641\u064e",
+        "rootid":148,
+        "rootword":"\u0643 \u064a \u0641",
+        "meanings":"",
+        "sentence":"The word \u0643\u064e\u064a\u0652\u0641\u064e comes from the root \u0643 \u064a \u0641 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5307,
+        "wordid":9819,
+        "word":"\u062a\u064e\u062d\u0652\u0643\u064f\u0645\u064f\u0648\u0646\u064e",
+        "rootid":459,
+        "rootword":"\u062d \u0643 \u0645",
+        "meanings":"To restrain from, exercise authority, command, give judgment, judge, be wise.",
+        "sentence":"The word \u062a\u064e\u062d\u0652\u0643\u064f\u0645\u064f\u0648\u0646\u064e comes from the root \u062d \u0643 \u0645 and is associated with the meanings: To restrain from, exercise authority, command, give judgment, judge, be wise."
+    }]}

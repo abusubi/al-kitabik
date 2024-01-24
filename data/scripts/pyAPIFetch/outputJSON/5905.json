@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":5905,
+        "wordid":2029,
+        "word":"\u0644\u064e\u0627",
+        "rootid":1400,
+        "rootword":"\u0644 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0644\u064e\u0627 comes from the root \u0644 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5905,
+        "wordid":3569,
+        "word":"\u0627\u0644\u0652\u0642\u064f\u0631\u0652\u0621\u064e\u0627\u0646\u064f",
+        "rootid":1433,
+        "rootword":"\u0642 \u0631 \u0627",
+        "meanings":"to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation.",
+        "sentence":"The word \u0627\u0644\u0652\u0642\u064f\u0631\u0652\u0621\u064e\u0627\u0646\u064f comes from the root \u0642 \u0631 \u0627 and is associated with the meanings: to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation."
+    },
+
+    {
+        "indexid":5905,
+        "wordid":5108,
+        "word":"\u064a\u064e\u0633\u0652\u062c\u064f\u062f\u064f\u0648\u0646\u064e",
+        "rootid":1596,
+        "rootword":"\u0633 \u062c \u062f",
+        "meanings":"lowly, humble, submissive, worship, adore, prostrate, make obeisance, lower\/bend oneself down towards the ground, lower the head, to salute\/honour\/magnify, to pay respect, to stand up, to look continuedly and tranquily.MSJD - parts of a man that are the places of SJD, e.g. forehead\/nose\/hands\/knees\/feet etc. Any mode\/place\/practice in which the act of SJD is done.",
+        "sentence":"The word \u064a\u064e\u0633\u0652\u062c\u064f\u062f\u064f\u0648\u0646\u064e comes from the root \u0633 \u062c \u062f and is associated with the meanings: lowly, humble, submissive, worship, adore, prostrate, make obeisance, lower\/bend oneself down towards the ground, lower the head, to salute\/honour\/magnify, to pay respect, to stand up, to look continuedly and tranquily.MSJD - parts of a man that are the places of SJD, e.g. forehead\/nose\/hands\/knees\/feet etc. Any mode\/place\/practice in which the act of SJD is done."
+    },
+
+    {
+        "indexid":5905,
+        "wordid":8827,
+        "word":"\u0642\u064f\u0631\u0650\u0626\u064e",
+        "rootid":1433,
+        "rootword":"\u0642 \u0631 \u0627",
+        "meanings":"to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation.",
+        "sentence":"The word \u0642\u064f\u0631\u0650\u0626\u064e comes from the root \u0642 \u0631 \u0627 and is associated with the meanings: to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation."
+    }]}

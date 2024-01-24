@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":6003,
+        "wordid":5867,
+        "word":"\u0630\u0650\u064a",
+        "rootid":708,
+        "rootword":"\u0630 \u0648",
+        "meanings":"",
+        "sentence":"The word \u0630\u0650\u064a comes from the root \u0630 \u0648 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":6003,
+        "wordid":14764,
+        "word":"\u0648\u064e\u0641\u0650\u0631\u0652\u0639\u064e\u0648\u0652\u0646\u064e",
+        "rootid":44,
+        "rootword":"\u0641 \u0631 \u0639",
+        "meanings":"to ascend, go down, overtop, surpass, branch, top of a tree, sprout, hair, consequence of a principle. Appellation of the ancient kings of Egypt and not the name of a particular king.",
+        "sentence":"The word \u0648\u064e\u0641\u0650\u0631\u0652\u0639\u064e\u0648\u0652\u0646\u064e comes from the root \u0641 \u0631 \u0639 and is associated with the meanings: to ascend, go down, overtop, surpass, branch, top of a tree, sprout, hair, consequence of a principle. Appellation of the ancient kings of Egypt and not the name of a particular king."
+    },
+
+    {
+        "indexid":6003,
+        "wordid":16166,
+        "word":"\u0627\u0644\u0652\u0623\u064e\u0648\u0652\u062a\u064e\u0627\u062f\u0650",
+        "rootid":153,
+        "rootword":"\u0648 \u062a \u062f",
+        "meanings":"to drive in a stake, fix a stake into the ground, fix a thing firmly. autaad - stakes, hosts, pegs, chiefs, armies, poles of tents.",
+        "sentence":"The word \u0627\u0644\u0652\u0623\u064e\u0648\u0652\u062a\u064e\u0627\u062f\u0650 comes from the root \u0648 \u062a \u062f and is associated with the meanings: to drive in a stake, fix a stake into the ground, fix a thing firmly. autaad - stakes, hosts, pegs, chiefs, armies, poles of tents."
+    }]}

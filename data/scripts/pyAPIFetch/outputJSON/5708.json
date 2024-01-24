@@ -1,0 +1,50 @@
+{"data":[
+    {
+        "indexid":5708,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":5708,
+        "wordid":3310,
+        "word":"\u0631\u064e\u0628\u0651\u0650\u0643\u064e",
+        "rootid":365,
+        "rootword":"\u0631 \u0628 \u0628",
+        "meanings":"to be a lord and master, collect, possess\/owner, rule, increase, complete, bring up, preserve, chief, determiner, provider, sustainer, perfecter, rewarder, creator, maintainer, reposer of properties, developer, former of rules and laws of the growth, foster a thing in such a manner as to make it attain one condition after another until it reaches its goal of completion.",
+        "sentence":"The word \u0631\u064e\u0628\u0651\u0650\u0643\u064e comes from the root \u0631 \u0628 \u0628 and is associated with the meanings: to be a lord and master, collect, possess\/owner, rule, increase, complete, bring up, preserve, chief, determiner, provider, sustainer, perfecter, rewarder, creator, maintainer, reposer of properties, developer, former of rules and laws of the growth, foster a thing in such a manner as to make it attain one condition after another until it reaches its goal of completion."
+    },
+
+    {
+        "indexid":5708,
+        "wordid":6789,
+        "word":"\u062c\u064e\u0632\u064e\u0627\u0621\u064b",
+        "rootid":1679,
+        "rootword":"\u062c \u0632 \u064a",
+        "meanings":"Pay\/give\/render a satisfaction, make sufficient, pay a debt, to contend, repay\/requit\/compensate, to recompense.",
+        "sentence":"The word \u062c\u064e\u0632\u064e\u0627\u0621\u064b comes from the root \u062c \u0632 \u064a and is associated with the meanings: Pay\/give\/render a satisfaction, make sufficient, pay a debt, to contend, repay\/requit\/compensate, to recompense."
+    },
+
+    {
+        "indexid":5708,
+        "wordid":10381,
+        "word":"\u0639\u064e\u0637\u064e\u0627\u0621\u064b",
+        "rootid":1711,
+        "rootword":"\u0639 \u0637 \u0648",
+        "meanings":"to take, receive. ataun - gift bestowment, present. a'ta - to give a present, offer. ta'ata (vb. 6) - took.",
+        "sentence":"The word \u0639\u064e\u0637\u064e\u0627\u0621\u064b comes from the root \u0639 \u0637 \u0648 and is associated with the meanings: to take, receive. ataun - gift bestowment, present. a'ta - to give a present, offer. ta'ata (vb. 6) - took."
+    },
+
+    {
+        "indexid":5708,
+        "wordid":18302,
+        "word":"\u062d\u0650\u0633\u064e\u0627\u0628\u064b\u0627",
+        "rootid":1063,
+        "rootword":"\u062d \u0633 \u0628",
+        "meanings":"To think, consider, suppose, imagine, be of opinion.",
+        "sentence":"The word \u062d\u0650\u0633\u064e\u0627\u0628\u064b\u0627 comes from the root \u062d \u0633 \u0628 and is associated with the meanings: To think, consider, suppose, imagine, be of opinion."
+    }]}

@@ -1,0 +1,50 @@
+{"data":[
+    {
+        "indexid":6210,
+        "wordid":2024,
+        "word":"\u0648\u064e\u0644\u064e\u0627",
+        "rootid":1400,
+        "rootword":"\u0644 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0648\u064e\u0644\u064e\u0627 comes from the root \u0644 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":6210,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":6210,
+        "wordid":2796,
+        "word":"\u0623\u064e\u0646\u0652\u062a\u064f\u0645\u0652",
+        "rootid":103,
+        "rootword":"\u0627 \u0646 \u062a \u0645",
+        "meanings":"you (plural)",
+        "sentence":"The word \u0623\u064e\u0646\u0652\u062a\u064f\u0645\u0652 comes from the root \u0627 \u0646 \u062a \u0645 and is associated with the meanings: you (plural)"
+    },
+
+    {
+        "indexid":6210,
+        "wordid":3241,
+        "word":"\u0639\u064e\u0627\u0628\u0650\u062f\u064f\u0648\u0646\u064e",
+        "rootid":1789,
+        "rootword":"\u0639 \u0628 \u062f",
+        "meanings":"serve, worship, adore, venerate, accept the impression of a thing, obey with submissiveness or humility, approve, apply, devote, obedience, slave, keep to inseparably, subdue, assemble together, enslave.",
+        "sentence":"The word \u0639\u064e\u0627\u0628\u0650\u062f\u064f\u0648\u0646\u064e comes from the root \u0639 \u0628 \u062f and is associated with the meanings: serve, worship, adore, venerate, accept the impression of a thing, obey with submissiveness or humility, approve, apply, devote, obedience, slave, keep to inseparably, subdue, assemble together, enslave."
+    },
+
+    {
+        "indexid":6210,
+        "wordid":9992,
+        "word":"\u0623\u064e\u0639\u0652\u0628\u064f\u062f\u064f",
+        "rootid":1789,
+        "rootword":"\u0639 \u0628 \u062f",
+        "meanings":"serve, worship, adore, venerate, accept the impression of a thing, obey with submissiveness or humility, approve, apply, devote, obedience, slave, keep to inseparably, subdue, assemble together, enslave.",
+        "sentence":"The word \u0623\u064e\u0639\u0652\u0628\u064f\u062f\u064f comes from the root \u0639 \u0628 \u062f and is associated with the meanings: serve, worship, adore, venerate, accept the impression of a thing, obey with submissiveness or humility, approve, apply, devote, obedience, slave, keep to inseparably, subdue, assemble together, enslave."
+    }]}

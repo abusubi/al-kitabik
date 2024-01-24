@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":5954,
+        "wordid":2208,
+        "word":"\u0641\u064e\u0644\u064e\u0627",
+        "rootid":1400,
+        "rootword":"\u0644 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0641\u064e\u0644\u064e\u0627 comes from the root \u0644 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5954,
+        "wordid":19286,
+        "word":"\u0633\u064e\u0646\u064f\u0642\u0652\u0631\u0650\u0626\u064f\u0643\u064e",
+        "rootid":1433,
+        "rootword":"\u0642 \u0631 \u0627",
+        "meanings":"to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation.",
+        "sentence":"The word \u0633\u064e\u0646\u064f\u0642\u0652\u0631\u0650\u0626\u064f\u0643\u064e comes from the root \u0642 \u0631 \u0627 and is associated with the meanings: to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation."
+    },
+
+    {
+        "indexid":5954,
+        "wordid":19287,
+        "word":"\u062a\u064e\u0646\u0652\u0633\u064e\u0649",
+        "rootid":570,
+        "rootword":"\u0646 \u0633 \u064a",
+        "meanings":"to forsake\/forget\/neglect, pretend to forget.",
+        "sentence":"The word \u062a\u064e\u0646\u0652\u0633\u064e\u0649 comes from the root \u0646 \u0633 \u064a and is associated with the meanings: to forsake\/forget\/neglect, pretend to forget."
+    }]}

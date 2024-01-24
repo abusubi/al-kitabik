@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":3904,
+        "wordid":8412,
+        "word":"\u0627\u0644\u0652\u063a\u064e\u0627\u0644\u0650\u0628\u0650\u064a\u0646\u064e",
+        "rootid":948,
+        "rootword":"\u063a \u0644 \u0628",
+        "meanings":"overcame, conquered, subdued, mastered, surpassed, superior in power or force",
+        "sentence":"The word \u0627\u0644\u0652\u063a\u064e\u0627\u0644\u0650\u0628\u0650\u064a\u0646\u064e comes from the root \u063a \u0644 \u0628 and is associated with the meanings: overcame, conquered, subdued, mastered, surpassed, superior in power or force"
+    },
+
+    {
+        "indexid":3904,
+        "wordid":11412,
+        "word":"\u0641\u064e\u0643\u064e\u0627\u0646\u064f\u0648\u0627",
+        "rootid":369,
+        "rootword":"\u0643 \u0648 \u0646",
+        "meanings":"(Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so.",
+        "sentence":"The word \u0641\u064e\u0643\u064e\u0627\u0646\u064f\u0648\u0627 comes from the root \u0643 \u0648 \u0646 and is associated with the meanings: (Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so."
+    },
+
+    {
+        "indexid":3904,
+        "wordid":16079,
+        "word":"\u0648\u064e\u0646\u064e\u0635\u064e\u0631\u0652\u0646\u064e\u0627\u0647\u064f\u0645\u0652",
+        "rootid":1240,
+        "rootword":"\u0646 \u0635 \u0631",
+        "meanings":"to assist\/aid, succour, protect.",
+        "sentence":"The word \u0648\u064e\u0646\u064e\u0635\u064e\u0631\u0652\u0646\u064e\u0627\u0647\u064f\u0645\u0652 comes from the root \u0646 \u0635 \u0631 and is associated with the meanings: to assist\/aid, succour, protect."
+    }]}

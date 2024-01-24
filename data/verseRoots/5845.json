@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":5845,
+        "wordid":2045,
+        "word":"\u0648\u064e\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0648\u064e\u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5845,
+        "wordid":2377,
+        "word":"\u0639\u064e\u0646\u0652\u0647\u064e\u0627",
+        "rootid":1612,
+        "rootword":"\u0639 \u0646",
+        "meanings":"",
+        "sentence":"The word \u0639\u064e\u0646\u0652\u0647\u064e\u0627 comes from the root \u0639 \u0646 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5845,
+        "wordid":19184,
+        "word":"\u0628\u0650\u063a\u064e\u0627\u0626\u0650\u0628\u0650\u064a\u0646\u064e",
+        "rootid":623,
+        "rootword":"\u063a \u064a \u0628",
+        "meanings":"absent\/remote\/hidden\/concealed, absent from the range or beyond the reach of perception by sense or of mental perception, unseen\/invisible.",
+        "sentence":"The word \u0628\u0650\u063a\u064e\u0627\u0626\u0650\u0628\u0650\u064a\u0646\u064e comes from the root \u063a \u064a \u0628 and is associated with the meanings: absent\/remote\/hidden\/concealed, absent from the range or beyond the reach of perception by sense or of mental perception, unseen\/invisible."
+    }]}

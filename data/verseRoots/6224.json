@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":6224,
+        "wordid":2062,
+        "word":"\u0644\u064e\u0645\u0652",
+        "rootid":415,
+        "rootword":"\u0644 \u0645",
+        "meanings":"Negative particle giving to the present the sense of the perfect; not.",
+        "sentence":"The word \u0644\u064e\u0645\u0652 comes from the root \u0644 \u0645 and is associated with the meanings: Negative particle giving to the present the sense of the perfect; not."
+    },
+
+    {
+        "indexid":6224,
+        "wordid":4141,
+        "word":"\u0648\u064e\u0644\u064e\u0645\u0652",
+        "rootid":415,
+        "rootword":"\u0644 \u0645",
+        "meanings":"Negative particle giving to the present the sense of the perfect; not.",
+        "sentence":"The word \u0648\u064e\u0644\u064e\u0645\u0652 comes from the root \u0644 \u0645 and is associated with the meanings: Negative particle giving to the present the sense of the perfect; not."
+    },
+
+    {
+        "indexid":6224,
+        "wordid":19608,
+        "word":"\u064a\u064e\u0644\u0650\u062f\u0652",
+        "rootid":1781,
+        "rootword":"\u0648 \u0644 \u062f",
+        "meanings":"to beget, give birth.",
+        "sentence":"The word \u064a\u064e\u0644\u0650\u062f\u0652 comes from the root \u0648 \u0644 \u062f and is associated with the meanings: to beget, give birth."
+    },
+
+    {
+        "indexid":6224,
+        "wordid":19609,
+        "word":"\u064a\u064f\u0648\u0644\u064e\u062f\u0652",
+        "rootid":1781,
+        "rootword":"\u0648 \u0644 \u062f",
+        "meanings":"to beget, give birth.",
+        "sentence":"The word \u064a\u064f\u0648\u0644\u064e\u062f\u0652 comes from the root \u0648 \u0644 \u062f and is associated with the meanings: to beget, give birth."
+    }]}

@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":1819,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":1819,
+        "wordid":2185,
+        "word":"\u0643\u064f\u0644\u0651\u0650",
+        "rootid":514,
+        "rootword":"\u0643 \u0644 \u0644",
+        "meanings":"To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations.",
+        "sentence":"The word \u0643\u064f\u0644\u0651\u0650 comes from the root \u0643 \u0644 \u0644 and is associated with the meanings: To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations."
+    },
+
+    {
+        "indexid":1819,
+        "wordid":11315,
+        "word":"\u0648\u064e\u062d\u064e\u0641\u0650\u0638\u0652\u0646\u064e\u0627\u0647\u064e\u0627",
+        "rootid":883,
+        "rootword":"\u062d \u0641 \u0638",
+        "meanings":"To guard, protect, take care of, watch, put in store, preserve, learn by heart.",
+        "sentence":"The word \u0648\u064e\u062d\u064e\u0641\u0650\u0638\u0652\u0646\u064e\u0627\u0647\u064e\u0627 comes from the root \u062d \u0641 \u0638 and is associated with the meanings: To guard, protect, take care of, watch, put in store, preserve, learn by heart."
+    },
+
+    {
+        "indexid":1819,
+        "wordid":11317,
+        "word":"\u0631\u064e\u062c\u0650\u064a\u0645\u064d",
+        "rootid":1542,
+        "rootword":"\u0631 \u062c \u0645",
+        "meanings":"to stone, cast stones, stone to death, curse, revile, expel, put a stone (on a tomb), speak conjecturally, guess, surmise. rajmun - conjecture, guesswork, missile. rujum - shooting stars, throw off, damned, thrown off with curse. marajim - foul speech. marjum - stoned.",
+        "sentence":"The word \u0631\u064e\u062c\u0650\u064a\u0645\u064d comes from the root \u0631 \u062c \u0645 and is associated with the meanings: to stone, cast stones, stone to death, curse, revile, expel, put a stone (on a tomb), speak conjecturally, guess, surmise. rajmun - conjecture, guesswork, missile. rujum - shooting stars, throw off, damned, thrown off with curse. marajim - foul speech. marjum - stoned."
+    }]}

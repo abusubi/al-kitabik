@@ -1,0 +1,70 @@
+{"data":[
+    {
+        "indexid":2769,
+        "wordid":2104,
+        "word":"\u0646\u064e\u062d\u0652\u0646\u064f",
+        "rootid":446,
+        "rootword":"\u0646 \u062d \u0646",
+        "meanings":"We",
+        "sentence":"The word \u0646\u064e\u062d\u0652\u0646\u064f comes from the root \u0646 \u062d \u0646 and is associated with the meanings: We"
+    },
+
+    {
+        "indexid":2769,
+        "wordid":2322,
+        "word":"\u0623\u064e\u0639\u0652\u0644\u064e\u0645\u064f",
+        "rootid":904,
+        "rootword":"\u0639 \u0644 \u0645",
+        "meanings":"to mark\/sign\/distinguish, creations\/beings, world, science\/learning\/knowledge\/information, aware\/know. By means of which one knows a thing, hence it signifies world or creation, because by it the Creator is known. alim (pl. ulama) - one who is learned\/wise or knows.",
+        "sentence":"The word \u0623\u064e\u0639\u0652\u0644\u064e\u0645\u064f comes from the root \u0639 \u0644 \u0645 and is associated with the meanings: to mark\/sign\/distinguish, creations\/beings, world, science\/learning\/knowledge\/information, aware\/know. By means of which one knows a thing, hence it signifies world or creation, because by it the Creator is known. alim (pl. ulama) - one who is learned\/wise or knows."
+    },
+
+    {
+        "indexid":2769,
+        "wordid":2666,
+        "word":"\u0647\u0650\u064a\u064e",
+        "rootid":505,
+        "rootword":"\u0647 \u064a",
+        "meanings":"she",
+        "sentence":"The word \u0647\u0650\u064a\u064e comes from the root \u0647 \u064a and is associated with the meanings: she"
+    },
+
+    {
+        "indexid":2769,
+        "wordid":3239,
+        "word":"\u0623\u064e\u062d\u0652\u0633\u064e\u0646\u064f",
+        "rootid":1403,
+        "rootword":"\u062d \u0633 \u0646",
+        "meanings":"To be handsome, make good, seem good or beautiful, be excellent.",
+        "sentence":"The word \u0623\u064e\u062d\u0652\u0633\u064e\u0646\u064f comes from the root \u062d \u0633 \u0646 and is associated with the meanings: To be handsome, make good, seem good or beautiful, be excellent."
+    },
+
+    {
+        "indexid":2769,
+        "wordid":7670,
+        "word":"\u064a\u064e\u0635\u0650\u0641\u064f\u0648\u0646\u064e",
+        "rootid":245,
+        "rootword":"\u0648 \u0635 \u0641",
+        "meanings":"to describe (good or bad), assert something as a fact, achieve, ascribe, specify.",
+        "sentence":"The word \u064a\u064e\u0635\u0650\u0641\u064f\u0648\u0646\u064e comes from the root \u0648 \u0635 \u0641 and is associated with the meanings: to describe (good or bad), assert something as a fact, achieve, ascribe, specify."
+    },
+
+    {
+        "indexid":2769,
+        "wordid":11032,
+        "word":"\u0627\u0644\u0633\u0651\u064e\u064a\u0651\u0650\u0626\u064e\u0629\u064e",
+        "rootid":498,
+        "rootword":"\u0633 \u0648 \u0627",
+        "meanings":"to treat badly, do evil to disgrace, be evil\/wicked\/vicious, ill, anything that makes a person sad and sorrowful, bad action, mischief and corruption, sin, evil doer, wretched or grievous, vex, annoy. su'atun (pl. suat) - corpse, external portion of both sexes, shame.",
+        "sentence":"The word \u0627\u0644\u0633\u0651\u064e\u064a\u0651\u0650\u0626\u064e\u0629\u064e comes from the root \u0633 \u0648 \u0627 and is associated with the meanings: to treat badly, do evil to disgrace, be evil\/wicked\/vicious, ill, anything that makes a person sad and sorrowful, bad action, mischief and corruption, sin, evil doer, wretched or grievous, vex, annoy. su'atun (pl. suat) - corpse, external portion of both sexes, shame."
+    },
+
+    {
+        "indexid":2769,
+        "wordid":13858,
+        "word":"\u0627\u062f\u0652\u0641\u064e\u0639\u0652",
+        "rootid":1675,
+        "rootword":"\u062f \u0641 \u0639",
+        "meanings":"To push, pay over to, repel, drive away, avert, defend, discard, refute, quiet, plead, deliver up, dash (torrent), struggle, hinder.",
+        "sentence":"The word \u0627\u062f\u0652\u0641\u064e\u0639\u0652 comes from the root \u062f \u0641 \u0639 and is associated with the meanings: To push, pay over to, repel, drive away, avert, defend, discard, refute, quiet, plead, deliver up, dash (torrent), struggle, hinder."
+    }]}

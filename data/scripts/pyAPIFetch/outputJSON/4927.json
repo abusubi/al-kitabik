@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":4927,
+        "wordid":2076,
+        "word":"\u0645\u064e\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u064e\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":4927,
+        "wordid":2577,
+        "word":"\u0643\u064f\u0644\u0651\u064f",
+        "rootid":514,
+        "rootword":"\u0643 \u0644 \u0644",
+        "meanings":"To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations.",
+        "sentence":"The word \u0643\u064f\u0644\u0651\u064f comes from the root \u0643 \u0644 \u0644 and is associated with the meanings: To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations."
+    },
+
+    {
+        "indexid":4927,
+        "wordid":17746,
+        "word":"\u0641\u064e\u0627\u0646\u064d",
+        "rootid":1080,
+        "rootword":"\u0641 \u0646 \u064a",
+        "meanings":"passed away, come to an end, vanish, become spent\/exhausted, failed entirely, cease, perish, become aged.",
+        "sentence":"The word \u0641\u064e\u0627\u0646\u064d comes from the root \u0641 \u0646 \u064a and is associated with the meanings: passed away, come to an end, vanish, become spent\/exhausted, failed entirely, cease, perish, become aged."
+    }]}

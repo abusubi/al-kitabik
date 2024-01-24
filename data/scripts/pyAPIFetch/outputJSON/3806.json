@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":3806,
+        "wordid":2211,
+        "word":"\u0648\u064e\u0623\u064e\u0646\u0652\u062a\u064f\u0645\u0652",
+        "rootid":103,
+        "rootword":"\u0627 \u0646 \u062a \u0645",
+        "meanings":"you (plural)",
+        "sentence":"The word \u0648\u064e\u0623\u064e\u0646\u0652\u062a\u064f\u0645\u0652 comes from the root \u0627 \u0646 \u062a \u0645 and is associated with the meanings: you (plural)"
+    },
+
+    {
+        "indexid":3806,
+        "wordid":2764,
+        "word":"\u0642\u064f\u0644\u0652",
+        "rootid":1568,
+        "rootword":"\u0642 \u0648 \u0644",
+        "meanings":"to say\/speak, to call, to be named, word\/speech, utterance, a thing said, greeting, discourse, one who says\/speaks. To inspire\/transmit\/relate\/answer\/think\/profess, emit an opinion on, indicate a state or condition or circumstance. qa'ilun - speaker, indicator.",
+        "sentence":"The word \u0642\u064f\u0644\u0652 comes from the root \u0642 \u0648 \u0644 and is associated with the meanings: to say\/speak, to call, to be named, word\/speech, utterance, a thing said, greeting, discourse, one who says\/speaks. To inspire\/transmit\/relate\/answer\/think\/profess, emit an opinion on, indicate a state or condition or circumstance. qa'ilun - speaker, indicator."
+    },
+
+    {
+        "indexid":3806,
+        "wordid":8154,
+        "word":"\u0646\u064e\u0639\u064e\u0645\u0652",
+        "rootid":291,
+        "rootword":"\u0646 \u0639 \u0645",
+        "meanings":"o lead an easy life, enjoy the comforts and conveniences of life, be joyful, comforts\/delights, become easy\/soft\/plentiful\/pleasant\/good\/flourishing, to knead\/cook well. in'aam - beneficence, favour to a person, blessing, gifted (with speech\/talent\/reason etc). ",
+        "sentence":"The word \u0646\u064e\u0639\u064e\u0645\u0652 comes from the root \u0646 \u0639 \u0645 and is associated with the meanings: o lead an easy life, enjoy the comforts and conveniences of life, be joyful, comforts\/delights, become easy\/soft\/plentiful\/pleasant\/good\/flourishing, to knead\/cook well. in'aam - beneficence, favour to a person, blessing, gifted (with speech\/talent\/reason etc). "
+    },
+
+    {
+        "indexid":3806,
+        "wordid":11553,
+        "word":"\u062f\u064e\u0627\u062e\u0650\u0631\u064f\u0648\u0646\u064e",
+        "rootid":267,
+        "rootword":"\u062f \u062e \u0631",
+        "meanings":"To be small, mean, lowly, of no value or account, abject, humbled.",
+        "sentence":"The word \u062f\u064e\u0627\u062e\u0650\u0631\u064f\u0648\u0646\u064e comes from the root \u062f \u062e \u0631 and is associated with the meanings: To be small, mean, lowly, of no value or account, abject, humbled."
+    }]}

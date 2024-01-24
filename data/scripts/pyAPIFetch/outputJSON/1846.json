@@ -1,0 +1,70 @@
+{"data":[
+    {
+        "indexid":1846,
+        "wordid":2730,
+        "word":"\u0645\u0650\u0646\u0652\u0647\u064f\u0645\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652\u0647\u064f\u0645\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":1846,
+        "wordid":5643,
+        "word":"\u0644\u0650\u0643\u064f\u0644\u0651\u0650",
+        "rootid":514,
+        "rootword":"\u0643 \u0644 \u0644",
+        "meanings":"To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations.",
+        "sentence":"The word \u0644\u0650\u0643\u064f\u0644\u0651\u0650 comes from the root \u0643 \u0644 \u0644 and is associated with the meanings: To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations."
+    },
+
+    {
+        "indexid":1846,
+        "wordid":10756,
+        "word":"\u0628\u064e\u0627\u0628\u064d",
+        "rootid":154,
+        "rootword":"\u0628 \u0648 \u0628",
+        "meanings":"door\/gate, place of entrance, mode\/manner.",
+        "sentence":"The word \u0628\u064e\u0627\u0628\u064d comes from the root \u0628 \u0648 \u0628 and is associated with the meanings: door\/gate, place of entrance, mode\/manner."
+    },
+
+    {
+        "indexid":1846,
+        "wordid":10757,
+        "word":"\u0623\u064e\u0628\u0652\u0648\u064e\u0627\u0628\u064d",
+        "rootid":154,
+        "rootword":"\u0628 \u0648 \u0628",
+        "meanings":"door\/gate, place of entrance, mode\/manner.",
+        "sentence":"The word \u0623\u064e\u0628\u0652\u0648\u064e\u0627\u0628\u064d comes from the root \u0628 \u0648 \u0628 and is associated with the meanings: door\/gate, place of entrance, mode\/manner."
+    },
+
+    {
+        "indexid":1846,
+        "wordid":11363,
+        "word":"\u0633\u064e\u0628\u0652\u0639\u064e\u0629\u064f",
+        "rootid":607,
+        "rootword":"\u0633 \u0628 \u0639",
+        "meanings":"to make a number up to seven, be the seventh of, seven (sub'un), seventy (sab'ina), sometimes used in a vague manner as meaning seven or more and seventeen or more or several or many. The Arabic equivalents of the numbers seven, seventy and seven hundred are all used to indicate a large number by the Arabs and for multiplicity, not indicating exactness in number. Devour\/kill\/bite, beast, bird of prey.",
+        "sentence":"The word \u0633\u064e\u0628\u0652\u0639\u064e\u0629\u064f comes from the root \u0633 \u0628 \u0639 and is associated with the meanings: to make a number up to seven, be the seventh of, seven (sub'un), seventy (sab'ina), sometimes used in a vague manner as meaning seven or more and seventeen or more or several or many. The Arabic equivalents of the numbers seven, seventy and seven hundred are all used to indicate a large number by the Arabs and for multiplicity, not indicating exactness in number. Devour\/kill\/bite, beast, bird of prey."
+    },
+
+    {
+        "indexid":1846,
+        "wordid":11364,
+        "word":"\u062c\u064f\u0632\u0652\u0621\u064c",
+        "rootid":1078,
+        "rootword":"\u062c \u0632 \u0627",
+        "meanings":"",
+        "sentence":"The word \u062c\u064f\u0632\u0652\u0621\u064c comes from the root \u062c \u0632 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":1846,
+        "wordid":11365,
+        "word":"\u0645\u064e\u0642\u0652\u0633\u064f\u0648\u0645\u064c",
+        "rootid":1479,
+        "rootword":"\u0642 \u0633 \u0645",
+        "meanings":"to divide, dispose, separate, apportion, distribute. qasamun - oath. qismatun - partition, division, dividing, apportionment. maqsumun - divided\/distinct. muqassimun (vb. 2) - one who takes oath, who apportions. qasama (vb. 3) - to swear. aqsama (vb. 4) - to swear. taqasama (vb. 6) - to swear one to another. muqtasimun (vb. 8) - who divides. istaqsama (vb. 10) - to draw lots. tastaqsimu - you seek division.",
+        "sentence":"The word \u0645\u064e\u0642\u0652\u0633\u064f\u0648\u0645\u064c comes from the root \u0642 \u0633 \u0645 and is associated with the meanings: to divide, dispose, separate, apportion, distribute. qasamun - oath. qismatun - partition, division, dividing, apportionment. maqsumun - divided\/distinct. muqassimun (vb. 2) - one who takes oath, who apportions. qasama (vb. 3) - to swear. aqsama (vb. 4) - to swear. taqasama (vb. 6) - to swear one to another. muqtasimun (vb. 8) - who divides. istaqsama (vb. 10) - to draw lots. tastaqsimu - you seek division."
+    }]}

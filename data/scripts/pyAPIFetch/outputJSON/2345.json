@@ -1,0 +1,50 @@
+{"data":[
+    {
+        "indexid":2345,
+        "wordid":2820,
+        "word":"\u0627\u0644\u0652\u0642\u0650\u064a\u064e\u0627\u0645\u064e\u0629\u0650",
+        "rootid":850,
+        "rootword":"\u0642 \u0648 \u0645",
+        "meanings":"stand still or firm, rose\/stand up, managed\/conducted\/ordered\/regulated\/superintended, established, made it straight\/right, maintain\/erect\/observe\/perform, set up, people\/community\/company, abode, stature\/dignity\/rank. aqama - to keep a thing or an affair in a right state.",
+        "sentence":"The word \u0627\u0644\u0652\u0642\u0650\u064a\u064e\u0627\u0645\u064e\u0629\u0650 comes from the root \u0642 \u0648 \u0645 and is associated with the meanings: stand still or firm, rose\/stand up, managed\/conducted\/ordered\/regulated\/superintended, established, made it straight\/right, maintain\/erect\/observe\/perform, set up, people\/community\/company, abode, stature\/dignity\/rank. aqama - to keep a thing or an affair in a right state."
+    },
+
+    {
+        "indexid":2345,
+        "wordid":3052,
+        "word":"\u064a\u064e\u0648\u0652\u0645\u064e",
+        "rootid":1376,
+        "rootword":"\u064a \u0648 \u0645",
+        "meanings":"day, era, time, today, this\/that day, age\/period of time.",
+        "sentence":"The word \u064a\u064e\u0648\u0652\u0645\u064e comes from the root \u064a \u0648 \u0645 and is associated with the meanings: day, era, time, today, this\/that day, age\/period of time."
+    },
+
+    {
+        "indexid":2345,
+        "wordid":12828,
+        "word":"\u0641\u064e\u0631\u0652\u062f\u064b\u0627",
+        "rootid":1422,
+        "rootword":"\u0641 \u0631 \u062f",
+        "meanings":"to be alone, separated, single, sole, simple, uncompound, secede, isolate, busy oneself soley about a thing, seclude oneself from the world, without companions\/offspring.",
+        "sentence":"The word \u0641\u064e\u0631\u0652\u062f\u064b\u0627 comes from the root \u0641 \u0631 \u062f and is associated with the meanings: to be alone, separated, single, sole, simple, uncompound, secede, isolate, busy oneself soley about a thing, seclude oneself from the world, without companions\/offspring."
+    },
+
+    {
+        "indexid":2345,
+        "wordid":12856,
+        "word":"\u0648\u064e\u0643\u064f\u0644\u0651\u064f\u0647\u064f\u0645\u0652",
+        "rootid":514,
+        "rootword":"\u0643 \u0644 \u0644",
+        "meanings":"To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations.",
+        "sentence":"The word \u0648\u064e\u0643\u064f\u0644\u0651\u064f\u0647\u064f\u0645\u0652 comes from the root \u0643 \u0644 \u0644 and is associated with the meanings: To lose father and child, lose direct heirs, be weary, tired, weak, have only remote relations."
+    },
+
+    {
+        "indexid":2345,
+        "wordid":12857,
+        "word":"\u0621\u064e\u0627\u062a\u0650\u064a\u0647\u0650",
+        "rootid":626,
+        "rootword":"\u0627 \u062a \u064a",
+        "meanings":"to come, to bring, come to pass, come upon, do, commit, arrive, pursue, put forth, show, increase, produce, pay, reach, happen, overtake, draw near, go, hit, meet, join, be engaged or occupied, perpetrate (e.g. crime), undertake",
+        "sentence":"The word \u0621\u064e\u0627\u062a\u0650\u064a\u0647\u0650 comes from the root \u0627 \u062a \u064a and is associated with the meanings: to come, to bring, come to pass, come upon, do, commit, arrive, pursue, put forth, show, increase, produce, pay, reach, happen, overtake, draw near, go, hit, meet, join, be engaged or occupied, perpetrate (e.g. crime), undertake"
+    }]}

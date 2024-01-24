@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":4375,
+        "wordid":2826,
+        "word":"\u0639\u064e\u0646\u0652\u0647\u064f\u0645\u064f",
+        "rootid":1612,
+        "rootword":"\u0639 \u0646",
+        "meanings":"",
+        "sentence":"The word \u0639\u064e\u0646\u0652\u0647\u064f\u0645\u064f comes from the root \u0639 \u0646 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":4375,
+        "wordid":3423,
+        "word":"\u0627\u0644\u0652\u0639\u064e\u0630\u064e\u0627\u0628\u064e",
+        "rootid":1008,
+        "rootword":"\u0639 \u0630 \u0628",
+        "meanings":"chastisement, castigate, punishment, torture, torment, retribution, abstain\/desist, relinquish, quit.adhb - sweet (usually water), e.g. 25:53, 35:12.",
+        "sentence":"The word \u0627\u0644\u0652\u0639\u064e\u0630\u064e\u0627\u0628\u064e comes from the root \u0639 \u0630 \u0628 and is associated with the meanings: chastisement, castigate, punishment, torture, torment, retribution, abstain\/desist, relinquish, quit.adhb - sweet (usually water), e.g. 25:53, 35:12."
+    },
+
+    {
+        "indexid":4375,
+        "wordid":8488,
+        "word":"\u0643\u064e\u0634\u064e\u0641\u0652\u0646\u064e\u0627",
+        "rootid":268,
+        "rootword":"\u0643 \u0634 \u0641",
+        "meanings":"To pull away, remove, take off, open up, lay open lay base, uncover.",
+        "sentence":"The word \u0643\u064e\u0634\u064e\u0641\u0652\u0646\u064e\u0627 comes from the root \u0643 \u0634 \u0641 and is associated with the meanings: To pull away, remove, take off, open up, lay open lay base, uncover."
+    },
+
+    {
+        "indexid":4375,
+        "wordid":8490,
+        "word":"\u064a\u064e\u0646\u0652\u0643\u064f\u062b\u064f\u0648\u0646\u064e",
+        "rootid":274,
+        "rootword":"\u0646 \u0643 \u062b",
+        "meanings":"to break (promise), violate (treaty), untwist (cord), unravel, break into thread.",
+        "sentence":"The word \u064a\u064e\u0646\u0652\u0643\u064f\u062b\u064f\u0648\u0646\u064e comes from the root \u0646 \u0643 \u062b and is associated with the meanings: to break (promise), violate (treaty), untwist (cord), unravel, break into thread."
+    }]}

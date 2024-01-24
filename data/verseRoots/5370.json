@@ -1,0 +1,60 @@
+{"data":[
+    {
+        "indexid":5370,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":5370,
+        "wordid":2132,
+        "word":"\u0641\u064e\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0641\u064e\u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5370,
+        "wordid":2645,
+        "word":"\u0645\u0650\u0646\u0652\u0643\u064f\u0645\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652\u0643\u064f\u0645\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":5370,
+        "wordid":2957,
+        "word":"\u0623\u064e\u062d\u064e\u062f\u064d",
+        "rootid":876,
+        "rootword":"\u0627 \u062d \u062f",
+        "meanings":"make\/call it one, unity, anyone\/anything.ahada ashara (eleven).",
+        "sentence":"The word \u0623\u064e\u062d\u064e\u062f\u064d comes from the root \u0627 \u062d \u062f and is associated with the meanings: make\/call it one, unity, anyone\/anything.ahada ashara (eleven)."
+    },
+
+    {
+        "indexid":5370,
+        "wordid":5821,
+        "word":"\u0639\u064e\u0646\u0652\u0647\u064f",
+        "rootid":1612,
+        "rootword":"\u0639 \u0646",
+        "meanings":"",
+        "sentence":"The word \u0639\u064e\u0646\u0652\u0647\u064f comes from the root \u0639 \u0646 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5370,
+        "wordid":18553,
+        "word":"\u062d\u064e\u0627\u062c\u0650\u0632\u0650\u064a\u0646\u064e",
+        "rootid":1265,
+        "rootword":"\u062d \u062c \u0632",
+        "meanings":"To withhold, make a camel lie down, stop, restrain, prevent.",
+        "sentence":"The word \u062d\u064e\u0627\u062c\u0650\u0632\u0650\u064a\u0646\u064e comes from the root \u062d \u062c \u0632 and is associated with the meanings: To withhold, make a camel lie down, stop, restrain, prevent."
+    }]}

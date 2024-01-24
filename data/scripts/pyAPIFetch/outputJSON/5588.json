@@ -1,0 +1,60 @@
+{"data":[
+    {
+        "indexid":5588,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":5588,
+        "wordid":2345,
+        "word":"\u0623\u064e\u0644\u064e\u0645\u0652",
+        "rootid":415,
+        "rootword":"\u0644 \u0645",
+        "meanings":"Negative particle giving to the present the sense of the perfect; not.",
+        "sentence":"The word \u0623\u064e\u0644\u064e\u0645\u0652 comes from the root \u0644 \u0645 and is associated with the meanings: Negative particle giving to the present the sense of the perfect; not."
+    },
+
+    {
+        "indexid":5588,
+        "wordid":9022,
+        "word":"\u064a\u064e\u0643\u064f",
+        "rootid":369,
+        "rootword":"\u0643 \u0648 \u0646",
+        "meanings":"(Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so.",
+        "sentence":"The word \u064a\u064e\u0643\u064f comes from the root \u0643 \u0648 \u0646 and is associated with the meanings: (Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so."
+    },
+
+    {
+        "indexid":5588,
+        "wordid":13729,
+        "word":"\u0646\u064f\u0637\u0652\u0641\u064e\u0629\u064b",
+        "rootid":1629,
+        "rootword":"\u0646 \u0637 \u0641",
+        "meanings":"to flow gently, extrude, ooze, exude, drop, pour, trickle.",
+        "sentence":"The word \u0646\u064f\u0637\u0652\u0641\u064e\u0629\u064b comes from the root \u0646 \u0637 \u0641 and is associated with the meanings: to flow gently, extrude, ooze, exude, drop, pour, trickle."
+    },
+
+    {
+        "indexid":5588,
+        "wordid":18880,
+        "word":"\u0645\u064e\u0646\u0650\u064a\u0651\u064d",
+        "rootid":845,
+        "rootword":"\u0645 \u0646 \u064a",
+        "meanings":"To try or to prove someone, to mediate, to wish or desire.",
+        "sentence":"The word \u0645\u064e\u0646\u0650\u064a\u0651\u064d comes from the root \u0645 \u0646 \u064a and is associated with the meanings: To try or to prove someone, to mediate, to wish or desire."
+    },
+
+    {
+        "indexid":5588,
+        "wordid":18881,
+        "word":"\u064a\u064f\u0645\u0652\u0646\u064e\u0649",
+        "rootid":845,
+        "rootword":"\u0645 \u0646 \u064a",
+        "meanings":"To try or to prove someone, to mediate, to wish or desire.",
+        "sentence":"The word \u064a\u064f\u0645\u0652\u0646\u064e\u0649 comes from the root \u0645 \u0646 \u064a and is associated with the meanings: To try or to prove someone, to mediate, to wish or desire."
+    }]}

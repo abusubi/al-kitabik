@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":5349,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":5349,
+        "wordid":4141,
+        "word":"\u0648\u064e\u0644\u064e\u0645\u0652",
+        "rootid":415,
+        "rootword":"\u0644 \u0645",
+        "meanings":"Negative particle giving to the present the sense of the perfect; not.",
+        "sentence":"The word \u0648\u064e\u0644\u064e\u0645\u0652 comes from the root \u0644 \u0645 and is associated with the meanings: Negative particle giving to the present the sense of the perfect; not."
+    },
+
+    {
+        "indexid":5349,
+        "wordid":18514,
+        "word":"\u062d\u0650\u0633\u064e\u0627\u0628\u0650\u064a\u064e\u0647\u0652",
+        "rootid":1063,
+        "rootword":"\u062d \u0633 \u0628",
+        "meanings":"To think, consider, suppose, imagine, be of opinion.",
+        "sentence":"The word \u062d\u0650\u0633\u064e\u0627\u0628\u0650\u064a\u064e\u0647\u0652 comes from the root \u062d \u0633 \u0628 and is associated with the meanings: To think, consider, suppose, imagine, be of opinion."
+    },
+
+    {
+        "indexid":5349,
+        "wordid":18524,
+        "word":"\u0623\u064e\u062f\u0652\u0631\u0650",
+        "rootid":779,
+        "rootword":"\u062f \u0631 \u064a",
+        "meanings":"To know, know by skill.",
+        "sentence":"The word \u0623\u064e\u062f\u0652\u0631\u0650 comes from the root \u062f \u0631 \u064a and is associated with the meanings: To know, know by skill."
+    }]}

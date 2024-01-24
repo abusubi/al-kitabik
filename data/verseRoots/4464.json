@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":4464,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":4464,
+        "wordid":2214,
+        "word":"\u0643\u064f\u0646\u0652\u062a\u064f\u0645\u0652",
+        "rootid":369,
+        "rootword":"\u0643 \u0648 \u0646",
+        "meanings":"(Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so.",
+        "sentence":"The word \u0643\u064f\u0646\u0652\u062a\u064f\u0645\u0652 comes from the root \u0643 \u0648 \u0646 and is associated with the meanings: (Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so."
+    },
+
+    {
+        "indexid":4464,
+        "wordid":7208,
+        "word":"\u062a\u064e\u0645\u0652\u062a\u064e\u0631\u064f\u0648\u0646\u064e",
+        "rootid":897,
+        "rootword":"\u0645 \u0631 \u064a",
+        "meanings":"To draw forth a thing, to dispute or contend, to doubt.",
+        "sentence":"The word \u062a\u064e\u0645\u0652\u062a\u064e\u0631\u064f\u0648\u0646\u064e comes from the root \u0645 \u0631 \u064a and is associated with the meanings: To draw forth a thing, to dispute or contend, to doubt."
+    }]}

@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":2721,
+        "wordid":2157,
+        "word":"\u0645\u0650\u0646\u064e",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u064e comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":2721,
+        "wordid":11412,
+        "word":"\u0641\u064e\u0643\u064e\u0627\u0646\u064f\u0648\u0627",
+        "rootid":369,
+        "rootword":"\u0643 \u0648 \u0646",
+        "meanings":"(Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so.",
+        "sentence":"The word \u0641\u064e\u0643\u064e\u0627\u0646\u064f\u0648\u0627 comes from the root \u0643 \u0648 \u0646 and is associated with the meanings: (Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so."
+    },
+
+    {
+        "indexid":2721,
+        "wordid":13801,
+        "word":"\u0641\u064e\u0643\u064e\u0630\u0651\u064e\u0628\u064f\u0648\u0647\u064f\u0645\u064e\u0627",
+        "rootid":29,
+        "rootword":"\u0643 \u0630 \u0628",
+        "meanings":"To lie, say what is not a fact, lie to falsely invent, tell lies about or against, fabricate a lie, relate a lie, say a falsehood, be wrong, be cut off, deceive, disappoint the expectation of.",
+        "sentence":"The word \u0641\u064e\u0643\u064e\u0630\u0651\u064e\u0628\u064f\u0648\u0647\u064f\u0645\u064e\u0627 comes from the root \u0643 \u0630 \u0628 and is associated with the meanings: To lie, say what is not a fact, lie to falsely invent, tell lies about or against, fabricate a lie, relate a lie, say a falsehood, be wrong, be cut off, deceive, disappoint the expectation of."
+    },
+
+    {
+        "indexid":2721,
+        "wordid":13802,
+        "word":"\u0627\u0644\u0652\u0645\u064f\u0647\u0652\u0644\u064e\u0643\u0650\u064a\u0646\u064e",
+        "rootid":1683,
+        "rootword":"\u0647 \u0644 \u0643",
+        "meanings":"to die, perish, wasted, be lost, destroyed, spoiled.",
+        "sentence":"The word \u0627\u0644\u0652\u0645\u064f\u0647\u0652\u0644\u064e\u0643\u0650\u064a\u0646\u064e comes from the root \u0647 \u0644 \u0643 and is associated with the meanings: to die, perish, wasted, be lost, destroyed, spoiled."
+    }]}

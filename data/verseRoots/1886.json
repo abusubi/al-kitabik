@@ -1,0 +1,60 @@
+{"data":[
+    {
+        "indexid":1886,
+        "wordid":2095,
+        "word":"\u0643\u064e\u0627\u0646\u064f\u0648\u0627",
+        "rootid":369,
+        "rootword":"\u0643 \u0648 \u0646",
+        "meanings":"(Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so.",
+        "sentence":"The word \u0643\u064e\u0627\u0646\u064f\u0648\u0627 comes from the root \u0643 \u0648 \u0646 and is associated with the meanings: (Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so."
+    },
+
+    {
+        "indexid":1886,
+        "wordid":2132,
+        "word":"\u0641\u064e\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0641\u064e\u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":1886,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":1886,
+        "wordid":2758,
+        "word":"\u064a\u064e\u0643\u0652\u0633\u0650\u0628\u064f\u0648\u0646\u064e",
+        "rootid":852,
+        "rootword":"\u0643 \u0633 \u0628",
+        "meanings":"To gain, acquire, seek after, gather (riches), do, commit, earn.",
+        "sentence":"The word \u064a\u064e\u0643\u0652\u0633\u0650\u0628\u064f\u0648\u0646\u064e comes from the root \u0643 \u0633 \u0628 and is associated with the meanings: To gain, acquire, seek after, gather (riches), do, commit, earn."
+    },
+
+    {
+        "indexid":1886,
+        "wordid":4587,
+        "word":"\u0639\u064e\u0646\u0652\u0647\u064f\u0645\u0652",
+        "rootid":1612,
+        "rootword":"\u0639 \u0646",
+        "meanings":"",
+        "sentence":"The word \u0639\u064e\u0646\u0652\u0647\u064f\u0645\u0652 comes from the root \u0639 \u0646 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":1886,
+        "wordid":8170,
+        "word":"\u0623\u064e\u063a\u0652\u0646\u064e\u0649",
+        "rootid":1175,
+        "rootword":"\u063a \u0646 \u064a",
+        "meanings":"free from wants, having no wants, in a state of competence or sufficiency or rich or wealthy; dwelt, abode; sing, chanted; eulogized, satirized",
+        "sentence":"The word \u0623\u064e\u063a\u0652\u0646\u064e\u0649 comes from the root \u063a \u0646 \u064a and is associated with the meanings: free from wants, having no wants, in a state of competence or sufficiency or rich or wealthy; dwelt, abode; sing, chanted; eulogized, satirized"
+    }]}

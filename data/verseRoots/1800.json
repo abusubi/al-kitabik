@@ -1,0 +1,50 @@
+{"data":[
+    {
+        "indexid":1800,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":1800,
+        "wordid":2761,
+        "word":"\u0627\u0644\u0646\u0651\u064e\u0627\u0631\u064f",
+        "rootid":894,
+        "rootword":"\u0646 \u0648 \u0631",
+        "meanings":"fire, flame, heat, war, light, shine, sparkle, irritate, vex or provoke war.",
+        "sentence":"The word \u0627\u0644\u0646\u0651\u064e\u0627\u0631\u064f comes from the root \u0646 \u0648 \u0631 and is associated with the meanings: fire, flame, heat, war, light, shine, sparkle, irritate, vex or provoke war."
+    },
+
+    {
+        "indexid":1800,
+        "wordid":11279,
+        "word":"\u0633\u064e\u0631\u064e\u0627\u0628\u0650\u064a\u0644\u064f\u0647\u064f\u0645\u0652",
+        "rootid":1490,
+        "rootword":"\u0633 \u0631 \u0628 \u0644",
+        "meanings":"to clothe, put on the garment, be confused. sirbil - shirt, clothing\/garment, breast plate, coat of mail.",
+        "sentence":"The word \u0633\u064e\u0631\u064e\u0627\u0628\u0650\u064a\u0644\u064f\u0647\u064f\u0645\u0652 comes from the root \u0633 \u0631 \u0628 \u0644 and is associated with the meanings: to clothe, put on the garment, be confused. sirbil - shirt, clothing\/garment, breast plate, coat of mail."
+    },
+
+    {
+        "indexid":1800,
+        "wordid":11280,
+        "word":"\u0642\u064e\u0637\u0650\u0631\u064e\u0627\u0646\u064d",
+        "rootid":1689,
+        "rootword":"\u0642 \u0637 \u0631",
+        "meanings":"to drop, drip (liquid). taqattara - to fall on the side. taqatara - to walk side by side. aqtar (pl. of qutrun) - sides, regions. qitran - molten copper, liquid pitch.",
+        "sentence":"The word \u0642\u064e\u0637\u0650\u0631\u064e\u0627\u0646\u064d comes from the root \u0642 \u0637 \u0631 and is associated with the meanings: to drop, drip (liquid). taqattara - to fall on the side. taqatara - to walk side by side. aqtar (pl. of qutrun) - sides, regions. qitran - molten copper, liquid pitch."
+    },
+
+    {
+        "indexid":1800,
+        "wordid":11282,
+        "word":"\u0648\u064f\u062c\u064f\u0648\u0647\u064e\u0647\u064f\u0645\u064f",
+        "rootid":826,
+        "rootword":"\u0648 \u062c \u0647",
+        "meanings":"to face\/encounter\/confront, face, will, course\/purpose\/object one is pursuing, place\/direction one is going\/looking, way of a thing, consideration\/regard.",
+        "sentence":"The word \u0648\u064f\u062c\u064f\u0648\u0647\u064e\u0647\u064f\u0645\u064f comes from the root \u0648 \u062c \u0647 and is associated with the meanings: to face\/encounter\/confront, face, will, course\/purpose\/object one is pursuing, place\/direction one is going\/looking, way of a thing, consideration\/regard."
+    }]}

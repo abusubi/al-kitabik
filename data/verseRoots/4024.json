@@ -1,0 +1,40 @@
+{"data":[
+    {
+        "indexid":4024,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":4024,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":4024,
+        "wordid":16257,
+        "word":"\u0644\u064e\u0631\u0650\u0632\u0652\u0642\u064f\u0646\u064e\u0627",
+        "rootid":1179,
+        "rootword":"\u0631 \u0632 \u0642",
+        "meanings":"to provide, supply, bestow, grant. turzaqan - you both shall be supplied. rizq - bounty, gift. raziq - one who provides or supplies. razzaq -great provider\/supplier.",
+        "sentence":"The word \u0644\u064e\u0631\u0650\u0632\u0652\u0642\u064f\u0646\u064e\u0627 comes from the root \u0631 \u0632 \u0642 and is associated with the meanings: to provide, supply, bestow, grant. turzaqan - you both shall be supplied. rizq - bounty, gift. raziq - one who provides or supplies. razzaq -great provider\/supplier."
+    },
+
+    {
+        "indexid":4024,
+        "wordid":16258,
+        "word":"\u0646\u064e\u0641\u064e\u0627\u062f\u064d",
+        "rootid":747,
+        "rootword":"\u0646 \u0641 \u062f",
+        "meanings":"to vanish, fail, cease, pass away, be exhausted, consumed, spent.",
+        "sentence":"The word \u0646\u064e\u0641\u064e\u0627\u062f\u064d comes from the root \u0646 \u0641 \u062f and is associated with the meanings: to vanish, fail, cease, pass away, be exhausted, consumed, spent."
+    }]}

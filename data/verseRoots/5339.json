@@ -1,0 +1,50 @@
+{"data":[
+    {
+        "indexid":5339,
+        "wordid":2709,
+        "word":"\u0641\u064e\u0647\u0650\u064a\u064e",
+        "rootid":505,
+        "rootword":"\u0647 \u064a",
+        "meanings":"she",
+        "sentence":"The word \u0641\u064e\u0647\u0650\u064a\u064e comes from the root \u0647 \u064a and is associated with the meanings: she"
+    },
+
+    {
+        "indexid":5339,
+        "wordid":5394,
+        "word":"\u064a\u064e\u0648\u0652\u0645\u064e\u0626\u0650\u0630\u064d",
+        "rootid":1376,
+        "rootword":"\u064a \u0648 \u0645",
+        "meanings":"day, era, time, today, this\/that day, age\/period of time.",
+        "sentence":"The word \u064a\u064e\u0648\u0652\u0645\u064e\u0626\u0650\u0630\u064d comes from the root \u064a \u0648 \u0645 and is associated with the meanings: day, era, time, today, this\/that day, age\/period of time."
+    },
+
+    {
+        "indexid":5339,
+        "wordid":14218,
+        "word":"\u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0627\u0621\u064f",
+        "rootid":936,
+        "rootword":"\u0633 \u0645 \u0648",
+        "meanings":"to be high\/lofty, raised, name, attribute. samawat - heights\/heavens\/rain, raining clouds. ismun - mark of identification by which one is recognised. It is a derivation of wsm (pl. asma). ism - stands for a distinguishing mark of a thing, sometimes said to signify its reality.",
+        "sentence":"The word \u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0627\u0621\u064f comes from the root \u0633 \u0645 \u0648 and is associated with the meanings: to be high\/lofty, raised, name, attribute. samawat - heights\/heavens\/rain, raining clouds. ismun - mark of identification by which one is recognised. It is a derivation of wsm (pl. asma). ism - stands for a distinguishing mark of a thing, sometimes said to signify its reality."
+    },
+
+    {
+        "indexid":5339,
+        "wordid":18499,
+        "word":"\u0648\u064e\u0627\u0646\u0652\u0634\u064e\u0642\u0651\u064e\u062a\u0650",
+        "rootid":1455,
+        "rootword":"\u0634 \u0642 \u0642",
+        "meanings":"pass along the way, cross, open a way\/passage\/vent\/channel, cut\/split\/divided\/clave\/ripped\/tore.",
+        "sentence":"The word \u0648\u064e\u0627\u0646\u0652\u0634\u064e\u0642\u0651\u064e\u062a\u0650 comes from the root \u0634 \u0642 \u0642 and is associated with the meanings: pass along the way, cross, open a way\/passage\/vent\/channel, cut\/split\/divided\/clave\/ripped\/tore."
+    },
+
+    {
+        "indexid":5339,
+        "wordid":18500,
+        "word":"\u0648\u064e\u0627\u0647\u0650\u064a\u064e\u0629\u064c",
+        "rootid":1669,
+        "rootword":"\u0648 \u0647 \u064a",
+        "meanings":"to be weak\/frail, torn\/burst.",
+        "sentence":"The word \u0648\u064e\u0627\u0647\u0650\u064a\u064e\u0629\u064c comes from the root \u0648 \u0647 \u064a and is associated with the meanings: to be weak\/frail, torn\/burst."
+    }]}

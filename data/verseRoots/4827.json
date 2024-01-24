@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":4827,
+        "wordid":2296,
+        "word":"\u0647\u064f\u0648\u064e",
+        "rootid":1538,
+        "rootword":"\u0647 \u0648",
+        "meanings":"huwa = He (pronoun. masculine 3rd. sing.)",
+        "sentence":"The word \u0647\u064f\u0648\u064e comes from the root \u0647 \u0648 and is associated with the meanings: huwa = He (pronoun. masculine 3rd. sing.)"
+    },
+
+    {
+        "indexid":4827,
+        "wordid":17596,
+        "word":"\u0623\u064e\u0636\u0652\u062d\u064e\u0643\u064e",
+        "rootid":1725,
+        "rootword":"\u0636 \u062d \u0643",
+        "meanings":"to wonder, menstruate, rejoice, inspire with awe, ridicule, laugh at, laugh, become clear.",
+        "sentence":"The word \u0623\u064e\u0636\u0652\u062d\u064e\u0643\u064e comes from the root \u0636 \u062d \u0643 and is associated with the meanings: to wonder, menstruate, rejoice, inspire with awe, ridicule, laugh at, laugh, become clear."
+    },
+
+    {
+        "indexid":4827,
+        "wordid":17597,
+        "word":"\u0648\u064e\u0623\u064e\u0628\u0652\u0643\u064e\u0649",
+        "rootid":620,
+        "rootword":"\u0628 \u0643 \u064a",
+        "meanings":"wept, lamented\/grieved, shed tears, crying, cause to weep, rain, unable to speak.",
+        "sentence":"The word \u0648\u064e\u0623\u064e\u0628\u0652\u0643\u064e\u0649 comes from the root \u0628 \u0643 \u064a and is associated with the meanings: wept, lamented\/grieved, shed tears, crying, cause to weep, rain, unable to speak."
+    }]}

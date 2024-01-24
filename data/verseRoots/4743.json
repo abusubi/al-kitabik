@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":4743,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":4743,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":4743,
+        "wordid":17487,
+        "word":"\u062f\u064e\u0627\u0641\u0650\u0639\u064d",
+        "rootid":1675,
+        "rootword":"\u062f \u0641 \u0639",
+        "meanings":"To push, pay over to, repel, drive away, avert, defend, discard, refute, quiet, plead, deliver up, dash (torrent), struggle, hinder.",
+        "sentence":"The word \u062f\u064e\u0627\u0641\u0650\u0639\u064d comes from the root \u062f \u0641 \u0639 and is associated with the meanings: To push, pay over to, repel, drive away, avert, defend, discard, refute, quiet, plead, deliver up, dash (torrent), struggle, hinder."
+    }]}

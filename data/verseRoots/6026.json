@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":6026,
+        "wordid":2045,
+        "word":"\u0648\u064e\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0648\u064e\u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":6026,
+        "wordid":16119,
+        "word":"\u0648\u064e\u0644\u064e\u062f\u064e",
+        "rootid":1781,
+        "rootword":"\u0648 \u0644 \u062f",
+        "meanings":"to beget, give birth.",
+        "sentence":"The word \u0648\u064e\u0644\u064e\u062f\u064e comes from the root \u0648 \u0644 \u062f and is associated with the meanings: to beget, give birth."
+    },
+
+    {
+        "indexid":6026,
+        "wordid":19380,
+        "word":"\u0648\u064e\u0648\u064e\u0627\u0644\u0650\u062f\u064d",
+        "rootid":1781,
+        "rootword":"\u0648 \u0644 \u062f",
+        "meanings":"to beget, give birth.",
+        "sentence":"The word \u0648\u064e\u0648\u064e\u0627\u0644\u0650\u062f\u064d comes from the root \u0648 \u0644 \u062f and is associated with the meanings: to beget, give birth."
+    }]}

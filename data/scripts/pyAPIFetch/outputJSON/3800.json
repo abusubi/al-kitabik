@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":3800,
+        "wordid":2849,
+        "word":"\u0628\u064e\u0644\u0652",
+        "rootid":1272,
+        "rootword":"\u0628 \u0644",
+        "meanings":"",
+        "sentence":"The word \u0628\u064e\u0644\u0652 comes from the root \u0628 \u0644 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":3800,
+        "wordid":3814,
+        "word":"\u0648\u064e\u064a\u064e\u0633\u0652\u062e\u064e\u0631\u064f\u0648\u0646\u064e",
+        "rootid":1252,
+        "rootword":"\u0633 \u062e \u0631",
+        "meanings":"to mock\/laugh\/scoff at, make fun of, ridicule, look down, deride, taunt, jeer, to compel to work without payment, make subservient, press into service, harness, bring under domination or control, subjugate, constrain anyone to forced work.",
+        "sentence":"The word \u0648\u064e\u064a\u064e\u0633\u0652\u062e\u064e\u0631\u064f\u0648\u0646\u064e comes from the root \u0633 \u062e \u0631 and is associated with the meanings: to mock\/laugh\/scoff at, make fun of, ridicule, look down, deride, taunt, jeer, to compel to work without payment, make subservient, press into service, harness, bring under domination or control, subjugate, constrain anyone to forced work."
+    },
+
+    {
+        "indexid":3800,
+        "wordid":15969,
+        "word":"\u0639\u064e\u062c\u0650\u0628\u0652\u062a\u064e",
+        "rootid":572,
+        "rootword":"\u0639 \u062c \u0628",
+        "meanings":"to wonder, marvel, be astonished, be amazed, delight, please, admire, astounding, matter of wonder.",
+        "sentence":"The word \u0639\u064e\u062c\u0650\u0628\u0652\u062a\u064e comes from the root \u0639 \u062c \u0628 and is associated with the meanings: to wonder, marvel, be astonished, be amazed, delight, please, admire, astounding, matter of wonder."
+    }]}

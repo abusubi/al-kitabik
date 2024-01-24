@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":5783,
+        "wordid":8217,
+        "word":"\u0627\u0644\u0652\u0645\u064e\u0627\u0621\u064e",
+        "rootid":628,
+        "rootword":"\u0645 \u0648 \u0647",
+        "meanings":"water, rain",
+        "sentence":"The word \u0627\u0644\u0652\u0645\u064e\u0627\u0621\u064e comes from the root \u0645 \u0648 \u0647 and is associated with the meanings: water, rain"
+    },
+
+    {
+        "indexid":5783,
+        "wordid":19111,
+        "word":"\u0635\u064e\u0628\u064e\u0628\u0652\u0646\u064e\u0627",
+        "rootid":1091,
+        "rootword":"\u0635 \u0628 \u0628",
+        "meanings":"to pour out, be poured out. sabbun - the act of pouring. sabban - the act of pouring heavily.",
+        "sentence":"The word \u0635\u064e\u0628\u064e\u0628\u0652\u0646\u064e\u0627 comes from the root \u0635 \u0628 \u0628 and is associated with the meanings: to pour out, be poured out. sabbun - the act of pouring. sabban - the act of pouring heavily."
+    },
+
+    {
+        "indexid":5783,
+        "wordid":19112,
+        "word":"\u0635\u064e\u0628\u0651\u064b\u0627",
+        "rootid":1091,
+        "rootword":"\u0635 \u0628 \u0628",
+        "meanings":"to pour out, be poured out. sabbun - the act of pouring. sabban - the act of pouring heavily.",
+        "sentence":"The word \u0635\u064e\u0628\u0651\u064b\u0627 comes from the root \u0635 \u0628 \u0628 and is associated with the meanings: to pour out, be poured out. sabbun - the act of pouring. sabban - the act of pouring heavily."
+    }]}

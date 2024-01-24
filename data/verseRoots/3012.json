@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":3012,
+        "wordid":3565,
+        "word":"\u0641\u064e\u0647\u064f\u0648\u064e",
+        "rootid":1538,
+        "rootword":"\u0647 \u0648",
+        "meanings":"huwa = He (pronoun. masculine 3rd. sing.)",
+        "sentence":"The word \u0641\u064e\u0647\u064f\u0648\u064e comes from the root \u0647 \u0648 and is associated with the meanings: huwa = He (pronoun. masculine 3rd. sing.)"
+    },
+
+    {
+        "indexid":3012,
+        "wordid":14425,
+        "word":"\u0645\u064e\u0631\u0650\u0636\u0652\u062a\u064f",
+        "rootid":1602,
+        "rootword":"\u0645 \u0631 \u0636",
+        "meanings":"To be diseased\/disordered, distempered, to be ill or sick, languid or weak or feeble, deficient in strength, defective or deficient, to be right or nearly right (in judgement or opinion).",
+        "sentence":"The word \u0645\u064e\u0631\u0650\u0636\u0652\u062a\u064f comes from the root \u0645 \u0631 \u0636 and is associated with the meanings: To be diseased\/disordered, distempered, to be ill or sick, languid or weak or feeble, deficient in strength, defective or deficient, to be right or nearly right (in judgement or opinion)."
+    },
+
+    {
+        "indexid":3012,
+        "wordid":14426,
+        "word":"\u064a\u064e\u0634\u0652\u0641\u0650\u064a\u0646\u0650",
+        "rootid":1185,
+        "rootword":"\u0634 \u0641 \u064a",
+        "meanings":"to cure, quench, restore to health. shifa - recovery, remedy, healing.",
+        "sentence":"The word \u064a\u064e\u0634\u0652\u0641\u0650\u064a\u0646\u0650 comes from the root \u0634 \u0641 \u064a and is associated with the meanings: to cure, quench, restore to health. shifa - recovery, remedy, healing."
+    }]}

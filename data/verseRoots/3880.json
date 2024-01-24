@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":3880,
+        "wordid":2029,
+        "word":"\u0644\u064e\u0627",
+        "rootid":1400,
+        "rootword":"\u0644 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0644\u064e\u0627 comes from the root \u0644 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":3880,
+        "wordid":2143,
+        "word":"\u0645\u064e\u0627",
+        "rootid":615,
+        "rootword":"\u0645 \u0627",
+        "meanings":"",
+        "sentence":"The word \u0645\u064e\u0627 comes from the root \u0645 \u0627 and is associated with the meanings: "
+    },
+
+    {
+        "indexid":3880,
+        "wordid":16052,
+        "word":"\u062a\u064e\u0646\u0652\u0637\u0650\u0642\u064f\u0648\u0646\u064e",
+        "rootid":927,
+        "rootword":"\u0646 \u0637 \u0642",
+        "meanings":"to speak, utter, articulate sounds, speak clearly.",
+        "sentence":"The word \u062a\u064e\u0646\u0652\u0637\u0650\u0642\u064f\u0648\u0646\u064e comes from the root \u0646 \u0637 \u0642 and is associated with the meanings: to speak, utter, articulate sounds, speak clearly."
+    }]}

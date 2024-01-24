@@ -1,0 +1,60 @@
+{"data":[
+    {
+        "indexid":5601,
+        "wordid":2046,
+        "word":"\u0645\u0650\u0646\u0652",
+        "rootid":367,
+        "rootword":"\u0645 \u0646",
+        "meanings":"From",
+        "sentence":"The word \u0645\u0650\u0646\u0652 comes from the root \u0645 \u0646 and is associated with the meanings: From"
+    },
+
+    {
+        "indexid":5601,
+        "wordid":2466,
+        "word":"\u064a\u064e\u0648\u0652\u0645\u064b\u0627",
+        "rootid":1376,
+        "rootword":"\u064a \u0648 \u0645",
+        "meanings":"day, era, time, today, this\/that day, age\/period of time.",
+        "sentence":"The word \u064a\u064e\u0648\u0652\u0645\u064b\u0627 comes from the root \u064a \u0648 \u0645 and is associated with the meanings: day, era, time, today, this\/that day, age\/period of time."
+    },
+
+    {
+        "indexid":5601,
+        "wordid":4574,
+        "word":"\u0631\u064e\u0628\u0651\u0650\u0646\u064e\u0627",
+        "rootid":365,
+        "rootword":"\u0631 \u0628 \u0628",
+        "meanings":"to be a lord and master, collect, possess\/owner, rule, increase, complete, bring up, preserve, chief, determiner, provider, sustainer, perfecter, rewarder, creator, maintainer, reposer of properties, developer, former of rules and laws of the growth, foster a thing in such a manner as to make it attain one condition after another until it reaches its goal of completion.",
+        "sentence":"The word \u0631\u064e\u0628\u0651\u0650\u0646\u064e\u0627 comes from the root \u0631 \u0628 \u0628 and is associated with the meanings: to be a lord and master, collect, possess\/owner, rule, increase, complete, bring up, preserve, chief, determiner, provider, sustainer, perfecter, rewarder, creator, maintainer, reposer of properties, developer, former of rules and laws of the growth, foster a thing in such a manner as to make it attain one condition after another until it reaches its goal of completion."
+    },
+
+    {
+        "indexid":5601,
+        "wordid":12977,
+        "word":"\u0646\u064e\u062e\u064e\u0627\u0641\u064f",
+        "rootid":488,
+        "rootword":"\u062e \u0648 \u0641",
+        "meanings":"To fear, to be afraid\/frightened\/terrified, to put fear into another, diminish or lessen or take from, to take little by little from a thing, take from the sides of a thing, slaughter or fight.",
+        "sentence":"The word \u0646\u064e\u062e\u064e\u0627\u0641\u064f comes from the root \u062e \u0648 \u0641 and is associated with the meanings: To fear, to be afraid\/frightened\/terrified, to put fear into another, diminish or lessen or take from, to take little by little from a thing, take from the sides of a thing, slaughter or fight."
+    },
+
+    {
+        "indexid":5601,
+        "wordid":18908,
+        "word":"\u0639\u064e\u0628\u064f\u0648\u0633\u064b\u0627",
+        "rootid":381,
+        "rootword":"\u0639 \u0628 \u0633",
+        "meanings":"to frown, look sternly, austere, grim.",
+        "sentence":"The word \u0639\u064e\u0628\u064f\u0648\u0633\u064b\u0627 comes from the root \u0639 \u0628 \u0633 and is associated with the meanings: to frown, look sternly, austere, grim."
+    },
+
+    {
+        "indexid":5601,
+        "wordid":18909,
+        "word":"\u0642\u064e\u0645\u0652\u0637\u064e\u0631\u0650\u064a\u0631\u064b\u0627",
+        "rootid":1416,
+        "rootword":"\u0642 \u0645 \u0637 \u0631",
+        "meanings":"to frown, scorn, knit the brow, show displeasure or distress.",
+        "sentence":"The word \u0642\u064e\u0645\u0652\u0637\u064e\u0631\u0650\u064a\u0631\u064b\u0627 comes from the root \u0642 \u0645 \u0637 \u0631 and is associated with the meanings: to frown, scorn, knit the brow, show displeasure or distress."
+    }]}

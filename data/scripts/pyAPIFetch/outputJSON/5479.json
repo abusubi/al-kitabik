@@ -1,0 +1,50 @@
+{"data":[
+    {
+        "indexid":5479,
+        "wordid":2155,
+        "word":"\u0623\u064e\u0648\u0652",
+        "rootid":173,
+        "rootword":"\u0627 \u0648",
+        "meanings":"or",
+        "sentence":"The word \u0623\u064e\u0648\u0652 comes from the root \u0627 \u0648 and is associated with the meanings: or"
+    },
+
+    {
+        "indexid":5479,
+        "wordid":6109,
+        "word":"\u0627\u0644\u0652\u0642\u064f\u0631\u0652\u0621\u064e\u0627\u0646\u064e",
+        "rootid":1433,
+        "rootword":"\u0642 \u0631 \u0627",
+        "meanings":"to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation.",
+        "sentence":"The word \u0627\u0644\u0652\u0642\u064f\u0631\u0652\u0621\u064e\u0627\u0646\u064e comes from the root \u0642 \u0631 \u0627 and is associated with the meanings: to recite\/read, compilation, collection, reading, recitation, explanation, study, investigation."
+    },
+
+    {
+        "indexid":5479,
+        "wordid":14237,
+        "word":"\u062a\u064e\u0631\u0652\u062a\u0650\u064a\u0644\u064b\u0627",
+        "rootid":1058,
+        "rootword":"\u0631 \u062a \u0644",
+        "meanings":"to set in order, make even, well arranged\/set together, make distinct, correct\/right state of arrangement (primary usage is in relation to nice teeth), read\/recite in a leisurely manner, read correctly, chant.",
+        "sentence":"The word \u062a\u064e\u0631\u0652\u062a\u0650\u064a\u0644\u064b\u0627 comes from the root \u0631 \u062a \u0644 and is associated with the meanings: to set in order, make even, well arranged\/set together, make distinct, correct\/right state of arrangement (primary usage is in relation to nice teeth), read\/recite in a leisurely manner, read correctly, chant."
+    },
+
+    {
+        "indexid":5479,
+        "wordid":18719,
+        "word":"\u0632\u0650\u062f\u0652",
+        "rootid":51,
+        "rootword":"\u0632 \u064a \u062f",
+        "meanings":"increased\/augmented\/grew, exceeded, was\/became redundant\/superfluous, remain over & above, addition, exaggerate, accessory, surplus",
+        "sentence":"The word \u0632\u0650\u062f\u0652 comes from the root \u0632 \u064a \u062f and is associated with the meanings: increased\/augmented\/grew, exceeded, was\/became redundant\/superfluous, remain over & above, addition, exaggerate, accessory, surplus"
+    },
+
+    {
+        "indexid":5479,
+        "wordid":18720,
+        "word":"\u0648\u064e\u0631\u064e\u062a\u0651\u0650\u0644\u0650",
+        "rootid":1058,
+        "rootword":"\u0631 \u062a \u0644",
+        "meanings":"to set in order, make even, well arranged\/set together, make distinct, correct\/right state of arrangement (primary usage is in relation to nice teeth), read\/recite in a leisurely manner, read correctly, chant.",
+        "sentence":"The word \u0648\u064e\u0631\u064e\u062a\u0651\u0650\u0644\u0650 comes from the root \u0631 \u062a \u0644 and is associated with the meanings: to set in order, make even, well arranged\/set together, make distinct, correct\/right state of arrangement (primary usage is in relation to nice teeth), read\/recite in a leisurely manner, read correctly, chant."
+    }]}

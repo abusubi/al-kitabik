@@ -1,0 +1,30 @@
+{"data":[
+    {
+        "indexid":4985,
+        "wordid":12492,
+        "word":"\u0641\u064e\u0643\u064e\u0627\u0646\u064e\u062a\u0652",
+        "rootid":369,
+        "rootword":"\u0643 \u0648 \u0646",
+        "meanings":"(Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so.",
+        "sentence":"The word \u0641\u064e\u0643\u064e\u0627\u0646\u064e\u062a\u0652 comes from the root \u0643 \u0648 \u0646 and is associated with the meanings: (Kaf-Alif-Nun) To be, exist, happen, occur, take place, become, be such or so."
+    },
+
+    {
+        "indexid":4985,
+        "wordid":14213,
+        "word":"\u0647\u064e\u0628\u064e\u0627\u0621\u064b",
+        "rootid":1296,
+        "rootword":"\u0647 \u0628 \u0648",
+        "meanings":"to rise so as to float in the air (dust), be turned into ashes (embers).",
+        "sentence":"The word \u0647\u064e\u0628\u064e\u0627\u0621\u064b comes from the root \u0647 \u0628 \u0648 and is associated with the meanings: to rise so as to float in the air (dust), be turned into ashes (embers)."
+    },
+
+    {
+        "indexid":4985,
+        "wordid":17810,
+        "word":"\u0645\u064f\u0646\u0652\u0628\u064e\u062b\u0651\u064b\u0627",
+        "rootid":1685,
+        "rootword":"\u0628 \u062b \u062b",
+        "meanings":"spread\/dispersed\/scattered, published\/revealed.",
+        "sentence":"The word \u0645\u064f\u0646\u0652\u0628\u064e\u062b\u0651\u064b\u0627 comes from the root \u0628 \u062b \u062b and is associated with the meanings: spread\/dispersed\/scattered, published\/revealed."
+    }]}
