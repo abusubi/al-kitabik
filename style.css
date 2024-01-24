@@ -650,7 +650,7 @@ btn:hover {
 
     .btnDropdownSurah {
         display: flex;
-        padding: 10px 32px;
+        padding: 10px 32px; /* changed padding from 5px to 10px, mobile does not recognize padding in context of dropdown menu styling, so padding changes must be made to container of dropdown menu element. */
         justify-content: center;
         align-items: center;
         gap: 8px;
