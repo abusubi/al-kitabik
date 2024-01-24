@@ -91,7 +91,7 @@ function chaptersData() {
 
 
 // 02. DECLARE INITIAL SURAHID VARIABLE
-var surahID = 1; // Declare verseID at the top level so it's accessible in other functions
+var surahID = 1; // Declare surahID at the top level so it's accessible in other functions
 
 // GRAB AND SET SURAHID for SCRIPT DEPENDENCIES
 function surahNumber() {
@@ -155,7 +155,7 @@ function outputVerseData() {
 
 
 // GRAB AND SET VERSE NUMBER
-let verseID; // Declare verseID at the top level so it's accessible in other functions
+var verseID = 1; // Declare verseID at the top level so it's accessible in other functions
 
 function verseNumber() {
     // Select the dropdown element
