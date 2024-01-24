@@ -796,6 +796,6 @@ btn:hover {
     .clickWord:hover, .clickRoot:hover, .clickMeaning:hover {
         cursor: pointer;
         /* background-color: #eef5f5; */
-        background-color: transparent;
+        background-color: #ffffff;
     }
   }
