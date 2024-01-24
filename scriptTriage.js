@@ -90,7 +90,7 @@ function chaptersData() {
 }
 
 
-// 02. DECLARE SURAHID VARIABLE
+// 02. DECLARE INITIAL SURAHID VARIABLE
 var surahID = 1; // Declare verseID at the top level so it's accessible in other functions
 
 // GRAB AND SET SURAHID for SCRIPT DEPENDENCIES
@@ -115,13 +115,16 @@ function surahNumber() {
 }
 
 
-// ITERATE THROUGH AYAS LIST, BASED ON SURAHID, AND OUTPUT AS AN AYAH DROPDOWN
+// 03. ITERATE THROUGH AYAS LIST, BASED ON A SPECIFIC SURAHID, AND OUTPUT AS AN AYAH DROPDOWN
+//const versesURL = `/data/chapterVerses/${surahID}.json`;
+
+// Fetch the chapters data
 function outputVerseData() {
-    fetch(`https://offlinequran.com:3001/api/chapter/${surahID}`)
+    fetch(`/data/chapterVerses/${surahID}.json`)
         .then(response => response.json())
         .then(data => {
             // Ensure that 'data' property exists and is an array before proceeding
-            if (data && Array.isArray(data.data)) {
+            // if (data && Array.isArray(data.data)) {
                 // Get the select element
                 let select = document.getElementById('id_selectAyah');
 
@@ -141,8 +144,10 @@ function outputVerseData() {
                     select.appendChild(option);
                 });
             }
-        })
+        // }
+        )
         .catch(error => console.error('Error:', error));
+        console.log("versesGot")
 }
 
 
@@ -241,36 +246,7 @@ function outputAyah() {
     .catch(error => console.error('Error:', error));
 }
 
-// //OUTPUT LIST OF VERSES 
-// function outputVerseList() {
-//     // Ensure verseID is defined and is a number
-//     if (typeof verseID === 'undefined' || typeof verseID !== 'number') {
-//         console.error('Error: verseID is not defined or not a number');
-//         return;
-//     }
 
-//     fetch(`https://offlinequran.com:3001/api/chapter/${surahID}`)
-//     .then(response => response.json())
-//     .then(data => {
-//         let container = document.getElementById('surah-name');
-
-//         // Ensure that 'data' property exists and is an array before proceeding
-//         if (data && Array.isArray(data.data) && data.data.length) {
-//             // Get the item from the 'data' array based on verseID
-//             let item = data.data;
-
-//             // Create a new div element
-//             let div = document.createElement('div');
-
-//             // Set its text content to the index of the item
-//             div.textContent = 'Verse: ' + item.aya;
-
-//             // Append the new div to the container
-//             container.appendChild(div);
-//         }
-//     })
-//     .catch(error => console.error('Error:', error));
-// }
 
 
 function fetchJSONData() {
