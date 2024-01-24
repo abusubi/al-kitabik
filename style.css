@@ -78,7 +78,7 @@
     font-size: 35px;
     font-style: normal;
     font-weight: 500;
-    line-height: 72px;
+    line-height: 65px;
     max-width: 60%;
 }
 
@@ -647,6 +647,33 @@ btn:hover {
  /* Responsive, Phone */
 
  @media only screen and (max-width: 600px) {
+
+
+    select.dropdownSurahText {
+        background-color: #000000;
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0px solid;
+    }
+
+    select.dropdownVerseText {
+        background-color: #FFFFFF;
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 0px solid;
+    }
+
+    .dropdownSurahText {
+        color: #ffffff;
+        font-family: 'REM';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 235.294% */
+    }
+
     .rowAyah {
         display: flex;
         padding-top: 48px;
@@ -657,6 +684,7 @@ btn:hover {
         align-self: stretch;
         border-bottom: 0.5px solid #000;
     }
+    
     .currentAyah {
         flex: 1 0 0;
         color: #000;
@@ -836,5 +864,6 @@ btn:hover {
         border-top: 0;
         background: #FFF;
     }
+    
     
   }
