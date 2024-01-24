@@ -793,4 +793,9 @@ btn:hover {
         background: #FFF;
         width: 100%;
     }
+    .clickWord:hover, .clickRoot:hover, .clickMeaning:hover {
+        cursor: pointer;
+        /* background-color: #eef5f5; */
+        background-color: transparent;
+    }
   }
