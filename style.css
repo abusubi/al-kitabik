@@ -648,21 +648,12 @@ btn:hover {
 
  @media only screen and (max-width: 600px) {
 
-
-    select.dropdownSurahText {
-        background-color: #000000;
+    .btnDropdownSurah {
         display: flex;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border: 0px solid;
-    }
-
-    select.dropdownVerseText {
-        background-color: #FFFFFF;
-        display: flex;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border: 0px solid;
+        padding: 10px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
     }
 
     .dropdownSurahText {
