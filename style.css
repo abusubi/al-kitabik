@@ -798,16 +798,17 @@ btn:hover {
         /* background-color: #eef5f5; */
         background-color: #ffffff;
     }
-    .rowAyah {
+
+    .rowVerseNav {
         display: flex;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding: 10px 26px;
         justify-content: center;
         align-items: center;
-        gap: 10px;
         align-self: stretch;
-        border-bottom: 1px solid #000;
+        border: 1px solid #000;
+        background: #FFF;
     }
+
     .rowNavHeader {
         display: flex;
         padding: 24px 0px;
