@@ -74,8 +74,11 @@ function chaptersData() {
     fetch(chaptersUrl)
     .then(response => response.json())
     .then(data => {
+        
         // Process the chapters data to create select options
-        const selectMenu = document.getElementById('id_selectSurah'); // Replace with your select element's ID
+        const selectMenu = document.getElementById('id_selectSurah');
+        // Clear the existing options
+        selectMenu.innerHTML = ''; // Replace with your select element's ID
         data.forEach(chapter => {
             const option = document.createElement('option');
             option.value = chapter.suranumber;
@@ -180,6 +183,9 @@ function verseNumber() {
 
 // ––––– Dropdown Spacing Adjustment  –––––
 function adjustSelectWidth(selectElement) {
+    if (!selectElement || selectElement.options.length === 0 || selectElement.selectedIndex === -1) {
+        return; // Exit the function if the select element is not properly defined
+    }
     // Create a hidden span element to measure the text width
     let measurementSpan = document.createElement('span');
     measurementSpan.style.visibility = 'hidden';
@@ -194,7 +200,8 @@ function adjustSelectWidth(selectElement) {
     let width = measurementSpan.offsetWidth;
 
     // Apply the width to the select element, adding some extra space for padding, border, etc.
-    selectElement.style.width = `${width + 50}px`;
+    selectElement.style.width = `${width + 55}px`;
+
 
     // Remove the span element from the document
     document.body.removeChild(measurementSpan);
@@ -207,7 +214,9 @@ document.addEventListener('DOMContentLoaded', function() {
     adjustSelectWidth(selectElement);
     selectElement.addEventListener('change', () => adjustSelectWidth(selectElement));
 });
+console.log("resized dropdown");
 }
+adjustSelectMenu();
 
 // 04. OUTPUT AYAH IN HTML
 
