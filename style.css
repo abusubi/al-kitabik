@@ -75,10 +75,10 @@
     color: #000;
     text-align: center;
     font-family: "Noto Naskh Arabic";
-    font-size: 45px;
+    font-size: 35px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 72px; /* 160% */
+    font-weight: 500;
+    line-height: 72px;
     max-width: 60%;
 }
 
@@ -209,8 +209,8 @@
     font-family: 'REM';
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 235.294% */
+    font-weight: 500;
+    line-height: 40px;
 }
 
 .iconVerseNext {
@@ -306,7 +306,7 @@ select.dropdownVerseText {
 span.cardSettingsTitle {
     color: #FFF;
     font-family: "REM";
-    font-size: 15px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -409,10 +409,10 @@ span.cardSettingsTitle {
     z-index: 0;
     color: #000;
     font-family: "Noto Naskh Arabic";
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 100% */
+    font-weight: 600;
+    line-height: 40px;
     position: relative;
 }
 
@@ -432,10 +432,10 @@ span.cardSettingsTitle {
     z-index: 0;
     color: #000;
     font-family: "Noto Naskh Arabic";
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 100% */
+    font-weight: 600;
+    line-height: 40px;
     position: relative;
 }
 
