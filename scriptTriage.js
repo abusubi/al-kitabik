@@ -116,7 +116,7 @@ function surahNumber() {
 
 
 // 03. ITERATE THROUGH AYAS LIST, BASED ON A SPECIFIC SURAHID, AND OUTPUT AS AN AYAH DROPDOWN
-//const versesURL = `/data/chapterVerses/${surahID}.json`;
+// const versesURL = `/data/chapterVerses/${surahID}.json`;
 
 // Fetch the chapters data
 function outputVerseData() {
@@ -178,7 +178,6 @@ function verseNumber() {
 }
 
 
-
 // ––––– Dropdown Spacing Adjustment  –––––
 function adjustSelectWidth(selectElement) {
     // Create a hidden span element to measure the text width
@@ -210,7 +209,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 }
 
-// OUTPUT AYAH IN HTML
+// 04. OUTPUT AYAH IN HTML
+
 function outputAyah() {
     // Ensure verseID is defined and is a number
     if (typeof verseID === 'undefined' || typeof verseID !== 'number') {
@@ -218,7 +218,7 @@ function outputAyah() {
         return;
     }
 
-    fetch(`https://offlinequran.com:3001/api/chapter/${surahID}`)
+    fetch(`/data/chapterVerses/${surahID}.json`)
     .then(response => response.json())
     .then(data => {
         let container = document.getElementById('id_currentAyah');
