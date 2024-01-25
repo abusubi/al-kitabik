@@ -15,72 +15,66 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script>
-    /* Global Word Vis */
+    /* Spotlight Word */
         $( function() {
-        $( "#btnGlobalWordOff" ).on( "click", function() {
-            /* global Word Container toggle */
-            $( ".clickWord" ).switchClass( "clickWord", "clickWordHidden", 0);
-            /* global Word Span toggle */
-            $( ".spanWord" ).switchClass( "spanWord", "spanWordHidden", 0);
-        });
-        animate: false;
-        } 
-        );
-        $( function() {
-        $( "#btnGlobalWordOn" ).on( "click", function() {
+        $( "#btnSpotlightWord" ).on( "click", function() {
             /* global Word Container toggle */
             $( ".clickWordHidden" ).switchClass( "clickWordHidden", "clickWord", 0);
-            /* global Word Span toggle */
-            $( ".spanWordHidden" ).switchClass( "spanWordHidden", "spanWord", 0);
-        });
-        animate: false;
-        } // Close the missing parentheses and add a semicolon
-        );
-        
-     /* Global Root Vis */
-     $( function() {
-        $( "#btnGlobalRootOff" ).on( "click", function() {
-            /* global Word Container toggle */
             $( ".clickRoot" ).switchClass( "clickRoot", "clickRootHidden", 0);
-            /* global Word Span toggle */
-            $( ".spanRoot" ).switchClass( "spanRoot", "spanRootHidden", 0);
-        });
-        animate: false;
-        } 
-        );
-        $( function() {
-        $( "#btnGlobalRootOn").on("click", function() {
-            /* global Word Container toggle */
-            $( ".clickRootHidden" ).switchClass( "clickRootHidden", "clickRoot", 0);
-            /* global Word Span toggle */
-            $( ".spanRootHidden" ).switchClass( "spanRootHidden", "spanRoot", 0);
-        });
-        animate: false;
-        } // Close the missing parentheses and add a semicolon
-        );
-
-        /* Global Meaning Vis –––– Note: ADD IN ROOT AND MEANING CLASSES IN CSS */
-        $( function() {
-        $( "#btnGlobalMeaningOff").on("click", function() {
-            /* global Word Container toggle */
             $( ".clickMeaning" ).switchClass( "clickMeaning", "clickMeaningHidden", 0);
             /* global Word Span toggle */
+            $( ".spanWordHidden" ).switchClass( "spanWordHidden", "spanWord", 0);
+            $( ".spanRoot" ).switchClass( "spanRoot", "spanRootHidden", 0);
             $( ".spanMeaning" ).switchClass( "spanMeaning", "spanMeaningHidden", 0);
         });
         animate: false;
         } 
         );
-        $( function() {
-        $( "#btnGlobalMeaningOn").on("click", function() {
-            /* global Word Container toggle */
-            $( ".clickMeaningHidden" ).switchClass( "clickMeaningHidden", "clickMeaning", 0);
-            /* global Word Span toggle */
-            $( ".spanMeaningHidden" ).switchClass( "spanMeaningHidden", "spanMeaning", 0);
+     /* Spotlight Root */
+     $( function() {
+        $( "#btnSpotlightRoot" ).on( "click", function() {
+            /* global Root Container toggle */
+            $( ".clickRootHidden" ).switchClass( "clickRootHidden", "clickRoot", 0);
+            $( ".clickWord" ).switchClass( "clickWord", "clickWordHidden", 0);
+            $( ".clickMeaning" ).switchClass( "clickMeaning", "clickMeaningHidden", 0);
+            /* global Root Span toggle */
+            $( ".spanRootHidden" ).switchClass( "spanRootHidden", "spanRoot", 0);
+            $( ".spanWord" ).switchClass( "spanWord", "spanWordHidden", 0);
+            $( ".spanMeaning" ).switchClass( "spanMeaning", "spanMeaningHidden", 0);
         });
         animate: false;
-        } // Close the missing parentheses and add a semicolon
+        } 
         );
-
+    /* Spotlight Meaning */
+        $( function() {
+        $( "#btnSpotlightMeaning").on("click", function() {
+             /* global Meaning Container toggle */
+            $( ".clickMeaningHidden" ).switchClass( "clickMeaningHidden", "clickMeaning", 0);
+            $( ".clickWord" ).switchClass( "clickWord", "clickWordHidden", 0);
+            $( ".clickRoot" ).switchClass( "clickRoot", "clickRootHidden", 0);
+            /* global Meaning Span toggle */
+            $( ".spanMeaningHidden" ).switchClass( "spanMeaningHidden", "spanMeaning", 0);
+            $( ".spanRoot" ).switchClass( "spanRoot", "spanRootHidden", 0);
+            $( ".spanWord" ).switchClass( "spanWord", "spanWordHidden", 0);
+        });
+        animate: false;
+        } 
+        );
+    /* Spotlight All */
+    $( function() {
+        $( "#btnSpotlightAll").on("click", function() {
+            /* global Word Container toggle */
+            $( ".clickMeaningHidden" ).switchClass( "clickMeaningHidden", "clickMeaning", 0);
+            $( ".clickRootHidden" ).switchClass( "clickRootHidden", "clickRoot", 0);
+            $( ".clickWordHidden" ).switchClass( "clickWordHidden", "clickWord", 0);
+            /* global Word Span toggle */
+            $( ".spanMeaningHidden" ).switchClass( "spanMeaningHidden", "spanMeaning", 0);
+            $( ".spanRootHidden" ).switchClass( "spanRootHidden", "spanRoot", 0);
+            $( ".spanWordHidden" ).switchClass( "spanWordHidden", "spanWord", 0);
+        });
+        animate: false;
+        } 
+        );
     </script>
     <!-- <script type="module" src="rootIndexCollector.js"></script> -->
 </head>
@@ -151,16 +145,27 @@
             <section class="rowCardSettings">
                 <div class="cardSettingsFrame">
                     <div class="cardSettingsTitleBlock">
-                        <span class="cardSettingsTitle">Word</span></div>
+                        <span class="cardSettingsTitle">Spotlight</span>
+                    </div>   
                     <div class="cardSettingsBtnBlock">
-                        <btn class="btnVisOff word" id="btnGlobalWordOff">
-                            <img src="/images/iconCardSettingsVisOff.svg" alt="Show None">
+                        <btn class="btnVisOff word" id="btnSpotlightWord">
+                            <span class="cardButtonTitle">Word</span>
                         </btn>
-                        <btn class="btnVisOn word" id="btnGlobalWordOn">
+                        <btn class="btnVisOff root" id="btnSpotlightRoot">
+                            <span class="cardButtonTitle">Root</span>
+                        </btn>
+                        <btn class="btnVisOff meaning" id="btnSpotlightMeaning">
+                            <span class="cardButtonTitle">Meaning</span>
+                        </btn>
+                        <btn class="btnVisOff all" id="btnSpotlightAll">
+                            <span class="cardButtonTitle">All</span>
+                        </btn>
+                        <!-- <btn class="btnVisOn word" id="btnGlobalWordOn">
                             <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
-                        </btn>
+                        </btn> -->
                     </div>
                 </div>
+                <!-- Old Settings Menu
                 <div class="cardSettingsFrame">
                     <div class="cardSettingsTitleBlock"><span class="cardSettingsTitle">Root</span></div>
                     <div class="cardSettingsBtnBlock">
@@ -182,7 +187,7 @@
                             <img src="/images/iconCardSettingsVisOn.svg" alt="Show All">
                         </btn>
                     </div>
-                </div>
+                </div> -->
             </section> <!-- done -->
 
             <div class="rowCard" id="id_rowCard">

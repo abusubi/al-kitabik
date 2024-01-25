@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         verseNumber(); // Update verseID
         outputAyah(); // Update Current Ayah
         trueRootSet(); // find true root and set cardRow
+
     });
     document.getElementById('id_selectSurah').addEventListener('change', function() {
         // Select the first option in the id_selectAyah dropdown
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         outputVerseData(); // Update Verse Dropdown for Chapter <-> Verse
         outputAyah(); // Update Current Verse
         trueRootSet(); // find true root and set cardRow
+
     });
 
     // ------ Optional: Next and Prev Verse Buttons ------
@@ -288,77 +290,126 @@ function getTrueRootId(surahID, verseID) {
 }
 
 // Example usage
-function trueRootSet() {
+async function trueRootSet() {
     truerootID = getTrueRootId(surahID, (verseID + 1));
     console.log("True Root ID = " + truerootID); // This will log the truerootid or null if no match is found
 
     // run verse-root GET
-    function consoleVerseRootGET() {
-        fetch(`/data/verseRoots/${truerootID}.json`)
-            .then(response => response.json())
-            .then(data => {
-                console.log(data); // Log the data to inspect its structure
+    async function consoleVerseRootGET() {
+        try {
+            const response = await fetch(`/data/verseRoots/${truerootID}.json`);
+            const data = await response.json();
+            console.log(data); // Log the data to inspect its structure
 
-                // Ensure that 'data' property exists and is an array before proceeding
-                // if (data && Array.isArray(data.data)) {
-                    // Get the div element with the id 'id_rowCard'
-                    let rowCard = document.getElementById('id_rowCard');
+            let rowCard = document.getElementById('id_rowCard');
+            rowCard.innerHTML = '';
 
-                    // Clear the previous div elements
-                    rowCard.innerHTML = '';
-
-                    // To iterate over the items in the 'data' array
-                    data.data.forEach(item => {
-                        console.log(item);
-
-                        // Create a new div element
-                        let div = document.createElement('div');
-
-                        // Set the text of the div element
-                        div.innerHTML = `
-                            <div class="singleCard">
-                                <div class="cardRowTop">
-                                    <div class="clickWord"><span class="spanWord">${item.word}</span></div>
-                                    <div class="clickRoot"><span class="spanRoot">${item.rootword}</span></div>
-                                </div>
-                                <div class="cardRowBot">
-                                    <div class="clickMeaning">
-                                        <span class="spanMeaning">${item.meanings}</span>
-                                    </div>
-                                </div>
+            data.data.forEach(item => {
+                console.log(item);
+                let div = document.createElement('div');
+                div.innerHTML = `
+                    <div class="singleCard">
+                        <div class="cardRowTop">
+                            <div class="clickWord"><span class="spanWord">${item.word}</span></div>
+                            <div class="clickRoot"><span class="spanRoot">${item.rootword}</span></div>
+                        </div>
+                        <div class="cardRowBot">
+                            <div class="clickMeaning">
+                                <span class="spanMeaning">${item.meanings}</span>
                             </div>
-                        `;
-
-                        // Append the div element to the 'id_rowCard' div
-                        rowCard.appendChild(div);
-                    });
-                // }
-            })
-            .catch(error => console.error('Error:', error));
+                        </div>
+                    </div>
+                `;
+                rowCard.appendChild(div);
+            });
+        } catch (error) {
+            console.error('Error:', error);
+        }
     }
 
-    consoleVerseRootGET();
+    await consoleVerseRootGET();
     console.log("innerHTML_update");
-    setTimeout(runClickClassGetter, 1500); // Delay of 1 seconds
+    runClickClassGetter(); // Call this function after the innerHTML has been updated
 }
+
+
+// Example usage
+// function trueRootSet() {
+//     truerootID = getTrueRootId(surahID, (verseID + 1));
+//     console.log("True Root ID = " + truerootID); // This will log the truerootid or null if no match is found
+
+    
+//     // run verse-root GET
+//     function consoleVerseRootGET() {
+//         fetch(`/data/verseRoots/${truerootID}.json`)
+//             .then(response => response.json())
+//             .then(data => {
+//                 console.log(data); // Log the data to inspect its structure
+
+//                 // Ensure that 'data' property exists and is an array before proceeding
+//                 // if (data && Array.isArray(data.data)) {
+//                     // Get the div element with the id 'id_rowCard'
+//                     let rowCard = document.getElementById('id_rowCard');
+
+//                     // Clear the previous div elements
+//                     rowCard.innerHTML = '';
+
+//                     // To iterate over the items in the 'data' array
+//                     data.data.forEach(item => {
+//                         console.log(item);
+
+//                         // Create a new div element
+//                         let div = document.createElement('div');
+
+//                         // Set the text of the div element
+//                         div.innerHTML = `
+//                             <div class="singleCard">
+//                                 <div class="cardRowTop">
+//                                     <div class="clickWord"><span class="spanWord">${item.word}</span></div>
+//                                     <div class="clickRoot"><span class="spanRoot">${item.rootword}</span></div>
+//                                 </div>
+//                                 <div class="cardRowBot">
+//                                     <div class="clickMeaning">
+//                                         <span class="spanMeaning">${item.meanings}</span>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         `;
+
+//                         // Append the div element to the 'id_rowCard' div
+//                         rowCard.appendChild(div);
+//                     });
+//                 // }
+//             })
+//             .catch(error => console.error('Error:', error));
+//     }
+
+//     consoleVerseRootGET();
+//     console.log("innerHTML_update");
+//     setTimeout(runClickClassGetter, 1500); // note: need some delay
+// }
+
 // Click-Visibility Interaction
 
 function runClickClassGetter() {
 
     // Get all div elements with the class 'clickWord'
-    let clickWords = document.querySelectorAll('.clickWord');
-
+    let clickWords = document.querySelectorAll('.clickWord, .clickWordHidden');
     // Add an event listener to each div element
     clickWords.forEach(clickWord => {
         clickWord.addEventListener('click', function(event) {
-            // Stop the event from bubbling up
-            event.stopPropagation();
+            // Check if the clicked element has a specific class
+            if (this.classList.contains('clickWord')) {
+                // Behavior for clickWord
+                this.classList.toggle('clickWord');
+                this.classList.toggle('clickWordHidden');
+            } else if (this.classList.contains('clickWordHidden')) {
+                // Behavior for clickWordHidden
+                this.classList.toggle('clickWordHidden');
+                this.classList.toggle('clickWord');
+            }
     
-            // Toggle the class of the clicked div between 'clickMeaning' and 'clickMeaningHidden'
-            this.classList.toggle('clickWord');
-            this.classList.toggle('clickWordHidden');
-    
-            // Toggle the class 'spanHidden' on the child span element
+            // Common behavior for both, if needed
             let span = this.querySelector('span');
             if (span) {
                 span.classList.toggle('spanWordHidden');
@@ -366,42 +417,24 @@ function runClickClassGetter() {
             }
         });
     });
-
-    // Get all div elements with the class 'clickRoot'
-    let clickRoots = document.querySelectorAll('.clickRoot');
-
-    // Add an event listener to each div element
-    clickRoots.forEach(clickRoot => {
-        clickRoot.addEventListener('click', function(event) {
-            // Stop the event from bubbling up
-            event.stopPropagation();
     
-            // Toggle the class of the clicked div between 'clickMeaning' and 'clickMeaningHidden'
-            this.classList.toggle('clickRoot');
-            this.classList.toggle('clickRootHidden');
-    
-            // Toggle the class 'spanHidden' on the child span element
-            let span = this.querySelector('span');
-            if (span) {
-                span.classList.toggle('spanRootHidden');
-                span.classList.toggle('spanRoot');
-            }
-        });
-    });
-
     // Get all div elements with the class 'clickMeaning'
-    let clickMeanings = document.querySelectorAll('.clickMeaning');
-
+    let clickMeanings = document.querySelectorAll('.clickMeaning, .clickMeaningHidden');
+    // Add an event listener to each div element
     clickMeanings.forEach(clickMeaning => {
         clickMeaning.addEventListener('click', function(event) {
-            // Stop the event from bubbling up
-            event.stopPropagation();
+            // Check if the clicked element has a specific class
+            if (this.classList.contains('clickMeaning')) {
+                // Behavior for clickMeaning
+                this.classList.toggle('clickMeaning');
+                this.classList.toggle('clickMeaningHidden');
+            } else if (this.classList.contains('clickMeaningHidden')) {
+                // Behavior for clickMeaningHidden
+                this.classList.toggle('clickMeaningHidden');
+                this.classList.toggle('clickMeaning');
+            }
     
-            // Toggle the class of the clicked div between 'clickMeaning' and 'clickMeaningHidden'
-            this.classList.toggle('clickMeaning');
-            this.classList.toggle('clickMeaningHidden');
-    
-            // Toggle the class 'spanHidden' on the child span element
+            // Common behavior for both, if needed
             let span = this.querySelector('span');
             if (span) {
                 span.classList.toggle('spanMeaningHidden');
@@ -410,10 +443,35 @@ function runClickClassGetter() {
         });
     });
 
+    // Get all div elements with the class 'clickMeaning'
+    let clickRoots = document.querySelectorAll('.clickRoot, .clickRootHidden');
+    // Add an event listener to each div element
+    clickRoots.forEach(clickRoot => {
+        clickRoot.addEventListener('click', function(event) {
+            // Check if the clicked element has a specific class
+            if (this.classList.contains('clickRoot')) {
+                // Behavior for clickRoot
+                this.classList.toggle('clickRoot');
+                this.classList.toggle('clickRootHidden');
+            } else if (this.classList.contains('clickRootHidden')) {
+                // Behavior for clickRootHidden
+                this.classList.toggle('clickRootHidden');
+                this.classList.toggle('clickRoot');
+            }
+    
+            // Common behavior for both, if needed
+            let span = this.querySelector('span');
+            if (span) {
+                span.classList.toggle('spanRootHidden');
+                span.classList.toggle('spanRoot');
+            }
+        });
+    });
+
     console.log("Confirmation: classGot")
 }
 
 window.onload = function() {
-    setTimeout(runClickClassGetter, 1000); // Delay of 2 seconds
+    setTimeout(runClickClassGetter, 1500) // note: no delay needed.
 }
 
