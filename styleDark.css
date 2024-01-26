@@ -982,4 +982,8 @@ btn:hover {
         background-color: #252525;
     }
 
+    .clickWordHidden:hover, .clickRootHidden:hover, .clickMeaningHidden:hover {
+        background-color:  #2a2828; /* Added this line */
+    }
+
   }

@@ -1001,4 +1001,8 @@ btn:hover {
         background-color: #FFF;
     }
 
+    .clickWordHidden:hover, .clickRootHidden:hover, .clickMeaningHidden:hover {
+        background-color:  #fefcf8; /* Added this line */
+    }
+
   }
