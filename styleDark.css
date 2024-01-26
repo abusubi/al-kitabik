@@ -574,7 +574,7 @@ span.cardButtonTitle {
 }
 
 
-/* button behavior */
+/* hover styles */
 
 btn:hover {
     cursor: pointer;
@@ -972,6 +972,14 @@ btn:hover {
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+    }
+
+    /* mobile hover styles */
+
+    .clickWord:hover, .clickRoot:hover, .clickMeaning:hover {
+        cursor: pointer;
+        /* background-color: #eef5f5; */
+        background-color: #252525;
     }
 
   }
