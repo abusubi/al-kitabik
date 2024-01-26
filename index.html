@@ -246,29 +246,37 @@
         </main> <!-- done -->
     </div>
     <script>
-        // Dark Mode Variables
+    // Dark Mode Variables
 
-// If themeLink is an id
-const theme = document.querySelector("#themeLink");
-// Select the button
-const btn = document.querySelector(".darkModeContainer");
+    // If themeLink is an id
+    const theme = document.querySelector("#themeLink");
+    // Select the button
+    const btn = document.querySelector(".darkModeContainer");
 
-// Dark Mode Toggler
+    // Check if the user has set their system to use dark mode
+    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-document.addEventListener("DOMContentLoaded", function() {
-// Listen for a click on the button
-  btn.addEventListener("click", function() {
-  // If the current URL contains "light-theme.css"
-  if (theme.getAttribute("href") == "style.css") {
-    // ... then switch it to "dark-theme.css"
+    // If the user prefers dark mode, set the href to "styleDark.css"
+    if (userPrefersDark) {
     theme.href = "styleDark.css";
-  // Otherwise...
-  } else {
-    // ... switch it to "light-theme.css"
-    theme.href = "style.css";
-  }
-  });
-});
+    }
+
+    // Dark Mode Toggler
+
+    document.addEventListener("DOMContentLoaded", function() {
+    // Listen for a click on the button
+    btn.addEventListener("click", function() {
+        // If the current URL contains "style.css"
+        if (theme.getAttribute("href") == "style.css") {
+        // ... then switch it to "dark-theme.css"
+        theme.href = "styleDark.css";
+        // Otherwise...
+        } else {
+        // ... switch it to "light-theme.css"
+        theme.href = "style.css";
+        }
+    });
+    });
     </script>
 </body>
 </html>
