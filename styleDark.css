@@ -920,6 +920,10 @@ btn:hover {
         background: #252525;
     }
 
+    .btnDarkMode {
+        border: 1px solid #35383e;
+    }
+
     /* Card Settings Frame and Blocks */
 
     .cardSettingsFrame {
