@@ -106,7 +106,7 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    border: 0.5px solid #3a3a3a;
+    border: 0.5px solid #000000;
     border-top: 0;
     background: #fff;
     
@@ -914,7 +914,6 @@ btn:hover {
         background: #FFF;
     }
 
-
     .rowNavHeader {
         display: flex;
         padding: 24px 0px;
@@ -923,6 +922,7 @@ btn:hover {
         justify-content: center;
         align-items: center;
         align-self: stretch;
+        border: 1px solid #000000;
         border-top: 0;
     }
 
@@ -983,6 +983,14 @@ btn:hover {
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+    }
+
+    /* Mobile Hover Styles */
+    
+    .clickWord:hover, .clickRoot:hover, .clickMeaning:hover {
+        cursor: pointer;
+        /* background-color: #eef5f5; */
+        background-color: #FFF;
     }
 
   }

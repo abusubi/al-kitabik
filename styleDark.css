@@ -886,8 +886,7 @@ btn:hover {
         justify-content: center;
         align-items: center;
         align-self: stretch;
-
-
+        border: 1px solid #3a3a3a;
     }
 
     .rowNavHeader {
@@ -898,6 +897,7 @@ btn:hover {
         justify-content: center;
         align-items: center;
         align-self: stretch;
+        border: 1px solid #3a3a3a;
         border-top: 0;
     }
 
@@ -908,6 +908,16 @@ btn:hover {
         align-items: center;
         gap: 7px;
         flex: 0 0 0;
+    }
+
+    .dropdownSurahContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        border-left: 1px solid #3a3a3a;
+        border-right: 1px solid #3a3a3a;
+        background: #252525;
     }
 
     /* Card Settings Frame and Blocks */
