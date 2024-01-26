@@ -1,4 +1,3 @@
-
 * {
     text-rendering: geometricPrecision;
     margin-top: 0;
@@ -13,11 +12,11 @@
 }
 
 ::selection {
-    color: #000;
-    background: #E4E3DE;
+    color: #fff;
+    background: #283a54;
 }
 
-.spanWordHidden, .spanWord, .spanRoot, .spanMeaning, .noSelect {
+.spanWordHidden, .spanWord, .spanRoot, .spanMeaning, .noSelect, .logoContainer, .rowNavHeader {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
        -khtml-user-select: none; /* Konqueror HTML */
@@ -38,6 +37,7 @@
     height: 100%;
     padding-top: 0px; /* test as 0px later */
     position: relative;
+    background: #010408;
 }
 
 /* header nav */
@@ -67,12 +67,12 @@
     align-items: center;
     gap: 10px;
     align-self: stretch;
-    border-bottom: 0.5px solid #000;
+    border-bottom: 0.5px solid #444;
 }
 
 .currentAyah {
     flex: 1 0 0;
-    color: #000;
+    color: #eff4f9;
     text-align: center;
     font-family: "Noto Naskh Arabic";
     font-size: 35px;
@@ -81,20 +81,6 @@
     line-height: 65px;
     max-width: 60%;
 }
-
-/* .rowNavHeader {
-    display: flex;
-    padding: 24px 0px;
-    padding-right: 7px;
-    gap: 7px;
-    justify-content: center;
-    align-items: center;
-    align-self: stretch;
-    border: 0.5px solid #000;
-    border-top: 0;
-    background: #FFF;
-} */
-
 
 .rowNavHeader {
     display: flex;
@@ -108,7 +94,7 @@
     align-self: stretch;
     border: 0.5px solid #3a3a3a;
     border-top: 0;
-    background: #fff;
+    background: #0D1116;
     
 }
 
@@ -125,7 +111,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    border: 0.5px solid #9aa292;
+    border: 0.5px solid #35383e;
     background: transparent;
     content: url("/images/iconDarkModeGray.svg");
     cursor: pointer;
@@ -143,34 +129,21 @@
 .navHeaderLogo {
     width: 169px;
     height: 23px;
-    content: url("/images/alkitabikLogo_styleLight.svg");
+    content: url("/images/alkitabikLogo_styleDark.svg");
 }
 
 .alkitabikLogomark {
     width: 28px;
     height: 28px;
-    content: url("/images/alkitabikLogomark_2x.png");
+    content: url("/images/alkitabikLogomark_styleDark_3x.png");
 }
-
-
-/* 
-.navHeaderLogo {
-    width: 218px;
-    height: 33px;
-} */
-/* 
-.alkitabikLogomark {
-    width: 28px;
-    height: 28px;
-    content: url('./images/alkitabikLogomark_2x.png');
-} */
 
 .alkitabikLogomarkFooter {
     width: 32px;
     height: 32px;
     padding-top: 150px;
-    opacity: 25%;
-    content: url("/images/alkitabikLogomark_2x.png");
+    opacity: 20%;
+    content: url("/images/alkitabikLogomark_styleDark_3x.png")
 }
 
 .dropdownSurahContainer {
@@ -178,8 +151,9 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    border: 0.5px solid #000;
-    background: #000;
+    border-left: 0.5px solid #3a3a3a;
+    border-right: 0.5px solid #3a3a3a;
+    background: #252525;
 }
 
 .btnDropdownSurah {
@@ -205,8 +179,8 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    border: 0.5px solid #000;
-    background: #FFF;
+    border: 0.5px solid #3a3a3a;
+    background: #0D1116;
 }
 
 .rowVerseNavFooterContainer {
@@ -241,8 +215,8 @@
     align-items: center;
     gap: 10px;
     border-radius: 60px;
-    border: 0.5px solid #000;
-    background: #FFF;
+    border: 0.5px solid #383B42;
+    background: #22262C;
 }
 
 .btnVerseNext {
@@ -252,8 +226,8 @@
     align-items: center;
     gap: 10px;
     border-radius: 50px;
-    border: 0.5px solid #000;
-    background: #FFF;
+    border: 0.5px solid #383B42;
+    background: #22262C;
 }
 
 .btnDropdownVerse {
@@ -262,11 +236,10 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    background: #ffffff;
 }
 
 .dropdownVerseText {
-    color: #000;
+    color: #CBD1D8;
     font-family: 'REM';
     font-size: 16px;
     font-style: normal;
@@ -275,25 +248,28 @@
 }
 
 .iconVerseNext {
-    background: url(/images/iconVerseNext_2x.png);
+    background: url(/images/iconVerseNext_styleDark_3x.png);
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
     object-fit: contain;
-    image-rendering: high-quality;
+    image-rendering: optimizeQuality;
+    opacity: 80%;
 }
 
 .iconVersePrev {
-    background: url(/images/iconVersePrev_2x.png);
+    background: url(/images/iconVersePrev_styleDark_3x.png);
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
+    image-rendering: optimizeQuality;
+    opacity: 80%;
 }
 
 /* option elements styling */
 
 select.dropdownSurahText {
-    background-color: #000000;
+    background-color: #252525;
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -301,7 +277,7 @@ select.dropdownSurahText {
 }
 
 select.dropdownVerseText {
-    background-color: #FFFFFF;
+    background-color: #0D1116;
     display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -309,7 +285,7 @@ select.dropdownVerseText {
 }
 
 .dropdownSurahText {
-    color: #ffffff;
+    color: #E7EDF3;
     font-family: 'REM';
     font-size: 16px;
     font-style: normal;
@@ -329,8 +305,8 @@ select.dropdownVerseText {
     position: sticky;
     z-index: 100;
     top: 0px;
-    background: rgb(237,232,225);
-    background: linear-gradient(180deg, rgba(237,232,225,0.85) 0%, rgba(237,232,225,0.50) 30%, rgba(237,232,225,0.5) 55%, rgba(248,243,235,0) 95%);
+    background: #171B21;
+    background: linear-gradient(180deg, rgba(23, 30, 37, 0.851) 0%, rgba(23, 30, 37, 0.50) 30%, rgba(23, 30, 37, 0.5) 55%, rgba(23, 30, 37, 0) 95%);
 }
 
 .cardSettingsFrame {
@@ -346,9 +322,6 @@ select.dropdownVerseText {
     align-items: center;
     align-self: stretch;
     border-radius: 0px 0px 0px 0px;
-    border-bottom: 0.5px solid #000;
-    border-left: 0.5px solid #000;
-    background: #000;
     min-height: 29px;
 }
 
@@ -359,13 +332,14 @@ select.dropdownVerseText {
     align-items: center;
     align-self: stretch;
     border-radius: 0px 0px 0px 0px;
-    border-bottom: 0.5px solid #000;
-    border-left: 0.5px solid #000;
-    background: #000;
+    border-left: 0.5px solid #585858;
+    border-right: 0.5px solid #585858;
+    border-bottom: 1.5px solid #585858;
+    background: #2d2f31;
 }
 
 span.cardSettingsTitle {
-    color: #FFF;
+    color: #CBD1D8;
     font-family: "REM";
     font-size: 12px;
     font-style: normal;
@@ -374,7 +348,7 @@ span.cardSettingsTitle {
 }
 
 span.cardButtonTitle {
-    color: #000000;
+    color: #CBD1D8;
     padding: 4px 14px 5px 14px;
     font-family: "REM";
     font-size: 12px;
@@ -390,7 +364,7 @@ span.cardButtonTitle {
     min-height: 30px;
 }
 
-.btnVisOn {
+/* .btnVisOn {
     display: flex;
     padding: 8px 12px;
     justify-content: center;
@@ -403,7 +377,7 @@ span.cardButtonTitle {
     background: #FFF;
     width: 16px;
     height: 16px;
-}
+} */
 
 .btnVisOff {
     display: flex;
@@ -413,9 +387,9 @@ span.cardButtonTitle {
     gap: 10px;
     align-self: stretch;
     border-radius: 0px 0px 0px 0px;
-    border-right: 0.5px solid #000;
-    border-bottom: 1.5px solid #000;
-    background: #FFF;
+    border-right: 0.5px solid #585858;
+    border-bottom: 1.5px solid #585858;
+    background: #1c2129;
 }
 
 
@@ -429,7 +403,7 @@ span.cardButtonTitle {
     align-items: center;
     gap: 32px;
     flex: 1 0 0;
-    background: #F8F3EB;
+    background: #171B21;
     padding-bottom: 200px;
 }
 
@@ -479,7 +453,7 @@ span.cardButtonTitle {
 
 .spanWord {
     z-index: 0;
-    color: #000;
+    color: #CBD1D8;
     font-family: "Noto Naskh Arabic";
     font-size: 35px;
     font-style: normal;
@@ -490,7 +464,7 @@ span.cardButtonTitle {
 
 .spanWordHidden {
     z-index: -1;
-    color: #000;
+    color: #CBD1D8;
     font-family: "Noto Naskh Arabic";
     font-size: 40px;
     font-style: normal;
@@ -502,7 +476,7 @@ span.cardButtonTitle {
 
 .spanRoot {
     z-index: 0;
-    color: #000;
+    color: #CBD1D8;
     font-family: "Noto Naskh Arabic";
     font-size: 35px;
     font-style: normal;
@@ -513,7 +487,7 @@ span.cardButtonTitle {
 
 .spanRootHidden {
     z-index: -1;
-    color: #000;
+    color: #CBD1D8;
     font-family: "Noto Naskh Arabic";
     font-size: 40px;
     font-style: normal;
@@ -526,7 +500,7 @@ span.cardButtonTitle {
     z-index: 0;
     flex: 1 0 0;
     align-self: stretch;
-    color: #000;
+    color: #CBD1D8;
     font-family: "Libre Baskerville";
     font-size: 13px;
     font-style: normal;
@@ -542,7 +516,7 @@ span.cardButtonTitle {
     z-index: -1;
     flex: 1 0 0;
     align-self: stretch;
-    color: #000;
+    color: #CBD1D8;
     font-family: "Libre Baskerville";
     font-size: 13px;
     font-style: normal;
@@ -563,10 +537,10 @@ span.cardButtonTitle {
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 3px 0px 0px 0px;
-    border-top: 2px solid #000;
-    border-right: 0.5px solid #000;
-    border-left: 2px solid #000;
-    background: #FFF;
+    border-top: 2px solid #585858;
+    border-right: 0.5px solid #585858;
+    border-left: 2px solid #585858;
+    background: #252525;
 }
 
 .clickRoot {
@@ -578,9 +552,9 @@ span.cardButtonTitle {
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 0px 4px 0px 0px;
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
-    background: #FFF;
+    border-top: 2px solid #585858;
+    border-right: 2px solid #585858;
+    background: #252525;
 }
 
 .clickMeaning {
@@ -592,15 +566,15 @@ span.cardButtonTitle {
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 0px 0px 3px 3px;
-    border-top: 0.5px solid #000;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #000;
-    border-left: 2px solid #000;
-    background: #FFF;
+    border-top: 0.5px solid #585858;
+    border-right: 2px solid #585858;
+    border-bottom: 2px solid #585858;
+    border-left: 2px solid #585858;
+    background: #252525;
 }
 
 
-/* hover styles */
+/* button behavior */
 
 btn:hover {
     cursor: pointer;
@@ -609,15 +583,20 @@ btn:hover {
 .clickWord:hover, .clickRoot:hover, .clickMeaning:hover {
     cursor: pointer;
     /* background-color: #eef5f5; */
-    background-color: #F1FAF9;
+    background-color: #2a2f36;
 }
 
 .btnVerseNext:hover, .btnVersePrev:hover {
-    background-color: #eefaf7;
+    background-color: #2a2f36;
 }
 
-.btnVisOn:hover, .btnVisOff:hover {
-    background-color: #eefaf7;
+.btnVisOff:hover {
+    background-color: #2a2f36;
+    color: #fff;
+}
+
+.btnVisOff:hover span{
+    color: #fff;
 }
 
 .clickWordHidden:hover, .clickRootHidden:hover, .clickMeaningHidden:hover {
@@ -627,20 +606,28 @@ btn:hover {
     --dot-color: #888077;
     --dot-size: 1px;
     --dot-space: 4px; */
-    background: radial-gradient(circle, #748383 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #748383 5%, transparent 6%), radial-gradient(circle at right bottom, rgb(100, 100, 100) 5%, transparent 6%), radial-gradient(circle at left top, rgb(100, 100, 100) 5%, transparent 6%), radial-gradient(circle at right top, rgb(100, 100, 100) 5%, transparent 6%);
+    background: radial-gradient(circle, #596464 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #596464 5%, transparent 6%), radial-gradient(circle at right bottom, #596464 5%, transparent 6%), radial-gradient(circle at left top, #596464 5%, transparent 6%), radial-gradient(circle at right top, #596464 5%, transparent 6%);
     background-size: .35em .35em;
-    background-color:  #fffefa; /* Added this line */
+    background-color:  #2f2d2d; /* Added this line */
 }
 
 .btnDarkMode:hover {
-    border: 0.5px solid #9aa292;
-    background: #eefaf7;
-    content: url("/images/iconDarkModeGray.svg");
+    display: flex;
+    width: 15px;
+    height: 13px;
+    padding: 8px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 0.5px solid #383B42;
+    background: #2a2f36;
+    content: url("/images/iconDarkMode.svg");
     cursor: pointer;
 }
 
 
-/* card styles */
+/* card interaction */
 
 
 .clickWordHidden {
@@ -652,17 +639,17 @@ btn:hover {
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 3px 0px 0px 0px;
-    border-top: 2px solid #000;
-    border-right: 0.5px solid #000;
-    border-left: 2px solid #000;
+    border-top: 2px solid #585858;
+    border-right: 0.5px solid #585858;
+    border-left: 2px solid #585858;
     /* dot grid */
     /* --dot-bg: #f2f0ea;
     --dot-color: #000000;
     --dot-size: 1px;
     --dot-space: 4px; */
-    background: radial-gradient(circle, #596464 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #596464 5%, transparent 6%), radial-gradient(circle at right bottom, rgb(0, 0, 0) 5%, transparent 6%), radial-gradient(circle at left top, rgb(0, 0, 0) 5%, transparent 6%), radial-gradient(circle at right top, rgb(0, 0, 0) 5%, transparent 6%);
+    background: radial-gradient(circle, #596464 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #596464 5%, transparent 6%), radial-gradient(circle at right bottom, #596464 5%, transparent 6%), radial-gradient(circle at left top, #596464 5%, transparent 6%), radial-gradient(circle at right top, #596464 5%, transparent 6%);
     background-size: .35em .35em;
-    background-color: #fefcf8; /* Added this line */
+    background-color: #2a2828; /* Added this line */
 }
 
 .clickRootHidden {
@@ -674,16 +661,16 @@ btn:hover {
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 0px 4px 0px 0px;
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
+    border-top: 2px solid #585858;
+    border-right: 2px solid #585858;
     /* dot grid */
     /* --dot-bg: #f2f0ea;
     --dot-color: #000000;
     --dot-size: 1px;
     --dot-space: 4px; */
-    background: radial-gradient(circle, #596464 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #596464 5%, transparent 6%), radial-gradient(circle at right bottom, rgb(0, 0, 0) 5%, transparent 6%), radial-gradient(circle at left top, rgb(0, 0, 0) 5%, transparent 6%), radial-gradient(circle at right top, rgb(0, 0, 0) 5%, transparent 6%);
+    background: radial-gradient(circle, #596464 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #596464 5%, transparent 6%), radial-gradient(circle at right bottom, #596464 5%, transparent 6%), radial-gradient(circle at left top, #596464 5%, transparent 6%), radial-gradient(circle at right top, #596464 5%, transparent 6%);
     background-size: .35em .35em;
-    background-color: #fefcf8; /* Added this line */
+    background-color: #2a2828; /* Added this line */
 }
 
 .clickMeaningHidden {
@@ -695,18 +682,18 @@ btn:hover {
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 0px 0px 3px 3px;
-    border-top: 0.5px solid #000;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #000;
-    border-left: 2px solid #000;
+    border-top: 0.5px solid #585858;
+    border-right: 2px solid #585858;
+    border-bottom: 2px solid #585858;
+    border-left: 2px solid #585858;
     /* dot grid */
     /* --dot-bg: #f2f0ea;
     --dot-color: #000000;
     --dot-size: 1px;
     --dot-space: 4px; */
-    background: radial-gradient(circle, #596464 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #596464 5%, transparent 6%), radial-gradient(circle at right bottom, rgb(0, 0, 0) 5%, transparent 6%), radial-gradient(circle at left top, rgb(0, 0, 0) 5%, transparent 6%), radial-gradient(circle at right top, rgb(0, 0, 0) 5%, transparent 6%);
+    background: radial-gradient(circle, #596464 10%, transparent 11%) 0% 0% / 0.35em 0.35em, radial-gradient(circle at left bottom, #596464 5%, transparent 6%), radial-gradient(circle at right bottom, #596464 5%, transparent 6%), radial-gradient(circle at left top, #596464 5%, transparent 6%), radial-gradient(circle at right top, #596464 5%, transparent 6%);
     background-size: .35em .35em;
-    background-color: #fefcf8; /* Added this line */
+    background-color: #2a2828; /* Added this line */
 }
 
 .spanHidden {
@@ -737,7 +724,6 @@ btn:hover {
     }
 
     .dropdownSurahText {
-        color: #ffffff;
         font-family: 'REM';
         font-size: 15px;
         font-style: normal;
@@ -758,7 +744,6 @@ btn:hover {
     
     .currentAyah {
         flex: 1 0 0;
-        color: #000;
         text-align: center;
         font-family: "Noto Naskh Arabic";
         font-size: 34px;
@@ -766,13 +751,12 @@ btn:hover {
         font-weight: 400;
         line-height: 52px;
         max-width: 85%;
-        color: #714736;
+        color: #d9c3bb;
     }
     .spanMeaning {
         z-index: 0;
         flex: 1 0 0;
         align-self: stretch;
-        color: #000;
         font-family: "Libre Baskerville";
         font-size: 13px;
         font-style: normal;
@@ -806,7 +790,6 @@ btn:hover {
         align-items: center;
         gap: 0px;
         flex: 1 0 0;
-        background: #F8F3EB;
         padding-bottom: 150px;
 
     }
@@ -855,9 +838,6 @@ btn:hover {
         align-items: center;
         align-self: stretch;
         border-radius: 0px 0px 0px 0px;
-        border-bottom: 0.5px solid #000;
-        border-left: 0px solid #000;
-        background: #000;
         width: 33.33%;
     }
     .cardSettingsBtnBlock {
@@ -889,9 +869,6 @@ btn:hover {
         gap: 10px;
         align-self: stretch;
         border-radius: 0px 0px 0px 0px;
-        border-right: 0.5px solid #000;
-        border-bottom: 1.5px solid #000;
-        background: #FFF;
         width: 100%;
     }
 
@@ -901,7 +878,6 @@ btn:hover {
     .clickWord:hover, .clickRoot:hover, .clickMeaning:hover {
         cursor: pointer;
         /* background-color: #eef5f5; */
-        background-color: #ffffff;
     }
 
     .rowVerseNav {
@@ -910,10 +886,9 @@ btn:hover {
         justify-content: center;
         align-items: center;
         align-self: stretch;
-        border: 1px solid #000;
-        background: #FFF;
-    }
 
+
+    }
 
     .rowNavHeader {
         display: flex;
@@ -952,9 +927,7 @@ btn:hover {
         align-items: center;
         align-self: stretch;
         border-radius: 0px 0px 0px 0px;
-        border-bottom: 0.5px solid #000;
-        border-left: 0.5px solid #000;
-        background: #000;
+        border-left: 0px;
         width: 27.5%;
     }
         
@@ -967,7 +940,6 @@ btn:hover {
     }
     
     span.cardSettingsTitle {
-        color: #FFF;
         font-family: "REM";
         font-size: 12px;
         font-style: normal;
@@ -976,7 +948,6 @@ btn:hover {
     }
     
     span.cardButtonTitle {
-        color: #000000;
         padding: 4px 0px 5px 0px;
         font-family: "REM";
         font-size: 12px;
