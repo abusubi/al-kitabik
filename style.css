@@ -629,7 +629,7 @@ btn:hover {
     background-color: #F1FAF9;
 }
 
-.btnVerseNext:hover, .btnVersePrev:hover {
+.btnVerseNext:hover, .btnVerseNext2:hover, .btnVersePrev:hover, .btnVersePrev2:hover {
     background-color: #eefaf7;
 }
 
