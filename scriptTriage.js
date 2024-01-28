@@ -40,10 +40,12 @@ document.querySelector('.btnVersePrev').addEventListener('click', function() {
 
 document.querySelector('.btnVerseNext2').addEventListener('click', function() {
     updateSelectIndex('next');
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); // Smooth scroll to the top
 });
 
 document.querySelector('.btnVersePrev2').addEventListener('click', function() {
     updateSelectIndex('prev');
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); // Smooth scroll to the top
 });
 
 function updateSelectIndex(direction) {
@@ -566,6 +568,7 @@ document.getElementById('id_selectAyah').addEventListener('change', function() {
   
   document.getElementById('id_selectAyahFooter').addEventListener('change', function() {
     document.getElementById('id_selectAyah').value = this.value;
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); // Smooth scroll to the top
   });
 
 }
