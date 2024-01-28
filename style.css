@@ -209,7 +209,24 @@
     background: #FFF;
 }
 
-.rowVerseNavFooterContainer {
+.footerContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.rowFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    width: 60%;
+    min-width: 350px;
+}
+
+/* .rowVerseNavFooterContainer {
     display: flex;
     align-items: flex-start;
     align-content: center;
@@ -221,7 +238,7 @@
     padding-top: 50px;
     padding-left: 20%;
     padding-right: 20%;
-}
+} */
 
 .rowVerseNavFooter {
     display: flex;
@@ -1003,6 +1020,10 @@ btn:hover {
 
     .clickWordHidden:hover, .clickRootHidden:hover, .clickMeaningHidden:hover {
         background-color:  #fefcf8; /* Added this line */
+    }
+
+    .footerContainer {
+        padding-top: 40px;
     }
 
   }

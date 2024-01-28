@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Output to HTML Row: Current Verse
     outputAyah();
+    syncVerseNav(); // initial verse nav sync
 
     // Event Listeners: Verse (Ayah) Selection, Surah Selection
     document.getElementById('id_selectAyah').addEventListener('change', function() {
@@ -24,46 +25,89 @@ document.addEventListener('DOMContentLoaded', function() {
         outputVerseData(); // Update Verse Dropdown for Chapter <-> Verse
         outputAyah(); // Update Current Verse
         trueRootSet(); // find true root and set cardRow
+        syncVerseNav(); // sync verse nav
 
     });
 
     // ------ Optional: Next and Prev Verse Buttons ------
-    document.querySelector('.btnVerseNext').addEventListener('click', function() {
-        // Get the select element
-        let select = document.getElementById('id_selectAyah');
+document.querySelector('.btnVerseNext').addEventListener('click', function() {
+    updateSelectIndex('next');
+});
+
+document.querySelector('.btnVersePrev').addEventListener('click', function() {
+    updateSelectIndex('prev');
+});
+
+document.querySelector('.btnVerseNext2').addEventListener('click', function() {
+    updateSelectIndex('next');
+});
+
+document.querySelector('.btnVersePrev2').addEventListener('click', function() {
+    updateSelectIndex('prev');
+});
+
+function updateSelectIndex(direction) {
+    let selectAyah = document.getElementById('id_selectAyah');
+    let selectAyahFooter = document.getElementById('id_selectAyahFooter');
+
+    let newIndex = selectAyah.selectedIndex;
+    if (direction === 'next' && newIndex < selectAyah.options.length - 1) {
+        newIndex++;
+    } else if (direction === 'prev' && newIndex > 0) {
+        newIndex--;
+    }
+
+    // Update both selects
+    selectAyah.selectedIndex = newIndex;
+    selectAyahFooter.selectedIndex = newIndex;
+
+    // Update verseID
+    verseID = parseInt(selectAyah.options[newIndex].value);
+
+    // Update the current ayah and other related functions
+    outputAyah();
+    verseNumber(); // Update verseID
+    trueRootSet(); // Find true root and set cardRow
+}
+
+
+    // // ------ Optional: Next and Prev Verse Buttons ------
+    // document.querySelector('.btnVerseNext').addEventListener('click', function() {
+    //     // Get the select element
+    //     let select = document.getElementById('id_selectAyah');
     
-        // Check if the next option exists
-        if (select.selectedIndex < select.options.length - 1) {
-            // Select the next option
-            select.selectedIndex++;
+    //     // Check if the next option exists
+    //     if (select.selectedIndex < select.options.length - 1) {
+    //         // Select the next option
+    //         select.selectedIndex++;
     
-            // Update verseID
-            verseID = parseInt(select.options[select.selectedIndex].value);
+    //         // Update verseID
+    //         verseID = parseInt(select.options[select.selectedIndex].value);
     
-            // Update the current ayah
-            outputAyah();
-            verseNumber(); // Update verseID
-            trueRootSet(); // find true root and set cardRow
-        }
-    });
-    document.querySelector('.btnVersePrev').addEventListener('click', function() {
-        // Get the select element
-        let select = document.getElementById('id_selectAyah');
+    //         // Update the current ayah
+    //         outputAyah();
+    //         verseNumber(); // Update verseID
+    //         trueRootSet(); // find true root and set cardRow
+    //     }
+    // });
+    // document.querySelector('.btnVersePrev').addEventListener('click', function() {
+    //     // Get the select element
+    //     let select = document.getElementById('id_selectAyah');
     
-        // Check if the next option exists
-        if (select.selectedIndex < select.options.length) {
-            // Select the next option
-            select.selectedIndex--;
+    //     // Check if the next option exists
+    //     if (select.selectedIndex < select.options.length) {
+    //         // Select the next option
+    //         select.selectedIndex--;
     
-            // Update verseID
-            verseID = parseInt(select.options[select.selectedIndex].value);
+    //         // Update verseID
+    //         verseID = parseInt(select.options[select.selectedIndex].value);
     
-            // Update the current ayah
-            outputAyah();
-            verseNumber(); // Update verseID
-            trueRootSet(); // find true root and set cardRow
-        }
-    });
+    //         // Update the current ayah
+    //         outputAyah();
+    //         verseNumber(); // Update verseID
+    //         trueRootSet(); // find true root and set cardRow
+    //     }
+    // });
 });
 
 // 01. ACCESS CHAPTERS.JSON AND OUTPUT AS A SURAH DROPDOWN
@@ -124,35 +168,72 @@ function surahNumber() {
 // const versesURL = `/data/chapterVerses/${surahID}.json`;
 
 // Fetch the chapters data
+// function outputVerseData() {
+//     fetch(`/data/chapterVerses/${surahID}.json`)
+//         .then(response => response.json())
+//         .then(data => {
+//             // Ensure that 'data' property exists and is an array before proceeding
+//             // if (data && Array.isArray(data.data)) {
+//                 // Get the select element
+
+//                 let select = document.getElementById('id_selectAyah');
+
+//                 // Clear the existing options
+//                 select.innerHTML = '';
+
+//                 // To iterate over the items in the 'data' array
+//                 data.data.forEach(item => {
+//                     // Create a new option element
+//                     let option = document.createElement('option');
+
+//                     // Set the text and value of the option
+//                     option.textContent = 'Verse ' + item.aya; // the .aya variable is from GET chapter-surah, API. eg the GET output.
+//                     option.value = item.aya;
+
+//                     // Append the option to the select element
+//                     select.appendChild(option);
+//                 });
+//             }
+//         // }
+//         )
+//         .catch(error => console.error('Error:', error));
+//         console.log("versesGot")
+// }
+
+
 function outputVerseData() {
     fetch(`/data/chapterVerses/${surahID}.json`)
         .then(response => response.json())
         .then(data => {
             // Ensure that 'data' property exists and is an array before proceeding
-            // if (data && Array.isArray(data.data)) {
-                // Get the select element
-                let select = document.getElementById('id_selectAyah');
-
-                // Clear the existing options
-                select.innerHTML = '';
-
-                // To iterate over the items in the 'data' array
-                data.data.forEach(item => {
-                    // Create a new option element
-                    let option = document.createElement('option');
-
-                    // Set the text and value of the option
-                    option.textContent = 'Verse ' + item.aya; // the .aya variable is from GET chapter-surah, API. eg the GET output.
-                    option.value = item.aya;
-
-                    // Append the option to the select element
-                    select.appendChild(option);
-                });
+            if (data && Array.isArray(data.data)) {
+                // Populate both select elements
+                populateSelectElement('id_selectAyah', data.data);
+                populateSelectElement('id_selectAyahFooter', data.data);
             }
-        // }
-        )
+        })
         .catch(error => console.error('Error:', error));
-        console.log("versesGot")
+    console.log("versesGot");
+}
+
+function populateSelectElement(selectElementId, dataArray) {
+    let select = document.getElementById(selectElementId);
+
+    // Clear the existing options
+    select.innerHTML = '';
+
+    // To iterate over the items in the dataArray
+    dataArray.forEach(item => {
+        // Create a new option element
+        let option = document.createElement('option');
+
+        // Set the text and value of the option
+        option.textContent = 'Verse ' + item.aya; // the .aya variable is from GET chapter-surah, API. eg the GET output.
+        option.value = item.aya;
+
+        // Append the option to the select element
+        select.appendChild(option);
+    });
 }
 
 
@@ -473,5 +554,19 @@ function runClickClassGetter() {
 
 window.onload = function() {
     setTimeout(runClickClassGetter, 1500) // note: no delay needed.
+}
+
+// verse nav sync
+
+function syncVerseNav() {
+
+document.getElementById('id_selectAyah').addEventListener('change', function() {
+    document.getElementById('id_selectAyahFooter').value = this.value;
+  });
+  
+  document.getElementById('id_selectAyahFooter').addEventListener('change', function() {
+    document.getElementById('id_selectAyah').value = this.value;
+  });
+
 }
 
