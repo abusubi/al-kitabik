@@ -251,7 +251,7 @@
     width: 100%;
 }
 
-.btnVersePrev {
+.btnVersePrev, .btnVersePrev2 { {
     display: flex;
     padding: 8px 15px;
     justify-content: center;
@@ -262,7 +262,7 @@
     background: #FFF;
 }
 
-.btnVerseNext {
+.btnVerseNext, .btnVerseNext2 {
     display: flex;
     padding: 8px 15px;
     justify-content: center;
